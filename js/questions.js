@@ -1,4 +1,3 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
     {
         numb: 1,
@@ -973,7 +972,7 @@ let questions = [
     }, {
         numb: 98,
         question: "Status can be defined as:",
-        answer: "A person’s perceived level of importance or significance within aparticular context.",
+        answer: "A person’s perceived level of importance or significance within a particular context.",
         options: [
             "A person’s perceived level of importance or significance within a particular context.",
             "A result of power, with its roots in global colonialism and conquests",
@@ -1190,8 +1189,7 @@ let questions = [
             "Conflicts of misperceived differences",
             "None of these"
         ]
-    },
-    {
+    }, {
         numb: 120,
         question: "First stage in the model of the Conflict Process ",
         answer: "Frustration ",
@@ -1201,6 +1199,876 @@ let questions = [
             "Behavior ",
             "Outcome"
         ]
+    },
+    {
+        numb: 121,
+        question: "Which of the following reasons is sound justification for scheduling or attending a group meeting?",
+        answer: "Group input and interaction are critical",
+        options: [
+            "You hate to write reports and memos",
+            "You prefer not to do the research yourself",
+            "You feel lost without colleagues",
+            "Group input and interaction are critical"
+        ]
+    }, {
+        numb: 122,
+        question: "Which of the following answers depicts the 3 main elements of a meeting?",
+        answer: "structure, schedule, chairperson",
+        options: [
+            "structure, schedule, chairperson",
+            "conflict, cohesion, engagement",
+            "members, leaders, engagement",
+            "chairperson, agenda, minutes"
+        ]
+    }, {
+        numb: 123,
+        question: "Which of the following criteria should NOT be considered when determining who to invite to a meeting?",
+        answer: "individuals who are uninvolved in the issues for discussion",
+        options: [
+            "individuals who will be affected directly by the outcome",
+            "individuals who disagree or represent minority viewpoints",
+            "individuals who have the power to implement decisions",
+            "individuals who are uninvolved in the issues for discussion"
+        ]
+    }, {
+        numb: 124,
+        question: "At what point in a business meeting should group members approve the agenda and minutes?",
+        answer: "right after the call to order",
+        options: [
+            "right after the call to order",
+            "right after routine reports are shared",
+            "before the discussion of new business",
+            "right before final announcements by members"
+        ]
+    }, {
+        numb: 125,
+        question: "The person in charge of conducting a meeting is the……….",
+        answer: "chairperson",
+        options: [
+            "group leader",
+            "dominator",
+            "chairperson",
+            "recorder"
+        ]
+    }, {
+        numb: 126,
+        question: "All of the following strategies are for keeping a meeting moving at a comfortable pace EXCEPT",
+        answer: "Only begin the meeting until all important group members are present",
+        options: [
+            "Only begin the meeting until all important group members are present",
+            "Place a time limit on each agenda item",
+            "Stay focused on the meeting's goal",
+            "Schedule another meeting to discuss unfinished business"
+        ]
+    }, {
+        numb: 127,
+        question: "Which of the following labels does NOT represent how member behavior can disrupt a meeting?",
+        answer: "summarizer",
+        options: [
+            "loudmouth",
+            "whisperer",
+            "latecomer",
+            "summarizer"
+        ]
+    }, {
+        numb: 128,
+        question: "Who is the meeting contributor? ",
+        answer: "reporter",
+        options: [
+            "sleeper",
+            "whisperer",
+            "latecomer",
+            "reporter"
+        ]
+    }, {
+        numb: 129,
+        question: "The sentence 'Let Nemo finish her point first, and then we'll hear other’s opinions' can help a group deal with a member who is…….",
+        answer: "interrupter ",
+        options: [
+            "loudmouth",
+            "whisperer",
+            "interrupter ",
+            "quieter"
+        ]
+    }, {
+        numb: 130,
+        question: "The written record of a group's discussion and activities is _____",
+        answer: "a meeting minute ",
+        options: [
+            "a meeting minute ",
+            "a report",
+            "an agenda",
+            "a note "
+        ]
+    }, {
+        numb: 131,
+        question: "Which of the following is bad advice for group meeting? ",
+        answer: "The group should always use a 2/3 vote to ensure the majority rules",
+        options: [
+            "The group should always use a 2/3 vote to ensure the majority rules",
+            "The group accepts the will of the majority even though some members do not like that decision",
+            "The group follows an approved agenda that promotes orderly business",
+            "The group protects the rights of all members by guaranteeing everyone the right to speak"
+        ]
+    }, {
+        numb: 132,
+        question: "Meetings give members a ___________ that boosts their motivation to implement group ideas and actions",
+        answer: "real voice in decisions",
+        options: [
+            "real voice in decisions",
+            "chance to argue ",
+            "time to relax",
+            "time to chat"
+        ]
+    }, {
+        numb: 133,
+        question: "Which of the following is the best example of constructive feedback?",
+        answer: "All the elements of a good proposal are here; they just need to be reordered. By placing the strongest element first, we can capture and hold the reader’s attention. ",
+        options: [
+            "Your proposal is disorganized, contains computational errors, and is a writing disaster.",
+            "You aren’t paying attention to the customer when you are having a conversation with someone else at the same time. ",
+            "Why can’t you stay focus? It is only 10 o’clock in the morning.",
+            "All the elements of a good proposal are here; they just need to be reordered. By placing the strongest element first, we can capture and hold the reader’s attention. "
+        ]
+    }, {
+        numb: 134,
+        question: "Which words below show emphasis?",
+        answer: "Significantly, primarily, especially ",
+        options: [
+            "Significantly, primarily, especially ",
+            "But, however, by contrast",
+            "For example, to illustrate, like",
+            "First, second, last"
+        ]
+    }, {
+        numb: 135,
+        question: "Which words should you use to when you want to give contrast ideas?",
+        answer: "Nevertheless, however, by contrast",
+        options: [
+            "Significantly, primarily, especially ",
+            "Nevertheless, however, by contrast",
+            "For example, to illustrate, like",
+            "First, second, last"
+        ]
+    }, {
+        numb: 136,
+        question: "Which words should you use to when you want to add more ideas?",
+        answer: "Nevertheless, however, by contrast",
+        options: [
+            "Furthermore, also, similarly",
+            "Nevertheless, however, by contrast",
+            "For example, to illustrate, like",
+            "Therefore, as a result, hence"
+        ]
+    }, {
+        numb: 137,
+        question: "What are good advice for a meeting participants?",
+        answer: "demonstrate professionalism in your verbal and nonverbal interactions",
+        options: [
+            "become angry for no good reason",
+            "demand much more information than is needed",
+            "offer much more information than is needed",
+            "demonstrate professionalism in your verbal and nonverbal interactions"
+        ]
+    }, {
+        numb: 138,
+        question: "Which is TRUE about persuasion? ",
+        answer: "Persuasion is an act or process of presenting arguments to move, motivate, or change your audience",
+        options: [
+            "Persuasion is an act or process of presenting arguments to move, motivate, or change your audience",
+            "Persuasion can be implicit or explicit and only have positive effects",
+            "Persuasion is forcing people to do as your request ",
+            "Persuasion is an act of leader giving order to followers without considering their will"
+        ]
+    }, {
+        numb: 139,
+        question: "Which of Maslow's Hierarchy of Needs is primarily met when someone joins an exclusive club or is elected as leader of a prestigious group?",
+        answer: "Esteem",
+        options: [
+            "Physiological ",
+            "Esteem",
+            "Love and belonging",
+            "Safety "
+        ]
+    }, {
+        numb: 140,
+        question: "Which of Maslow's Hierarchy of Needs is primarily met when a neighborhoodwatch group forms to deter crime in the community? ",
+        answer: "Safety ",
+        options: [
+            "Physiological ",
+            "Esteem",
+            "Love and belonging",
+            "Safety "
+        ]
+    }, {
+        numb: 141,
+        question: "Which is FALSE about Maslow hierarchy of needs?",
+        answer: "Maslow's Hierarchy of Needs includes control, inclusion, and affection needs.",
+        options: [
+            "Maslow's basic need is safety need. ",
+            "Maslow's Hierarchy of Needs ranks critical needs in the following order: physiological, safety, belongingness, esteem, and self-actualization",
+            "Maslow's basic need is physiological need.",
+            "Maslow's Hierarchy of Needs includes control, inclusion, and affection needs."
+        ]
+    }, {
+        numb: 142,
+        question: "Reasons for us to engage in communication are all below EXCEPT",
+        answer: "Dominate people for personal benefits ",
+        options: [
+            "Dominate people for personal benefits ",
+            "Understand communication context ",
+            "Understand our identity ",
+            "Meets our need"
+        ]
+    }, {
+        numb: 143,
+        question: "Laura has an important meeting tomorrow to present her solution to the city People Committee about improving students’ life. Which of the following is good advice for her to prepare herself for the presentation? ",
+        answer: "Prepare the presentation with relevant data and rehearsal the speech carefully",
+        options: [
+            "Use emotional appeals",
+            "Simplify the students’ problems to make the solution look easy",
+            "Hide numbers and facts if the committee do not ask ",
+            "Prepare the presentation with relevant data and rehearsal the speech carefully"
+        ]
+    }, {
+        numb: 144,
+        question: "To produce a good opening in a persuasive message, you should keep it",
+        answer: "Positive and personal",
+        options: [
+            "Neutral ",
+            "Negative and impersonal",
+            "Impersonal",
+            "Positive and personal"
+        ]
+    }, {
+        numb: 145,
+        question: "When conducting a meeting, you should",
+        answer: "Get every team member to voice out their feeling and opinions",
+        options: [
+            "Be bold and honest, not afraid to hurt people’s feeling",
+            "Get every team member to voice out their feeling and opinions",
+            "Make it as short as possible because time is gold",
+            "Favor relationships"
+        ]
+    }, {
+        numb: 146,
+        question: "At the end of a meeting, you should",
+        answer: "Be brief and recapture the key points",
+        options: [
+            "Ask a lot of questions to test the team members’ understanding of the discussion",
+            "Be brief and recapture the key points",
+            "Be the first to leave the meeting room",
+            "Take group photo and have conversation with members to build personal relationships with them "
+        ]
+    }, {
+        numb: 147,
+        question: "Eye contact with your team members can be maintained by",
+        answer: "looking at every individual in a regular pattern",
+        options: [
+            "always looking at a few people",
+            "always looking at your favorite people",
+            "always looking at the nearest people",
+            "looking at every individual in a regular pattern"
+        ]
+    }, {
+        numb: 148,
+        question: "You may maintain less eye contact with audiences who are…",
+        answer: "not showing interest in your presentation",
+        options: [
+            "very interested in your presentation",
+            "not showing interest in your presentation",
+            "want to ask questions",
+            "new to your team"
+        ]
+    }, {
+        numb: 149,
+        question: "In a communication transaction, feedback represents",
+        answer: "the response or reaction to a message.",
+        options: [
+            "a group's physical and psychological environment.",
+            "anything that interferes with or inhibits effective communication.",
+            "the media through which group members share messages.",
+            "the response or reaction to a message."
+        ]
+    }, {
+        numb: 150,
+        question: "On her way to an important Friday morning meeting, Susan observes one of the people she supervises speaking harshly to a customer. Susan knows she must offer constructive feedback to the employee, so she decides to",
+        answer: "stress the benefits the receiver will gain by modifying his/her behavior",
+        options: [
+            "concentrate more on her verbal than on her nonverbal message",
+            "minimize the impact of her criticism by speaking in general terms",
+            "speak to the employee early Monday morning",
+            "stress the benefits the receiver will gain by modifying his/her behavior"
+        ]
+    }, {
+        numb: 151,
+        question: "Which type of feedback requests confirmation or clarification of a message, and is often expressed in the form of a question?",
+        answer: "Interpretive",
+        options: [
+            "Evaluative",
+            "Interpretive",
+            "Supportive",
+            "Probing"
+        ]
+    }, {
+        numb: 152,
+        question: "Which type of feedback communicates encouragement in response to a message?",
+        answer: "Supportive",
+        options: [
+            "Evaluative",
+            "Interpretive",
+            "Supportive",
+            "Probing"
+        ]
+    }, {
+        numb: 153,
+        question: "Which type of feedback communicates sympathy and empathy for the source of the message?",
+        answer: "Understanding ",
+        options: [
+            "Evaluative",
+            "Interpretive",
+            "Supportive",
+            "Understanding "
+        ]
+    }, {
+        numb: 154,
+        question: "The best way to convey friendliness is to……",
+        answer: "smile",
+        options: [
+            "smile",
+            "speak slowly ",
+            "tell a joke",
+            "use a tone of importance"
+        ]
+    }, {
+        numb: 155,
+        question: "David has just been given the task of delivering an oral presentation to the marketing department of the organization he joined two months ago. The first thing David should do is……….",
+        answer: "determine the purpose of the presentation",
+        options: [
+            "analyze the audience",
+            "determine the purpose of the presentation",
+            "draft an outline",
+            "gather supporting data"
+        ]
+    }, {
+        numb: 156,
+        question: "Michelle is new staff of Marketing department in FPT Software company. Her manager told her to prepare a report to review activity of the department in the last 3 months. Which type of report is that? ",
+        answer: "Progress ",
+        options: [
+            "Progress ",
+            "Financial",
+            "Feasibility ",
+            "Needs assessment "
+        ]
+    }, {
+        numb: 157,
+        question: "Susan is a new staff of IT team 3 in FPT Software company. Her senior told her to prepare a report to instruct their Japanese customer how the new app works Which type of report is that? ",
+        answer: "Technical  ",
+        options: [
+            "Technical  ",
+            "Financial",
+            "Feasibility ",
+            "Needs assessment "
+        ]
+    }, {
+        numb: 158,
+        question: "When preparing report content, you should ask all of the questions below except",
+        answer: "How much do your manager pay you to write the report?",
+        options: [
+            "Whom the report is about and/or prepared for?",
+            "What was done, what problems were addressed, and the results, including conclusions and/or recommendations?",
+            "Where the subject studied occurred?",
+            "How much do your manager pay you to write the report?"
+        ]
+    }, {
+        numb: 159,
+        question: "What is abstract in a report? ",
+        answer: "Include aims and outcome of the research",
+        options: [
+            "Title fly",
+            "Key words to introduce the research topic",
+            "Introduction part ",
+            "Include aims and outcome of the research"
+        ]
+    }, {
+        numb: 160,
+        question: "What are included in a report abstract?",
+        answer: "Highlight topic, methods, data, and results ",
+        options: [
+            "Highlight topic, methods, data, and results ",
+            "A list of the main parts of the report",
+            "Label, report, features title, author",
+            "Methodology "
+        ]
+    }, {
+        numb: 161,
+        question: "The solution to a research problem is presented in the report as a part of the",
+        answer: "recommendation",
+        options: [
+            "appendix",
+            "conclusion",
+            "recommendation",
+            "findings"
+        ]
+    }, {
+        numb: 162,
+        question: "Which of the following statements is NOT true of performance appraisals?",
+        answer: "They may include humor if audience analysis dictates it will be well received.",
+        options: [
+            "They may be written directly or indirectly, depending on the situation.",
+            "They may include humor if audience analysis dictates it will be well received.",
+            "They should be brief.",
+            "They should include factual evidence of strong or weak performance."
+        ]
+    }, {
+        numb: 163,
+        question: "The disadvantage of written messages is that they",
+        answer: "Can be viewed as being more formal, in part because they are permanent.",
+        options: [
+            "Can have legal value.",
+            "Can be revised and edited to ensure they adhere to the principles of business communication.",
+            "Can be reread and studied, which is important if a message is long, is complex, or has been written in anger.",
+            "Can be viewed as being more formal, in part because they are permanent."
+        ]
+    }, {
+        numb: 164,
+        question: "Which of the following should be a consideration in determining the formality of a goodwill message?",
+        answer: "Familiarity with the receiver",
+        options: [
+            "Cost",
+            "Timeliness in sending the message",
+            "Length of message",
+            "Familiarity with the receiver"
+        ]
+    }, {
+        numb: 165,
+        question: "How should the saying “your understanding was wrong” can be paraphrased into a more positive way?",
+        answer: "Let us review the facts.",
+        options: [
+            "I already explained the case for you more than 3 times.",
+            "Are you sure about the fact?",
+            "I can only see mistakes in this. ",
+            "Let us review the facts."
+        ]
+    }, {
+        numb: 166,
+        question: "When writing an email, you should consider your receiver’s educational level and knowledge of the message topic. If your receivers do not work in the same industry with you, you are recommended to use ….",
+        answer: "nontechnical words",
+        options: [
+            "technical words",
+            "nontechnical words",
+            "words that you know ",
+            "English "
+        ]
+    }, {
+        numb: 167,
+        question: "Which sentence below effectively conveys a positive attitude?",
+        answer: "Our professional staff will repair your laptop.",
+        options: [
+            "Our professional staff will repair your laptop.",
+            "The store will not open until 10am.",
+            "I regret to advise that we must the refund request for your keyboard.",
+            "You cannot be enrolled in your courser course. "
+        ]
+    }, {
+        numb: 168,
+        question: "How can you demonstrate sensitivity to a partner's culture?",
+        answer: "Start formally before becoming informal",
+        options: [
+            "Avoid discussing any cultural differences",
+            "Mimic the partner's mannerisms perfectly",
+            "Start formally before becoming informal",
+            "Begin informally to help establish rapport"
+        ]
+    }, {
+        numb: 169,
+        question: "In order to make good impression to achieve the message goals, positive words convey optimism and confidence are",
+        answer: "Favorable, compliment, answerable",
+        options: [
+            "Disapprove, impossible, obnoxious",
+            "Deny, hateful, not",
+            "Contradict, fault, unable",
+            "Favorable, compliment, answerable"
+        ]
+    }, {
+        numb: 170,
+        question: "The most important part of an application letter is the",
+        answer: "None",
+        options: [
+            "action-promoting close",
+            "attention-getting opening",
+            "logical explanation",
+            "summary of qualifications"
+        ]
+    }, {
+        numb: 171,
+        question: "How should you best respond to interview questions?",
+        answer: "Be enthusiastic, honest, sincere, and state your accomplishments in a specific and positive manner.",
+        options: [
+            "Be enthusiastic, honest, sincere, and state your accomplishments in a specific and positive manner.",
+            "Embellish your achievements and accomplishments to make sure the employer remembers them.",
+            "Say that your achievements and accomplishments are detailed on your resume.",
+            "Use caution when describing what you have accomplished so you will not appear to be bragging on yourself."
+        ]
+    }, {
+        numb: 172,
+        question: "Which of the following interview questions is a behavioral question?",
+        answer: "Give me an example of a situation in which you were successful (or unsuccessful) in motivating someone.",
+        options: [
+            "Do you like to work alone or with other people?",
+            "Give me an example of a situation in which you were successful (or unsuccessful) in motivating someone.",
+            "What does teamwork mean to you?",
+            "What is your greatest weakness?"
+        ]
+    }, {
+        numb: 173,
+        question: "When developing an application letter, which of the following should not be added in the opening of the letter?",
+        answer: "Your most significant accomplishments",
+        options: [
+            "The name of your referee who introduced this job to you",
+            "Your knowledge about the position or the company",
+            "Reasons why you find this position interesting",
+            "Your most significant accomplishments"
+        ]
+    }, {
+        numb: 174,
+        question: "Which questions below that a job applicant should prepare to ask during an interview?",
+        answer: "Please describe the normal routine of this position in a typical day?",
+        options: [
+            "Please describe the normal routine of this position in a typical day?",
+            "How can I gain promotion?",
+            "When do you expect to make a hiring decision as it is said in the recruitment advertisement that this position is in urgent need? ",
+            "How much is the salary?"
+        ]
+    }, {
+        numb: 175,
+        question: "“I am the first person in my family to complete a Bachelor degree; and now that I have finished my education, I want to give something back to my family by getting a good job with a company like yours. I worked part time while attending school, so I have work experience at food stores. I am a hard worker; I grew up on the farm and could drive any kind of machinery. This part of an application letter to software developer position is not effective because_______",
+        answer: "It does not relate to the company needs.",
+        options: [
+            "It uses impersonal salutation.",
+            "It does not relate to the company needs.",
+            "It conveys negative tones.",
+            "It provides the family background of the applicant."
+        ]
+    }, {
+        numb: 176,
+        question: "In a job interview, which of the following answers is most appropriate to answer the question “Are you planning a family in the near future?”",
+        answer: "Currently I am focused on my career. Although having a family is always a possibility, it is not a priority at the moment.",
+        options: [
+            "I suppose everyone has a family plan in their own way. What will be will be!",
+            "May I not answer this over personal question?",
+            "As an active person in the young generation, I am quite open to this issue, I am working hard to support my parents first, and then I gaining a high social status for my future children. ",
+            "Currently I am focused on my career. Although having a family is always a possibility, it is not a priority at the moment."
+        ]
+    }, {
+        numb: 177,
+        question: "Examples of communication challenges in a global environment are",
+        answer: "Words that have different meanings and connotations and different language",
+        options: [
+            "Not understanding cultural differences",
+            "Differences in time",
+            "Words that have different meanings and connotations and different language",
+            "Differences in calling each other by first name or family name"
+        ]
+    }, {
+        numb: 178,
+        question: "Which of the following is NOT a requirement of a valid contract?",
+        answer: "Written on a contract form",
+        options: [
+            "Written on a contract form",
+            "Competency of parties",
+            "Offer and acceptance",
+            "Legal subject matter"
+        ]
+    }, {
+        numb: 179,
+        question: "When being asked “please tell us your strengths?” in a job interview, what should you focus on in your answer?",
+        answer: "Tell about your skills and knowledge and explain how they satisfy the job requirements.",
+        options: [
+            "Tell about your academic awards, your successful school projects.",
+            "Tell about your two key personal qualifications.",
+            "Tell your work-related accomplishments, mention how your previous supervisor or manager have pleased with your work performance.",
+            "Tell about your skills and knowledge and explain how they satisfy the job requirements."
+        ]
+    }, {
+        numb: 180,
+        question: "Which of the following is NOT the reason for leaders to enable a broader social-connectedness between employees in the workplace?",
+        answer: "People with friends at work tend to be happier and more productive",
+        options: [
+            "Psychological wellbeing is at risk, as is cognitive performance, if people can't socialize at work",
+            "People with broad organizational knowledge that people like collaborating with seem to add the most value",
+            "The act of socializing with other people on a regular basis is increasingly being seen as necessary for maintaining and increasing the information highways within the brain. It helps people think better.",
+            "People with friends at work tend to be happier and more productive"
+        ]
+    }, {
+        numb: 181,
+        question: "When doing business in a diverse global environment, you will want to adopt an open, respectful attitude toward cultural differences of others by doing all of the following except_____",
+        answer: "rush to an early judgment about the way a business deal is going. ",
+        options: [
+            "accept other people’s needs for indirectness in communicating as in Asia.",
+            "open to understanding and be respectful of the different ways people of other cultures think and feel. ",
+            "sense that your own culture represents one way—and not the only way—to believe and to do things. ",
+            "rush to an early judgment about the way a business deal is going. "
+        ]
+    }, {
+        numb: 182,
+        question: "In order to make good impression, positive words convey optimism and confidence are",
+        answer: "willing, thank, appreciate",
+        options: [
+            "regret, sorry, terror",
+            "trouble, unable, happy",
+            "wrong, obnoxious, yes",
+            "willing, thank, appreciate"
+        ]
+    }, {
+        numb: 183,
+        question: "Nonverbal behavior that reflects positive attitude is _____",
+        answer: "leaning your body toward the person with whom you are conversing",
+        options: [
+            "moving your knees and your feet toward to door ",
+            "looking at your watch",
+            "playing with your jewelry",
+            "leaning your body toward the person with whom you are conversing"
+        ]
+    }, {
+        numb: 184,
+        question: "When you conduct a job campaign to obtain employment. After analyzing your qualifications and job preferences, you will _____",
+        answer: "obtain information about employment opportunities ",
+        options: [
+            "start an interview for a job ",
+            "obtain information about employment opportunities ",
+            "email cover letter to potential companies",
+            "go to gym to prepare good health and appearance for the job interview"
+        ]
+    }, {
+        numb: 185,
+        question: "When analyzing your qualifications and job preferences, you will look into your most positive attributes including",
+        answer: "your accomplishments, education, experience, and personal traits",
+        options: [
+            "your achievements, background, soft skills, professional referees ",
+            "your strengths, weaknesses, interests, skills",
+            "your accomplishments, education, experience, and personal traits",
+            "your awards, education, qualifications, hobbies"
+        ]
+    }, {
+        numb: 186,
+        question: "When analyzing job preferences, which of the following questions is not necessary to consider? ",
+        answer: "Do you want to work in a comfortable and open environment with people who share the same hobbies and personal life with you?",
+        options: [
+            "Do you like working indoors, outside an office environment, or in varied work environments? ",
+            "Do you want to work in a large company with a structured work environment, or do you prefer a small or less-structured company?",
+            "Do you want to work alone, working with other people or being in charge?",
+            "Do you want to work in a comfortable and open environment with people who share the same hobbies and personal life with you?"
+        ]
+    }, {
+        numb: 187,
+        question: "The resume opening should include a",
+        answer: "heading, job or career objective, and a summary of your qualifications.",
+        options: [
+            "heading, job or career objective, and a summary of your qualifications.",
+            "section with information for contacting your references.",
+            "summary of education.",
+            "list of special skills, honors, and activities."
+        ]
+    }, {
+        numb: 188,
+        question: "The primary purpose of networking contacts is to",
+        answer: "seek their guidance and advice.",
+        options: [
+            "ask for their help in finding a job.",
+            "ask them to serve as a reference for your resume.",
+            "leave a resume with them.",
+            "seek their guidance and advice."
+        ]
+    }, {
+        numb: 189,
+        question: "For new college graduates with limited experience, the preferred number of pages for a resume is",
+        answer: "one.",
+        options: [
+            "one.",
+            "two.",
+            "three.",
+            "four."
+        ]
+    }, {
+        numb: 190,
+        question: "An interview question that asks about one of your weaknesses would be answered best by",
+        answer: "None",
+        options: [
+            "admitting the weakness.",
+            "asking if it is necessary to talk about weaknesses.",
+            "naming a weakness and turning it into a strength.",
+            "saying that you do not have any weaknesses."
+        ]
+    }, {
+        numb: 191,
+        question: "Which sentence below is unbiased?",
+        answer: "Mr. Nando, our city senior, is going to deliver a speech.",
+        options: [
+            "Our white boss is going to deliver a speech.",
+            "Mrs. Nancy is going to deliver a speech.",
+            "The Jewish lady is going to deliver a speech.",
+            "Mr. Nando, our city senior, is going to deliver a speech."
+        ]
+    }, {
+        numb: 192,
+        question: "Which of the following is the best content for an answer to the interview question, “What do you consider your strengths?”",
+        answer: "Relate your skills and knowledge to the job requirements",
+        options: [
+            "Cite your academic record and achievements",
+            "List 3 specific abilities that you have and explain how they have served you in the past",
+            "Refer to your work-related accomplishments",
+            "Relate your skills and knowledge to the job requirements"
+        ]
+    }, {
+        numb: 193,
+        question: "What is career development? ",
+        answer: "All are correct",
+        options: [
+            "It’s a lifelong process in which we become aware of, interested in, knowledgeable about, and skilled in a career. ",
+            "It’s a key part of human development as our identity forms and our life unfolds.",
+            "It’s a development process that varies from person to person on the life journey to discover themselves. ",
+            "All are correct"
+        ]
+    }, {
+        numb: 194,
+        question: "What are the four cyclical steps of the career roadmap identifies? ",
+        answer: "Know yourself, Explore and choose options, Gain knowledge and experience, Put it all together: the job search process",
+        options: [
+            "Know yourself, Explore and choose options, Gain knowledge and experience, Put it all together: the job search process",
+            "Know yourself, Increase income, Gain more business relationship, Put it all together: the job search process",
+            "Know the job market, Know leadership, Explore and choose options, Improve living standard of self and family",
+            "Know employees’ requirement, Explore your passion, Gain money, Gain social relationship"
+        ]
+    }, {
+        numb: 195,
+        question: "Which of the following is incorrect about resume? ",
+        answer: "Resume is to show to your family what you do for a living. ",
+        options: [
+            "A résumé is a “selfie” for business purposes.",
+            "It is a written picture of who you are—it’s a marketing tool, and a promotion of you as an ideal candidate for any job you may be interested in",
+            "The word résumé comes from the French word résumé, which means “a summary.”",
+            "Resume is to show to your family what you do for a living. "
+        ]
+    }, {
+        numb: 196,
+        question: "Which of the following is optional in a resume? ",
+        answer: "Hobbies/interests ",
+        options: [
+            "Work experience ",
+            "Education background",
+            "Job-related skills ",
+            "Hobbies/interests "
+        ]
+    }, {
+        numb: 197,
+        question: "What should you put in the Education part in a resume? ",
+        answer: "academic degrees, professional development, certificates, internships",
+        options: [
+            "academic degrees, professional development, certificates, internships",
+            "most recent jobs you have experience; include the title of the position, employer’s name, location, employment dates",
+            "5–10 skills you have gained in your field",
+            "Personal contact "
+        ]
+    }, {
+        numb: 198,
+        question: "What should you put in the Work experience part in a resume? ",
+        answer: "Most recent jobs you have experience; include the title of the position, employer’s name, location, employment dates",
+        options: [
+            "Academic degrees, professional development, certificates, internships",
+            "Most recent jobs you have experience; include the title of the position, employer’s name, location, employment dates",
+            "5–10 skills you have gained in your field",
+            "Personal contact "
+        ]
+    }, {
+        numb: 199,
+        question: "What should be written in the Personal Information part in a resume? ",
+        answer: "Email and phone number ",
+        options: [
+            "Email and phone number ",
+            "Health issue",
+            "Religious belief ",
+            "Gender, height, weight "
+        ]
+    }, {
+        numb: 200,
+        question: "What can a student put in his or her cover letter?",
+        answer: "All are correct ",
+        options: [
+            "GPA",
+            "Soft skills",
+            "Volunteer works",
+            "All are correct "
+        ]
+    }, {
+        numb: 201,
+        question: "Which of the following advice is NOT suitable for a job interview?",
+        answer: "Practice answer questions about personal life",
+        options: [
+            "Research the company",
+            "Research other companies in the same industry",
+            "Practice answer questions about the job ",
+            "Practice answer questions about personal life"
+        ]
+    }, {
+        numb: 202,
+        question: "What should you do right after a job interview?",
+        answer: "Send thank you email to the interviewer",
+        options: [
+            "Do nothing",
+            "Wait patiently for the HR department to call you ",
+            "Send an email to HR department asking about the result of the interview",
+            "Send thank you email to the interviewer"
+        ]
+    }, {
+        numb: 203,
+        question: "Below are questions that a job applicant should prepare to ask during an interview EXCEPT",
+        answer: "How much can the company pay me?",
+        options: [
+            "What are the major responsibilities of the job?",
+            "Please describe the normal routine of this position?",
+            "How is job performance evaluated and how often?",
+            "How much can the company pay me?"
+        ]
+    }, {
+        numb: 204,
+        question: "Who do potential employers consider references from as the best type of references?",
+        answer: "Your lecturers or your previous manager",
+        options: [
+            "Your friends",
+            "Your lecturers or your previous manager",
+            "Your family",
+            "Your best friends"
+        ]
+    }, {
+        numb: 205,
+        question: "Choose the best answer for the interview question “How old are you?”",
+        answer: "Old enough to have the knowledge to do the job well but not too old to be excited about continuing to improve and do it better.",
+        options: [
+            "Old enough to have the knowledge to do the job well but not too old to be excited about continuing to improve and do it better.",
+            "22 years old.",
+            "Old enough to take this job.",
+            "My age is written in my resume. I ama very young, active, energetic person.  "
+        ]
+    }, {
+        numb: 206,
+        question: "An interviewer may intentionally challenge you by asking difficult questions to ………..",
+        answer: "see how you handle different situations.",
+        options: [
+            "see how you handle different situations.",
+            "see you panic.",
+            "show you the working environment can be stressful.",
+            "avoid being friendly."
+        ]
+    }, {
+        numb: 207,
+        question: "What is good advice to communicate effectively in a job interview?",
+        answer: "Keep eye contact",
+        options: [
+            "Using jargon",
+            "Rambling ",
+            "Keep eye contact",
+            "Over friendly"
+        ]
     }
-    //a
-];
+]
