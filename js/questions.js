@@ -472,7 +472,7 @@ let questions = [
     }, {
         numb: 48,
         question: "All of the followings are the ways to use critical thinking to evaluate information, EXCEPT",
-        answer: "None",
+        answer: "Accepting something without asking for evidence",
         options: [
             "Being receptive to having your opinions changed",
             "Having an inquiring mind",
