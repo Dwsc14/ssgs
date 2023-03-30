@@ -12,6 +12,11 @@ body {
     background: #007bff;
 }
 
+footer1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 ::selection {
     color: #fff;
     background: #007bff;

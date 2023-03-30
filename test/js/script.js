@@ -12,7 +12,7 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 const usedIndexes = new Set();
 let socau = 40;
-let gioihan = 1000;
+let gioihan = 206;
 
 
 // if startQuiz button clicked
@@ -101,13 +101,14 @@ next_btn.onclick = () => {
 // getting questions and options from array
 function showQuetions(index) {
     const que_text = document.querySelector(".que_text");
+    var ranNums = shuffle([0, 1, 2, 3])
 
     //creating a new span and div tag for question and option and passing the value using array index
     let que_tag = '<span>' + questions[index].numb + ". " + questions[index].question + '</span>';
-    let option_tag = '<div class="option"><span>' + questions[index].options[0] + '</span></div>'
-        + '<div class="option"><span>' + questions[index].options[1] + '</span></div>'
-        + '<div class="option"><span>' + questions[index].options[2] + '</span></div>'
-        + '<div class="option"><span>' + questions[index].options[3] + '</span></div>';
+    let option_tag = '<div class="option"><span>' + questions[index].options[ranNums[0]] + '</span></div>'
+        + '<div class="option"><span>' + questions[index].options[ranNums[1]] + '</span></div>'
+        + '<div class="option"><span>' + questions[index].options[ranNums[2]] + '</span></div>'
+        + '<div class="option"><span>' + questions[index].options[ranNums[3]] + '</span></div>';
     que_text.innerHTML = que_tag; //adding new span tag inside que_tag
     option_list.innerHTML = option_tag; //adding new div tag inside option_tag
 
@@ -177,7 +178,7 @@ function showResult() {
 
 function queCounter(index) {
     //creating a new span tag and passing the question number and total question
-    let totalQueCounTag = '<span><p>' + index + '</p> of <p>' + questions.length + '</p> Questions</span>';
+    let totalQueCounTag = '<span><p>' + index + '</p> of <p>' + socau + '</p> Questions</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
 
@@ -189,4 +190,23 @@ function getUniqueRandomNumber(x) {
         usedIndexes.add(index);
         return index
     }
+}
+
+function shuffle(array) {
+    var i = array.length,
+        j = 0,
+        temp;
+
+    while (i--) {
+
+        j = Math.floor(Math.random() * (i + 1));
+
+        // swap randomly chosen element with current element
+        temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+
+    }
+
+    return array;
 }
