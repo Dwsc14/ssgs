@@ -1693,7 +1693,7 @@ let questions = [
     }, {
         numb: 170,
         question: "The most important part of an application letter is the",
-        answer: "None",
+        answer: "action-promoting close",
         options: [
             "action-promoting close",
             "attention-getting opening",
@@ -1893,7 +1893,7 @@ let questions = [
     }, {
         numb: 190,
         question: "An interview question that asks about one of your weaknesses would be answered best by",
-        answer: "None",
+        answer: "admitting the weakness",
         options: [
             "admitting the weakness.",
             "asking if it is necessary to talk about weaknesses.",
