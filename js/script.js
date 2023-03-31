@@ -10,6 +10,13 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 const run_btn = document.querySelector(".run_button .quit");
+const bg_btn = document.querySelector(".bg_button .bg");
+
+
+bg_btn.onclick = () => {
+    console.log(document.body.style.background)
+    document.body.style.background = "#2d3436"
+}
 
 // if startQuiz button clicked
 start_btn.onclick = () => {
