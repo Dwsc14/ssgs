@@ -1,2074 +1,1861 @@
-let questions = [
-    {
-        numb: 1,
-        question: "Formal groups are used to ",
-        answer: "organize and distribute work",
-        options: [
-            "organize and distribute work",
-            "work independently",
-            "make things more clearly",
-            "feel like family "
-        ]
-    }, {
-        numb: 2,
-        question: "Team characteristics should include one of following factors ",
-        answer: "Interaction",
-        options: [
-            "Interaction",
-            "Short-term relation ",
-            "Act independently ",
-            "Unreacted members "
-        ]
-    }, {
-        numb: 3,
-        question: "When do you need to work alone?  ",
-        answer: "Minimum discretion is required ",
-        options: [
-            "Highly complex tasks or problems ",
-            "Minimum discretion is required ",
-            "High level of choice and uncertainty ",
-            "Decisions by consensus are essential "
-        ]
-    }, {
-        numb: 4,
-        question: "How many people does “a span of control” structure averagely have in their team?  ",
-        answer: "5",
-        options: [
-            "3",
-            "5",
-            "7",
-            "10"
-        ]
-    }, {
-        numb: 5,
-        question: "Who do staffs report to in a matrix team?  ",
-        answer: "Different managers",
-        options: [
-            "Single manager ",
-            "Different managers",
-            "General manager",
-            "CEO of the organization"
-        ]
-    }, {
-        numb: 6,
-        question: "A team is called contract team if",
-        answer: "Team retains their responsibility for both their daily work and project work",
-        options: [
-            "Team members have other duties to perform in their normal functional units",
-            "Team retains their responsibility for both their daily work and project work",
-            "Team members report to different managers",
-            "Team is brought in from outside in order to do project work"
-        ]
-    }, {
-        numb: 7,
-        question: "What is Social Value Orientation (SVO)?  ",
-        answer: "People’s preferences when dividing resources between themselves and others",
-        options: [
-            "People prefer to organize and distribute work between themselves",
-            "People’s preferences when dividing resources between themselves and others",
-            "People dislike others’ work and try to prove their outcome is much better",
-            "People are not cooperative and tend to work alone"
-        ]
-    }, {
-        numb: 8,
-        question: "Andrew is a good listener and he always tries to understand what people think and why people feel in their own way. Andrew has ability of  ",
-        answer: "empathy",
-        options: [
-            "empathy",
-            "considerable skills",
-            "caring ",
-            "interdependence"
-        ]
-    }, {
-        numb: 9,
-        question: "Which one is the key component in cooperation?  ",
-        answer: "Trust ",
-        options: [
-            "Honesty",
-            "Hard working ",
-            "Generosity  ",
-            "Trust "
-        ]
-    }, {
-        numb: 10,
-        question: "What is one of disadvantages having large group?  ",
-        answer: "Reduce communication ",
-        options: [
-            "Overestimate their abilities",
-            "Rank themselves above average ",
-            "More involvement",
-            "Reduce communication "
-        ]
-    }, {
-        numb: 11,
-        question: "Janet does not want to get involved in any disputes, discussion or conversations with her colleagues. She gets to work late and fails to show up at meetings as she wants to avoid any tasks may be assigned to her. However, she always wants to be apart of any success her team made. Economists call this kind of person is:   ",
-        answer: "Free rider problem",
-        options: [
-            "Pretending",
-            "Untrustworthy",
-            "Dishonest ",
-            "Free rider problem"
-        ]
-    }, {
-        numb: 12,
-        question: "The need for self-evaluation experiment has shown that people come to know about themselves by ",
-        answer: "comparing with others",
-        options: [
-            "having positive attitude in life ",
-            "comparing with others",
-            "seeking happiness",
-            "feeling complete  "
-        ]
-    }, {
-        numb: 13,
-        question: "Some people consider social norms and the opinions of others to help justify their own positions in life, some others consider _____ to perform better.    ",
-        answer: "performance and abilities ",
-        options: [
-            "opinions and values",
-            "performance and abilities ",
-            "opinions and values  ",
-            "similarity and friendliness"
-        ]
-    }, {
-        numb: 14,
-        question: "What are the two main factors in social comparison?  ",
-        answer: "Relevance and similarity",
-        options: [
-            "Similarity and friendliness ",
-            "Openness and independence   ",
-            "Relevance and similarity",
-            "Self-esteem and trustworthy   "
-        ]
-    }, {
-        numb: 15,
-        question: "When people can boost their own self-evaluations by comparing themselves to others ranked lower in a company, they are having  ",
-        answer: "self-enhanced effect  ",
-        options: [
-            "life side effect",
-            "bad behavior",
-            "self-enhanced effect  ",
-            "self-evaluation maintenance "
-        ]
-    }, {
-        numb: 16,
-        question: "What are the positive effects of upward comparison? ",
-        answer: "Hope and inspiration",
-        options: [
-            "Hope and inspiration",
-            "Happy and gratitude   ",
-            "Gratitude and scorn  ",
-            "Dissatisfaction "
-        ]
-    }, {
-        numb: 17,
-        question: "What is the negative effect of downward comparison? ",
-        answer: "Scorn  ",
-        options: [
-            "Envy",
-            "Dissatisfaction",
-            "Scorn  ",
-            "Pessimistic"
-        ]
-    }, {
-        numb: 18,
-        question: "Social comparison can lead to  ",
-        answer: "impacts on self-esteem, feeling of envy, feeling of regret  ",
-        options: [
-            "impacts on self-esteem, feeling of victory, feeling of humbleness   ",
-            "impacts on self-esteem, feeling of envy, feeling of regret  ",
-            "impacts on self-esteem, feeling of love, feeling of being superior  ",
-            "Impacts on self-satisfaction, self-esteem, feeling of loser"
-        ]
-    }, {
-        numb: 19,
-        question: "The SEM model suggests that managers may prefer sub optimal candidates because these candidates are not likely to  ",
-        answer: "threaten the managers’ position   ",
-        options: [
-            "be more competitive  ",
-            "seek for opinions",
-            "compare themselves to others",
-            "threaten the managers’ position   "
-        ]
-    }, {
-        numb: 20,
-        question: "What is groupthink?  ",
-        answer: "Group members are incapable of making a rational decision",
-        options: [
-            "Group members are incapable of making a rational decision",
-            "Group members share same thought in a specific topic",
-            "Group members want to be alike in everything",
-            "Group members decide to support each other"
-        ]
-    }, {
-        numb: 21,
-        question: "People who consider upward comparison as a threat, have ",
-        answer: "fixed mindset",
-        options: [
-            "negative mindset",
-            "growth mindset",
-            "fixed mindset",
-            "jealous feelings"
-        ]
-    }, {
-        numb: 22,
-        question: "When the number of comparison targets increase, social comparison tends to",
-        answer: "decrease ",
-        options: [
-            "increase   ",
-            "remain the same ",
-            "be distorted  ",
-            "decrease "
-        ]
-    }, {
-        numb: 23,
-        question: "People usually compare with friends or co-workers than they are to industry or national averages, what is this comparison called in situational factors? ",
-        answer: "Local   ",
-        options: [
-            "Number",
-            "Local   ",
-            "Proximity to a standard ",
-            "Self-relevant  "
-        ]
-    }, {
-        numb: 24,
-        question: "One of the key findings in the Dunning-Kruger effect experiments is  unskilled people are  ",
-        answer: "overconfident with results   ",
-        options: [
-            "always satisfied with results",
-            "often jealous with others",
-            "unrewarded and biased ",
-            "overconfident with results   "
-        ]
-    }, {
-        numb: 25,
-        question: "One of the key findings in the Dunning-Kruger effect experiments is top performers tend to ",
-        answer: "underestimate their skills ",
-        options: [
-            "overestimate their skills ",
-            "rank themselves above average ",
-            "underestimate their skills ",
-            "always satisfied with results"
-        ]
-    }, {
-        numb: 26,
-        question: "In group decision making process, if there are more people agree on certain point of view, we may consider the fact that the group has",
-        answer: "group polarization ",
-        options: [
-            "complete agreement ",
-            "group polarization ",
-            "group sharing knowledge ",
-            "All resources are mobilized "
-        ]
-    }, {
-        numb: 27,
-        question: "People can claim that they can live independently and separately but they actually have  ",
-        answer: "a need to belong",
-        options: [
-            "a need to belong",
-            "a need to be included ",
-            "a need to talk to someone",
-            "None of these correct"
-        ]
-    }, {
-        numb: 28,
-        question: "Groups not only satisfy need to belong, but also provide information, assistance and  ",
-        answer: "social support ",
-        options: [
-            "developed Skills  ",
-            "better Communication  ",
-            "social support ",
-            "motivation"
-        ]
-    }, {
-        numb: 29,
-        question: "The psychological significance of groups include the need to belong, identity and membership, evolutionary advantages of group living and   ",
-        answer: "affiliation in groups  ",
-        options: [
-            "respect in groups",
-            "affiliation in groups  ",
-            "trust in groups  ",
-            "interdependence in groups  "
-        ]
-    }, {
-        numb: 30,
-        question: "What is the main advantage of social facilitation?  ",
-        answer: "Perform tasks improved ",
-        options: [
-            "Feel better ",
-            "Perform tasks improved ",
-            "Work more independently ",
-            "Have high chance of promotion"
-        ]
-    }, {
-        numb: 31,
-        question: "Which situation below is considered social loafing?  ",
-        answer: "A student does all the group homework ",
-        options: [
-            "A single student works alone on a paper  ",
-            "A student does all the group homework ",
-            "Three students work on homework together ",
-            "The whole group equally work hard on group assignment"
-        ]
-    }, {
-        numb: 32,
-        question: "Four group level factors that combine to cause groupthink are  ",
-        answer: "cohesion, isolation, biased leadership, decisional stress ",
-        options: [
-            "cohesion, isolation, biased leadership, decisional stress ",
-            "cohesion, isolation, discouragement, biased leadership",
-            "cohesion, isolation, decisional stress, aggressiveness ",
-            "isolation, biased leadership, aggressiveness, discouragement"
-        ]
-    }, {
-        numb: 33,
-        question: "Why is making group decision better than making individual decision? ",
-        answer: "More objective evaluation",
-        options: [
-            "More objective evaluation",
-            "Team members feel encouraged to do so",
-            "No one left behind the process ",
-            "Group decision is inferior to an individual decision"
-        ]
-    }, {
-        numb: 34,
-        question: "You start planning a proposal by",
-        answer: "stating the problem.",
-        options: [
-            "determining the factors.",
-            "determining the solutions.",
-            "scheduling the study.",
-            "stating the problem."
-        ]
-    }, {
-        numb: 35,
-        question: "The most important section of a proposal is the",
-        answer: "solution ",
-        options: [
-            "cost",
-            "solution ",
-            "purpose statement",
-            "background "
-        ]
-    }, {
-        numb: 36,
-        question: "Which of the following is NOT a strategy to avoid the occurrence of Groupthink?",
-        answer: "Having a charismatic leader of the group",
-        options: [
-            "Appointing devils' advocates in discussions",
-            "Using outside experts",
-            "Having a charismatic leader of the group",
-            "Allocating different groups for different tasks"
-        ]
-    }, {
-        numb: 37,
-        question: "Which of the following is NOT a negative outcomes of Groupthink occurring?",
-        answer: "Needing to seek outside expertise",
-        options: [
-            "Not examining alternatives",
-            "No contingency plans",
-            "Not seeking expert opinion",
-            "Needing to seek outside expertise"
-        ]
-    }, {
-        numb: 38,
-        question: "Which age group is often characterized by the tendency to rethink decisions and lean toward more permanent choices?",
-        answer: "27–31",
-        options: [
-            "12-17",
-            "18–26",
-            "27–31",
-            "32–42"
-        ]
-    }, {
-        numb: 39,
-        question: "What kind of students has been shown by research to stay in college longer, be more goal focused and motivated, and have a more satisfying and fulfilling college experience?",
-        answer: "Students who get involved in career-planning activities early",
-        options: [
-            "Students who have good social relationships",
-            "Students who have excellent leadership skills",
-            "Students who show great passion for the subjects they are studying",
-            "Students who get involved in career-planning activities early"
-        ]
-    }, {
-        numb: 40,
-        question: "One of the three categories of social value orientation (SVO) is?  ",
-        answer: "Cooperative ",
-        options: [
-            "Incompetent",
-            "Cooperative ",
-            "Obsessive  ",
-            "Generous  "
-        ]
-    }, {
-        numb: 41,
-        question: "Strategy (ies) to develop yourself as a critical thinker",
-        answer: "All are correct",
-        options: [
-            "Redefine the way you see things",
-            "Reflect and practice",
-            "Express yourself",
-            "All are correct"
-        ]
-    }, {
-        numb: 42,
-        question: "What is thinking?",
-        answer: "Is the mental process you use to form associations and models of the world",
-        options: [
-            "Is the mental process you use to form associations and models of the world",
-            "Is the mark of an educated mind to be able to entertain a thought without accepting it",
-            "Is the act of thinking that produces thoughts, which arise as ideas, images, sounds, or even emotions",
-            "All of these are correct"
-        ]
-    }, {
-        numb: 43,
-        question: "What is pattern of thought?",
-        answer: "Is the mark of an educated mind to be able to entertain a thought without accepting it",
-        options: [
-            "Is the mental process you use to form associations and models of the world",
-            "Is the mark of an educated mind to be able to entertain a thought without accepting it",
-            "Is the act of thinking that produces thoughts, which arise as ideas, images, sounds, or even emotions",
-            "Is the manipulation of information to form concepts, to engage in problem-solving, to reason, and to make decisions"
-        ]
-    }, {
-        numb: 44,
-        question: "Learning objectives are ____ that specify what someone will know, care about, or be able to do as a result of a learning experience.",
-        answer: "goals",
-        options: [
-            "goals",
-            "purposes",
-            "targets",
-            "plans"
-        ]
-    }, {
-        numb: 45,
-        question: "What are three main categories or “domains” of the learning skills?",
-        answer: "Cognitive domain, Affective domain, Psychomotor domain",
-        options: [
-            "Cognitive domain, Affective domain, Reflective domain",
-            "Cognitive domain, Affective domain, Proactive domain",
-            "Cognitive domain, Affective domain, Psychomotor domain",
-            "Cognitive domain, Reflective domain, Psychomotor domain"
-        ]
-    }, {
-        numb: 46,
-        question: "The “Psychomotor Domain” of learning skills means",
-        answer: "What you should be able to do",
-        options: [
-            "What you should know",
-            "What you should care about",
-            "What you should be able to do",
-            "None of these is correct"
-        ]
-    }, {
-        numb: 47,
-        question: "Which of the following domains of learning skills means “What you should care about”?",
-        answer: "Affective domain",
-        options: [
-            "Cognitive domain",
-            "Affective domain",
-            "Psychomotor domain",
-            "Reflective domain"
-        ]
-    }, {
-        numb: 48,
-        question: "All of the followings are the ways to use critical thinking to evaluate information, EXCEPT",
-        answer: "Accepting something without asking for evidence",
-        options: [
-            "Being receptive to having your opinions changed",
-            "Having an inquiring mind",
-            "Accepting something without asking for evidence",
-            "Questioning your own conclusions"
-        ]
-    }, {
-        numb: 49,
-        question: "Which is the highest learning-skill level of Bloom’s Taxonomy?",
-        answer: "Create",
-        options: [
-            "Analyze",
-            "Apply",
-            "Evaluate",
-            "Create"
-        ]
-    }, {
-        numb: 50,
-        question: "Which is the lowest learning-skill level of Bloom’s Taxonomy?",
-        answer: "Remember",
-        options: [
-            "Remember",
-            "Understand",
-            "Analyze",
-            "Apply"
-        ]
-    }, {
-        numb: 51,
-        question: "_____ is “the ability to judge, check, and even critique the value of material for a given purpose”.",
-        answer: "Evaluating",
-        options: [
-            "Applying",
-            "Evaluating",
-            "Analyzing",
-            "Creating"
-        ]
-    }, {
-        numb: 52,
-        question: "_____ is “the ability to grasp or construct meaning from oral, written, and graphic messages”.",
-        answer: "Understanding",
-        options: [
-            "Remembering",
-            "Understanding",
-            "Analyzing",
-            "Applying"
-        ]
-    }, {
-        numb: 53,
-        question: "The “Applying” skill of Bloom’s Taxonomy is: ",
-        answer: "Ability to use learned material (or implement the material) in new and concrete situations",
-        options: [
-            "Ability to recognize or recall gained knowledge",
-            "Ability to use learned material (or implement the material) in new and concrete situations",
-            "Ability to judge, check, and even critique the value of material for a given purpose",
-            "Ability to grasp or construct meaning from oral, written, and graphic messages"
-        ]
-    }, {
-        numb: 54,
-        question: "Thought and thinking can be understood as _____within the mind.",
-        answer: "Patterns - Systems and Schemes",
-        options: [
-            "Patterns - Systems and Schemes",
-            "Order and Structure",
-            "Act and Control",
-            "Analyze and Evaluate"
-        ]
-    }, {
-        numb: 55,
-        question: "Creative thinking is",
-        answer: "All of these are correct",
-        options: [
-            "a way of employing strategies to clear your mind so that your thoughts and ideas can transcend what appear to be the limitations of a problem",
-            "important because it helps you look at problems and situations from a fresh perspective",
-            "a way to develop novel or unorthodox solutions that do not depend wholly on past or current solutions",
-            "All of these are correct"
-        ]
-    }, {
-        numb: 56,
-        question: "Which statement is NOT true about creativity?",
-        answer: "Human is not innately creative",
-        options: [
-            "All humans are innately creative, especially if creativity is understood as a problem-solving skill",
-            "As a creative thinker, you are curious, optimistic, and imaginative",
-            "Creativity is inspired when there is a problem to solve",
-            "Human is not innately creative"
-        ]
-    }, {
-        numb: 57,
-        question: "Which of the following statements is NOT correct about a creative thinker?",
-        answer: "See problems as limits of development",
-        options: [
-            "Be curious, optimistic",
-            "See problems as limits of development",
-            "Always challenge assumptions and suspend judgment",
-            "Be imaginative"
-        ]
-    }, {
-        numb: 58,
-        question: "College is great ground for enhancing creative thinking skills as in the below examples, EXCEPT",
-        answer: "Create plan for better communication with your colleagues",
-        options: [
-            "Design sample exam questions to test your knowledge as you study for a final",
-            "Devise a social media strategy for a club on campus",
-            "Create plan for better communication with your colleagues",
-            "Propose an education plan for a major you are designing for yourself"
-        ]
-    }, {
-        numb: 59,
-        question: "Strategies to stimulate your creative thinking include",
-        answer: "All of these are correct",
-        options: [
-            "Sleep on it",
-            "Put yourself in nerve-racking situations once in a while to fire up your brain.",
-            "Keep a notebook with you so you always have a way to record fleeting thoughts.",
-            "All of these are correct"
-        ]
-    }, {
-        numb: 60,
-        question: "Key strategy (ies) for success in evaluating information",
-        answer: "All of these are correct",
-        options: [
-            "Examine arguments",
-            "Clarify thinking",
-            "Cultivate “habits of mind”",
-            "All of these are correct"
-        ]
-    }, {
-        numb: 61,
-        question: "Among the tips for creative thinking, What does “Sensing” mean?",
-        answer: "Be a good observer of people, nature, and events around you",
-        options: [
-            "Be a good observer of people, nature, and events around you",
-            "Be empathetic with other people",
-            "Have more fun learning",
-            "Be open to insight as ideas pop into your mind"
-        ]
-    }, {
-        numb: 62,
-        question: "How to develop your creative thinking skill through “Drawing”?",
-        answer: "Use mind-mapping to capture ideas",
-        options: [
-            "Develop ideas and expand their possibilities",
-            "Use mind-mapping to capture ideas",
-            "Explain how your ideas move beyond the status quo and contribute to a discussion",
-            "Take notes"
-        ]
-    }, {
-        numb: 63,
-        question: "Which action does belong to the strategy “Identify available solutions”?",
-        answer: "Compare and contrast possible solutions",
-        options: [
-            "Identify the problem",
-            "Organize the information logically",
-            "Compare and contrast possible solutions",
-            "Defend your solution"
-        ]
-    }, {
-        numb: 64,
-        question: "Which is a fact about Creative Thinking?",
-        answer: "Only few problems require complex technological solutions",
-        options: [
-            "Every problem has only one solution or one right answer",
-            "Ideas either come or they don’t. Nothing will help – certainly not structure",
-            "The best answer or solution or method has already been discovered",
-            "Only few problems require complex technological solutions"
-        ]
-    }, {
-        numb: 65,
-        question: "Which is NOT a fiction about Creative Thinking?",
-        answer: "Creative solution should be answer for all problems",
-        options: [
-            "Every problem has only one solution or one right answer",
-            "The best answer or solution or method has already been discovered",
-            "Creative answers are technologically complex",
-            "Creative solution should be answer for all problems"
-        ]
-    }, {
-        numb: 66,
-        question: "Which technology can help students establish a sense of community with their class and engage in ongoing threaded conversations on assigned readings and topics highlighting diverse points of view?",
-        answer: "Discussion boards",
-        options: [
-            "Interactive whiteboards",
-            "Discussion boards",
-            "Student-response systems",
-            "Digital camcorders"
-        ]
-    }, {
-        numb: 67,
-        question: "In which way does “Wikis” contribute to our ability to be critical and creative thinkers?",
-        answer: "All of these are correct",
-        options: [
-            "Wikis can help students coordinate, compile, synthesize, and present individual or group projects or research.",
-            "Wikis can help students build and share group resources and knowledge.",
-            "Wikis can help students provide peer review, feedback, and critiques.",
-            "All of these are correct"
-        ]
-    }, {
-        numb: 68,
-        question: "What is Critical thinking?",
-        answer: "Is clear, reasonable, reflective thinking focused on deciding what to believe or do",
-        options: [
-            "Is clear, reasonable, reflective thinking focused on deciding what to believe or do",
-            "Is a way of thinking to criticize what other people say",
-            "Is reflective thinking focused on claiming and proving other people your ideas or opinions",
-            "Is simple thinking that memorizing facts or blindly accepting what you hear or read"
-        ]
-    }, {
-        numb: 69,
-        question: "What are the characteristics of Critical thinking?",
-        answer: "All of these are correct",
-        options: [
-            "Examining assumptions",
-            "Challenging reasoning",
-            "Uncovering biases",
-            "All of these are correct"
-        ]
-    }, {
-        numb: 70,
-        question: "Which is NOT a characteristic of Critical thinking?",
-        answer: "Group thinking",
-        options: [
-            "Skepticism",
-            "Group thinking",
-            "Examining assumptions",
-            "Uncovering biases"
-        ]
-    }, {
-        numb: 71,
-        question: "What is the meaning of the word “Logic” in the Ancient Greek logike?",
-        answer: "The science or art of reasoning",
-        options: [
-            "A process of questioning information and data",
-            "It means asking probing questions",
-            "The science or art of reasoning",
-            "It refers to using knowledge, facts, and data to solve problems"
-        ]
-    }, {
-        numb: 72,
-        question: "Which of the following statements is NOT correct?",
-        answer: "“Logic” cannot help to distinguish between good and bad reasoning",
-        options: [
-            "The word “Logic” comes from the Ancient Greek logike",
-            "“Logic” refers to the science or art of reasoning",
-            "“Logic” allows a person to evaluate arguments and reasoning",
-            "“Logic” cannot help to distinguish between good and bad reasoning"
-        ]
-    }, {
-        numb: 73,
-        question: "What is the purpose of the critical thinker when asking “What is happening?”?",
-        answer: "To gather the basic information and begin to think of questions",
-        options: [
-            "To gather the basic information and begin to think of questions",
-            "To see where the information come from and how it was constructed",
-            "To check if any information is missing",
-            "To know if other ideas or possibilities exist"
-        ]
-    }, {
-        numb: 74,
-        question: "What is the similarity of Critical thinking and Problem-solving?",
-        answer: "They both refer to using knowledge, facts, and data to solve problems effectively",
-        options: [
-            "They both focus on identifying, selecting, defending solution",
-            "They both refer to using knowledge, facts, and data to solve problems effectively",
-            "They are efficient and rewarding process",
-            "They are fundamentally process of questioning information and data"
-        ]
-    }, {
-        numb: 75,
-        question: "In order to “Define the problem”, which actions should we take?",
-        answer: "Identify the problem, Provide as many supporting details as possible, Provide examples, Organize the information logically",
-        options: [
-            "Identify the problem, Identify facts, Provide examples, Organize the information logically",
-            "Identify the problem, Identify facts, Identify your most important goals",
-            "Identify the problem, Provide as many supporting details as possible, Provide examples, Organize the information logically",
-            "Identify the problem, Provide as many supporting details as possible, Identify your most important goals, Gather information and facts"
-        ]
-    }, {
-        numb: 76,
-        question: "Which is TRUE about long-term orientation culture",
-        answer: "Long-term orientation is often marked by persistence, thrift and frugality",
-        options: [
-            "United States has a more long-term approach to life and results",
-            "If  you  work  within  a  culture  that  has  a long-term  orientation,  you  may  need  to  place  greater  emphasis  on reciprocation of greetings, gifts, and rewards.",
-            "Long-term orientation is often marked by persistence, thrift and frugality",
-            "All of these"
-        ]
-    }, {
-        numb: 77,
-        question: "Which is TRUE about short-term orientation culture",
-        answer: "If  you  work  within  a  culture  that  has  a  short-term  orientation,  you  may  need  to  place  greater  emphasis  on reciprocation of greetings, gifts, and rewards",
-        options: [
-            "Many countries in Asia value a short-term orientation",
-            "If  you  work  within  a  culture  that  has  a  short-term  orientation,  you  may  need  to  place  greater  emphasis  on reciprocation of greetings, gifts, and rewards",
-            "Short-term orientation is often marked by persistence, thrift and frugality, and an order to relationships based on age and status",
-            "All of these"
-        ]
-    }, {
-        numb: 78,
-        question: "“_______enables one individual or group to make the decisions that affect others, and to enforce control”",
-        answer: "Power-over",
-        options: [
-            "Power-from-within",
-            "Power-with",
-            "Power-over",
-            "Power-from-outside"
-        ]
-    }, {
-        numb: 79,
-        question: "Which type of power can manifest itself when we stand, walk, and speak.",
-        answer: "Power-from-within",
-        options: [
-            "Power-from-within",
-            "Power-with",
-            "Power-over",
-            "None of these answers"
-        ]
-    }, {
-        numb: 80,
-        question: "“Arises from our sense of connection, our bonding with other human beings, and with the environment” can be used to describe which type of power.",
-        answer: "Power-with",
-        options: [
-            "Power-from-within",
-            "Power-with",
-            "Power-over",
-            "None of these answers"
-        ]
-    }, {
-        numb: 81,
-        question: "“The power of a strong individual in a group of equals, the power not to command, but to suggest and be listened to, to begin something and see it happen”  can be used to describe which type of power.",
-        answer: "Power-with",
-        options: [
-            "Power-from-within",
-            "Power-with",
-            "Power-over",
-            "None of these answers"
-        ]
-    }, {
-        numb: 82,
-        question: "Which of the following idioms can be used to describe the relationship between power and oppression.",
-        answer: "Two sides of the same coin",
-        options: [
-            "A blessing in disguise	",
-            "The best of both worlds",
-            "Get out of hand",
-            "Two sides of the same coin"
-        ]
-    }, {
-        numb: 83,
-        question: "When does a person obtain the expert power?",
-        answer: "Person A has more expertise knowledge than person B",
-        options: [
-            "Person A has higher status than person B",
-            "Person A has more expertise knowledge than person B",
-            "Person A group is bigger than person B",
-            "Person A has more friend than person B"
-        ]
-    }, {
-        numb: 84,
-        question: "What are the possible behavior responses in the consequences of power?",
-        answer: "Commitment and compliance",
-        options: [
-            "Trustworthiness and betrayal",
-            "Complaint and compliance",
-            "Commitment and compliance",
-            "Trustworthiness and resistance"
-        ]
-    }, {
-        numb: 85,
-        question: "Why being socially connected is an important way of dealing with stress?",
-        answer: "Because it’s easy to isolate yourself when you feel stressed",
-        options: [
-            "Because it’s easy to isolate yourself when you feel stressed",
-            "Because it helps you to maintain a normal routine",
-            "Because other people can give you good advices about your problems",
-            "Because it can help distract you from your problems for a while"
-        ]
-    }, {
-        numb: 86,
-        question: "When subordinates are under conditions of coercive power, which following behavior responses are likely to be used?",
-        answer: "Resistance",
-        options: [
-            "Tolerance",
-            "Enthusiasm",
-            "Acceptance",
-            "Resistance"
-        ]
-    }, {
-        numb: 87,
-        question: "According to the research on diversity, what makes diverse groups/teams are better at decision-making and problem-solving?",
-        answer: "Tend to focus more on facts",
-        options: [
-            "Tend to focus more on facts",
-            "Less additional idea",
-            "More variety of personality",
-            "Has different belief"
-        ]
-    }, {
-        numb: 88,
-        question: "What is the final best practice for boosting multicultural skills?",
-        answer: "Developing cognitive complexity",
-        options: [
-            "Developing cultural intelligence",
-            "Developing cognitive complexity",
-            "Developing cultural competence",
-            "Developing cross-cultural skills"
-        ]
-    }, {
-        numb: 89,
-        question: "The common story that can be used to reflect individualistic cultures is?",
-        answer: "Superman",
-        options: [
-            "Tom and Jerry",
-            "Spider-man",
-            "Superman",
-            "Mickey mouse"
-        ]
-    }, {
-        numb: 90,
-        question: "Which of the following countries represent individualistic cultures?",
-        answer: "The United States",
-        options: [
-            "Japan",
-            "Cuba",
-            "Vietnam",
-            "The United States"
-        ]
-    }, {
-        numb: 91,
-        question: "Which of the following can be seen as positive sides of conflict?",
-        answer: "Help individuals and group members grow and develop self-identities",
-        options: [
-            "Help individuals and group members grow and develop self-identities",
-            "Affect the social climate of the group and inhibit group cohesiveness",
-            "Making people divert energies away from the performance",
-            "Influence on stress and the psychophysical consequences of stress"
-        ]
-    }, {
-        numb: 92,
-        question: "Which conflict-handling mode can be used when opponents with equal power are committed to mutually exclusive goals ",
-        answer: "Compromising ",
-        options: [
-            "Avoiding ",
-            "Competing",
-            "Compromising ",
-            "Accommodating "
-        ]
-    }, {
-        numb: 93,
-        question: "Which of the following are the five modes for conflict resolution developed by Kenneth Thomas (1976)?",
-        answer: "(1) competing, (2) combination, (3) compromising,  (4) avoiding, and (5) accommodating",
-        options: [
-            "(1) competing, (2) collaborating, (3) compromising, (4) avoiding, and (5) accommodating",
-            "(1) competing, (2) combination, (3) aggravating,  (4) resistance, and (5) ignore",
-            "(1) competing, (2) combination, (3) compromising,  (4) avoiding, and (5) accommodating",
-            "(1) competing, (2) collaborating, (3) aggravating, (4) resistance, and (5) ignore"
-        ]
-    }, {
-        numb: 94,
-        question: "What is the quickest and easiest solution to reduce conflict?",
-        answer: "Physical separation",
-        options: [
-            "Physical separation",
-            "Use of rules and regulations",
-            "Third-party consultation",
-            "Confrontation and negotiation"
-        ]
-    }, {
-        numb: 95,
-        question: "In the Leader Trait Research which trait includes strong analytical abilities?",
-        answer: "Cognitive ability",
-        options: [
-            "Self-confidence",
-            "Leadership motivation",
-            "Drive",
-            "Cognitive ability"
-        ]
-    }, {
-        numb: 96,
-        question: "Which conflict-handling mode can be used when an issue is trivial, or when more important issues are pressing ",
-        answer: "Avoiding ",
-        options: [
-            "Avoiding ",
-            "Competing",
-            "Compromising ",
-            "Accommodating "
-        ]
-    }, {
-        numb: 97,
-        question: "Which conflict-handling mode can be used when issues are more important to others than yourself—to satisfy others and maintain cooperation",
-        answer: "Accommodating ",
-        options: [
-            "Avoiding ",
-            "Competing",
-            "Compromising ",
-            "Accommodating "
-        ]
-    }, {
-        numb: 98,
-        question: "Status can be defined as:",
-        answer: "A person’s perceived level of importance or significance within a particular context.",
-        options: [
-            "A person’s perceived level of importance or significance within a particular context.",
-            "A result of power, with its roots in global colonialism and conquests",
-            "An action can deny certain groups jobs that pay living wages, can establish unequal. can deny affordable housing, and the list goes on",
-            "None of these above"
-        ]
-    }, {
-        numb: 99,
-        question: "Which power of the following exists when person B submits to person A because B feels that A has a right to exert power in a certain domain?",
-        answer: "Legitimate Power",
-        options: [
-            "Expert Power",
-            "Legitimate Power",
-            "Reward Power",
-            "Coercive Power"
-        ]
-    }, {
-        numb: 100,
-        question: "Authority is another name of:",
-        answer: "Coercive Power",
-        options: [
-            "Expert Power",
-            "Legitimate Power",
-            "Reward Power",
-            "Coercive Power"
-        ]
-    }, {
-        numb: 101,
-        question: "Coercive power is also referred to as:",
-        answer: "Punish power",
-        options: [
-            "Respect power",
-            "Team power",
-            "Discipline power",
-            "Punish power"
-        ]
-    }, {
-        numb: 102,
-        question: "What is an example of  Expert Power?",
-        answer: "Professors presumably have power in the classroom because of their mastery of a particular subject matter.",
-        options: [
-            "Professors presumably have power in the classroom because of their mastery of a particular subject matter.",
-            "A supervisor has a right to assign work.",
-            "Salary and promotion among most blue-collar workers is based on a labor contract, not a performance appraisal.",
-            "In many organizations, supervisors and managers really do not control very many rewards."
-        ]
-    }, {
-        numb: 103,
-        question: "Reward Power exists when:",
-        answer: "when person A has power over person B because A controls rewards that B wants.",
-        options: [
-            "person A has power over person B because A can administer some form of punishment to B.",
-            "person A gains power because A has knowledge or expertise relevant to B. ",
-            "when person B submits to person A because B feels that A has a right to exert power in a certain domain",
-            "when person A has power over person B because A controls rewards that B wants."
-        ]
-    }, {
-        numb: 104,
-        question: "Last stage in the model of the Conflict Process ",
-        answer: "Outcome",
-        options: [
-            "Frustration ",
-            "Conceptualization ",
-            "Behavior ",
-            "Outcome"
-        ]
-    }, {
-        numb: 105,
-        question: "Of all the bases of power available to man, the power to hurt others is possibly the most often used, most often condemned and most difficult to control.",
-        answer: "Coercive power",
-        options: [
-            "Reward Power",
-            "Coercive power",
-            "Referent Power",
-            "Legitimate Power"
-        ]
-    }, {
-        numb: 106,
-        question: "Which of the four key cultural differences could be considered offensive by some?",
-        answer: "Direct versus indirect communication",
-        options: [
-            "Direct versus indirect communication",
-            "Accents and fluency",
-            "Differing attitudes toward hierarchy",
-            "Conflicting decision-making norms"
-        ]
-    }, {
-        numb: 107,
-        question: "When one language is dominated in the group, what could happen to the person who can't speak it?",
-        answer: "All the above",
-        options: [
-            "Less competent in a group",
-            "Feel left out",
-            "Be seen as contributing less",
-            "All the above"
-        ]
-    }, {
-        numb: 108,
-        question: "Which of the following provides a great advantage to the leader in their relationships with teammates?",
-        answer: "Cultural intelligence",
-        options: [
-            "Authority to control teammates",
-            "Superior status",
-            "Cultural intelligence",
-            "Explicit in communication"
-        ]
-    }, {
-        numb: 109,
-        question: "Which of the following intervention technique should be used sparingly?",
-        answer: "Managerial",
-        options: [
-            "Adaptation",
-            "Structural",
-            "Managerial",
-            "Voluntary or involuntary removal "
-        ]
-    }, {
-        numb: 110,
-        question: "When conflicts arise, what intervention technique should be used as a last resort?",
-        answer: "Voluntary or involuntary removal ",
-        options: [
-            "Adaptation",
-            "Structural",
-            "Managerial",
-            "Voluntary or involuntary removal "
-        ]
-    }, {
-        numb: 111,
-        question: "Which traits are taking on increasing importance in the business world today?",
-        answer: "Multiculturalism and cultural intelligence",
-        options: [
-            "Multiculturalism and cultural intelligence",
-            "Verbal and nonverbal communication",
-            "Cultural intelligence and language",
-            "Style, pace, language and nonverbal communication"
-        ]
-    }, {
-        numb: 112,
-        question: "When do the Conflicts of misperceived differences arise?",
-        answer: "Interpret each other’s actions or emotions erroneously",
-        options: [
-            "Reinforcing or weakening each other’s impact",
-            "Interpret each other’s actions or emotions erroneously",
-            "Differ over how to reach goals or pursue values",
-            "Hold totally different values or rank the same values in a significantly different order"
-        ]
-    }, {
-        numb: 113,
-        question: "What makes Relationship conflicts become hard to cope with?",
-        answer: "People frequently aren’t admitted for what they are",
-        options: [
-            "Intimidate personal ego",
-            "Increased sense of self-worth",
-            "Misconception",
-            "People frequently aren’t admitted for what they are"
-        ]
-    }, {
-        numb: 114,
-        question: "Which behavior people often DON’T display when they are being deceptive",
-        answer: "Increased smiling",
-        options: [
-            "Reduction in eye contact while engaged in a conversation",
-            "Awkward pauses in conversation",
-            "Decreased rate of speech",
-            "Increased smiling"
-        ]
-    }, {
-        numb: 115,
-        question: "The word “power” literally means:",
-        answer: "“To be able to”",
-        options: [
-            "“To be able to”",
-            "“The influence”",
-            "“The strength”",
-            "None of these answers"
-        ]
-    }, {
-        numb: 116,
-        question: "Pay raises, promotions, desirable job assignments, more responsibility, new equipment are example of:",
-        answer: "Reward power",
-        options: [
-            "Reward power",
-            "Legitimate",
-            "Expert Power",
-            "Coercive Power "
-        ]
-    }, {
-        numb: 117,
-        question: "To use THIS power: Punish in private , Inform subordinates of rules and penalties or this power can be used without jeopardizing personal integrity",
-        answer: "Coercive power ",
-        options: [
-            "Reward power ",
-            "Legitimate power ",
-            "Evaluation criteria",
-            "Coercive power "
-        ]
-    }, {
-        numb: 118,
-        question: "____cultures focus on the needs of the nation, community, family, or group of workers",
-        answer: "Collectivist ",
-        options: [
-            "Collectivist ",
-            "Individualistic",
-            "Low-Power Distance",
-            "High-Power Distance"
-        ]
-    }, {
-        numb: 119,
-        question: "These conflicts, which relate to questions about what choices to make in a given situation, rest on differing views of the facts",
-        answer: "conflicts of substance",
-        options: [
-            "conflicts of substance",
-            "Conflicts of process",
-            "Conflicts of misperceived differences",
-            "None of these"
-        ]
-    }, {
-        numb: 120,
-        question: "First stage in the model of the Conflict Process ",
-        answer: "Frustration ",
-        options: [
-            "Frustration ",
-            "Conceptualization ",
-            "Behavior ",
-            "Outcome"
-        ]
-    },
-    {
-        numb: 121,
-        question: "Which of the following reasons is sound justification for scheduling or attending a group meeting?",
-        answer: "Group input and interaction are critical",
-        options: [
-            "You hate to write reports and memos",
-            "You prefer not to do the research yourself",
-            "You feel lost without colleagues",
-            "Group input and interaction are critical"
-        ]
-    }, {
-        numb: 122,
-        question: "Which of the following answers depicts the 3 main elements of a meeting?",
-        answer: "structure, schedule, chairperson",
-        options: [
-            "structure, schedule, chairperson",
-            "conflict, cohesion, engagement",
-            "members, leaders, engagement",
-            "chairperson, agenda, minutes"
-        ]
-    }, {
-        numb: 123,
-        question: "Which of the following criteria should NOT be considered when determining who to invite to a meeting?",
-        answer: "individuals who are uninvolved in the issues for discussion",
-        options: [
-            "individuals who will be affected directly by the outcome",
-            "individuals who disagree or represent minority viewpoints",
-            "individuals who have the power to implement decisions",
-            "individuals who are uninvolved in the issues for discussion"
-        ]
-    }, {
-        numb: 124,
-        question: "At what point in a business meeting should group members approve the agenda and minutes?",
-        answer: "right after the call to order",
-        options: [
-            "right after the call to order",
-            "right after routine reports are shared",
-            "before the discussion of new business",
-            "right before final announcements by members"
-        ]
-    }, {
-        numb: 125,
-        question: "The person in charge of conducting a meeting is the……….",
-        answer: "chairperson",
-        options: [
-            "group leader",
-            "dominator",
-            "chairperson",
-            "recorder"
-        ]
-    }, {
-        numb: 126,
-        question: "All of the following strategies are for keeping a meeting moving at a comfortable pace EXCEPT",
-        answer: "Only begin the meeting until all important group members are present",
-        options: [
-            "Only begin the meeting until all important group members are present",
-            "Place a time limit on each agenda item",
-            "Stay focused on the meeting's goal",
-            "Schedule another meeting to discuss unfinished business"
-        ]
-    }, {
-        numb: 127,
-        question: "Which of the following labels does NOT represent how member behavior can disrupt a meeting?",
-        answer: "summarizer",
-        options: [
-            "loudmouth",
-            "whisperer",
-            "latecomer",
-            "summarizer"
-        ]
-    }, {
-        numb: 128,
-        question: "Who is the meeting contributor? ",
-        answer: "reporter",
-        options: [
-            "sleeper",
-            "whisperer",
-            "latecomer",
-            "reporter"
-        ]
-    }, {
-        numb: 129,
-        question: "The sentence 'Let Nemo finish her point first, and then we'll hear other’s opinions' can help a group deal with a member who is…….",
-        answer: "interrupter ",
-        options: [
-            "loudmouth",
-            "whisperer",
-            "interrupter ",
-            "quieter"
-        ]
-    }, {
-        numb: 130,
-        question: "The written record of a group's discussion and activities is _____",
-        answer: "a meeting minute ",
-        options: [
-            "a meeting minute ",
-            "a report",
-            "an agenda",
-            "a note "
-        ]
-    }, {
-        numb: 131,
-        question: "Which of the following is bad advice for group meeting? ",
-        answer: "The group should always use a 2/3 vote to ensure the majority rules",
-        options: [
-            "The group should always use a 2/3 vote to ensure the majority rules",
-            "The group accepts the will of the majority even though some members do not like that decision",
-            "The group follows an approved agenda that promotes orderly business",
-            "The group protects the rights of all members by guaranteeing everyone the right to speak"
-        ]
-    }, {
-        numb: 132,
-        question: "Meetings give members a ___________ that boosts their motivation to implement group ideas and actions",
-        answer: "real voice in decisions",
-        options: [
-            "real voice in decisions",
-            "chance to argue ",
-            "time to relax",
-            "time to chat"
-        ]
-    }, {
-        numb: 133,
-        question: "Which of the following is the best example of constructive feedback?",
-        answer: "All the elements of a good proposal are here; they just need to be reordered. By placing the strongest element first, we can capture and hold the reader’s attention. ",
-        options: [
-            "Your proposal is disorganized, contains computational errors, and is a writing disaster.",
-            "You aren’t paying attention to the customer when you are having a conversation with someone else at the same time. ",
-            "Why can’t you stay focus? It is only 10 o’clock in the morning.",
-            "All the elements of a good proposal are here; they just need to be reordered. By placing the strongest element first, we can capture and hold the reader’s attention. "
-        ]
-    }, {
-        numb: 134,
-        question: "Which words below show emphasis?",
-        answer: "Significantly, primarily, especially ",
-        options: [
-            "Significantly, primarily, especially ",
-            "But, however, by contrast",
-            "For example, to illustrate, like",
-            "First, second, last"
-        ]
-    }, {
-        numb: 135,
-        question: "Which words should you use to when you want to give contrast ideas?",
-        answer: "Nevertheless, however, by contrast",
-        options: [
-            "Significantly, primarily, especially ",
-            "Nevertheless, however, by contrast",
-            "For example, to illustrate, like",
-            "First, second, last"
-        ]
-    }, {
-        numb: 136,
-        question: "Which words should you use to when you want to add more ideas?",
-        answer: "Nevertheless, however, by contrast",
-        options: [
-            "Furthermore, also, similarly",
-            "Nevertheless, however, by contrast",
-            "For example, to illustrate, like",
-            "Therefore, as a result, hence"
-        ]
-    }, {
-        numb: 137,
-        question: "What are good advice for a meeting participants?",
-        answer: "demonstrate professionalism in your verbal and nonverbal interactions",
-        options: [
-            "become angry for no good reason",
-            "demand much more information than is needed",
-            "offer much more information than is needed",
-            "demonstrate professionalism in your verbal and nonverbal interactions"
-        ]
-    }, {
-        numb: 138,
-        question: "Which is TRUE about persuasion? ",
-        answer: "Persuasion is an act or process of presenting arguments to move, motivate, or change your audience",
-        options: [
-            "Persuasion is an act or process of presenting arguments to move, motivate, or change your audience",
-            "Persuasion can be implicit or explicit and only have positive effects",
-            "Persuasion is forcing people to do as your request ",
-            "Persuasion is an act of leader giving order to followers without considering their will"
-        ]
-    }, {
-        numb: 139,
-        question: "Which of Maslow's Hierarchy of Needs is primarily met when someone joins an exclusive club or is elected as leader of a prestigious group?",
-        answer: "Esteem",
-        options: [
-            "Physiological ",
-            "Esteem",
-            "Love and belonging",
-            "Safety "
-        ]
-    }, {
-        numb: 140,
-        question: "Which of Maslow's Hierarchy of Needs is primarily met when a neighborhoodwatch group forms to deter crime in the community? ",
-        answer: "Safety ",
-        options: [
-            "Physiological ",
-            "Esteem",
-            "Love and belonging",
-            "Safety "
-        ]
-    }, {
-        numb: 141,
-        question: "Which is FALSE about Maslow hierarchy of needs?",
-        answer: "Maslow's Hierarchy of Needs includes control, inclusion, and affection needs.",
-        options: [
-            "Maslow's basic need is safety need. ",
-            "Maslow's Hierarchy of Needs ranks critical needs in the following order: physiological, safety, belongingness, esteem, and self-actualization",
-            "Maslow's basic need is physiological need.",
-            "Maslow's Hierarchy of Needs includes control, inclusion, and affection needs."
-        ]
-    }, {
-        numb: 142,
-        question: "Reasons for us to engage in communication are all below EXCEPT",
-        answer: "Dominate people for personal benefits ",
-        options: [
-            "Dominate people for personal benefits ",
-            "Understand communication context ",
-            "Understand our identity ",
-            "Meets our need"
-        ]
-    }, {
-        numb: 143,
-        question: "Laura has an important meeting tomorrow to present her solution to the city People Committee about improving students’ life. Which of the following is good advice for her to prepare herself for the presentation? ",
-        answer: "Prepare the presentation with relevant data and rehearsal the speech carefully",
-        options: [
-            "Use emotional appeals",
-            "Simplify the students’ problems to make the solution look easy",
-            "Hide numbers and facts if the committee do not ask ",
-            "Prepare the presentation with relevant data and rehearsal the speech carefully"
-        ]
-    }, {
-        numb: 144,
-        question: "To produce a good opening in a persuasive message, you should keep it",
-        answer: "Positive and personal",
-        options: [
-            "Neutral ",
-            "Negative and impersonal",
-            "Impersonal",
-            "Positive and personal"
-        ]
-    }, {
-        numb: 145,
-        question: "When conducting a meeting, you should",
-        answer: "Get every team member to voice out their feeling and opinions",
-        options: [
-            "Be bold and honest, not afraid to hurt people’s feeling",
-            "Get every team member to voice out their feeling and opinions",
-            "Make it as short as possible because time is gold",
-            "Favor relationships"
-        ]
-    }, {
-        numb: 146,
-        question: "At the end of a meeting, you should",
-        answer: "Be brief and recapture the key points",
-        options: [
-            "Ask a lot of questions to test the team members’ understanding of the discussion",
-            "Be brief and recapture the key points",
-            "Be the first to leave the meeting room",
-            "Take group photo and have conversation with members to build personal relationships with them "
-        ]
-    }, {
-        numb: 147,
-        question: "Eye contact with your team members can be maintained by",
-        answer: "looking at every individual in a regular pattern",
-        options: [
-            "always looking at a few people",
-            "always looking at your favorite people",
-            "always looking at the nearest people",
-            "looking at every individual in a regular pattern"
-        ]
-    }, {
-        numb: 148,
-        question: "You may maintain less eye contact with audiences who are…",
-        answer: "not showing interest in your presentation",
-        options: [
-            "very interested in your presentation",
-            "not showing interest in your presentation",
-            "want to ask questions",
-            "new to your team"
-        ]
-    }, {
-        numb: 149,
-        question: "In a communication transaction, feedback represents",
-        answer: "the response or reaction to a message.",
-        options: [
-            "a group's physical and psychological environment.",
-            "anything that interferes with or inhibits effective communication.",
-            "the media through which group members share messages.",
-            "the response or reaction to a message."
-        ]
-    }, {
-        numb: 150,
-        question: "On her way to an important Friday morning meeting, Susan observes one of the people she supervises speaking harshly to a customer. Susan knows she must offer constructive feedback to the employee, so she decides to",
-        answer: "stress the benefits the receiver will gain by modifying his/her behavior",
-        options: [
-            "concentrate more on her verbal than on her nonverbal message",
-            "minimize the impact of her criticism by speaking in general terms",
-            "speak to the employee early Monday morning",
-            "stress the benefits the receiver will gain by modifying his/her behavior"
-        ]
-    }, {
-        numb: 151,
-        question: "Which type of feedback requests confirmation or clarification of a message, and is often expressed in the form of a question?",
-        answer: "Interpretive",
-        options: [
-            "Evaluative",
-            "Interpretive",
-            "Supportive",
-            "Probing"
-        ]
-    }, {
-        numb: 152,
-        question: "Which type of feedback communicates encouragement in response to a message?",
-        answer: "Supportive",
-        options: [
-            "Evaluative",
-            "Interpretive",
-            "Supportive",
-            "Probing"
-        ]
-    }, {
-        numb: 153,
-        question: "Which type of feedback communicates sympathy and empathy for the source of the message?",
-        answer: "Understanding ",
-        options: [
-            "Evaluative",
-            "Interpretive",
-            "Supportive",
-            "Understanding "
-        ]
-    }, {
-        numb: 154,
-        question: "The best way to convey friendliness is to……",
-        answer: "smile",
-        options: [
-            "smile",
-            "speak slowly ",
-            "tell a joke",
-            "use a tone of importance"
-        ]
-    }, {
-        numb: 155,
-        question: "David has just been given the task of delivering an oral presentation to the marketing department of the organization he joined two months ago. The first thing David should do is……….",
-        answer: "determine the purpose of the presentation",
-        options: [
-            "analyze the audience",
-            "determine the purpose of the presentation",
-            "draft an outline",
-            "gather supporting data"
-        ]
-    }, {
-        numb: 156,
-        question: "Michelle is new staff of Marketing department in FPT Software company. Her manager told her to prepare a report to review activity of the department in the last 3 months. Which type of report is that? ",
-        answer: "Progress ",
-        options: [
-            "Progress ",
-            "Financial",
-            "Feasibility ",
-            "Needs assessment "
-        ]
-    }, {
-        numb: 157,
-        question: "Susan is a new staff of IT team 3 in FPT Software company. Her senior told her to prepare a report to instruct their Japanese customer how the new app works Which type of report is that? ",
-        answer: "Technical  ",
-        options: [
-            "Technical  ",
-            "Financial",
-            "Feasibility ",
-            "Needs assessment "
-        ]
-    }, {
-        numb: 158,
-        question: "When preparing report content, you should ask all of the questions below except",
-        answer: "How much do your manager pay you to write the report?",
-        options: [
-            "Whom the report is about and/or prepared for?",
-            "What was done, what problems were addressed, and the results, including conclusions and/or recommendations?",
-            "Where the subject studied occurred?",
-            "How much do your manager pay you to write the report?"
-        ]
-    }, {
-        numb: 159,
-        question: "What is abstract in a report? ",
-        answer: "Include aims and outcome of the research",
-        options: [
-            "Title fly",
-            "Key words to introduce the research topic",
-            "Introduction part ",
-            "Include aims and outcome of the research"
-        ]
-    }, {
-        numb: 160,
-        question: "What are included in a report abstract?",
-        answer: "Highlight topic, methods, data, and results ",
-        options: [
-            "Highlight topic, methods, data, and results ",
-            "A list of the main parts of the report",
-            "Label, report, features title, author",
-            "Methodology "
-        ]
-    }, {
-        numb: 161,
-        question: "The solution to a research problem is presented in the report as a part of the",
-        answer: "recommendation",
-        options: [
-            "appendix",
-            "conclusion",
-            "recommendation",
-            "findings"
-        ]
-    }, {
-        numb: 162,
-        question: "Which of the following statements is NOT true of performance appraisals?",
-        answer: "They may include humor if audience analysis dictates it will be well received.",
-        options: [
-            "They may be written directly or indirectly, depending on the situation.",
-            "They may include humor if audience analysis dictates it will be well received.",
-            "They should be brief.",
-            "They should include factual evidence of strong or weak performance."
-        ]
-    }, {
-        numb: 163,
-        question: "The disadvantage of written messages is that they",
-        answer: "Can be viewed as being more formal, in part because they are permanent.",
-        options: [
-            "Can have legal value.",
-            "Can be revised and edited to ensure they adhere to the principles of business communication.",
-            "Can be reread and studied, which is important if a message is long, is complex, or has been written in anger.",
-            "Can be viewed as being more formal, in part because they are permanent."
-        ]
-    }, {
-        numb: 164,
-        question: "Which of the following should be a consideration in determining the formality of a goodwill message?",
-        answer: "Familiarity with the receiver",
-        options: [
-            "Cost",
-            "Timeliness in sending the message",
-            "Length of message",
-            "Familiarity with the receiver"
-        ]
-    }, {
-        numb: 165,
-        question: "How should the saying “your understanding was wrong” can be paraphrased into a more positive way?",
-        answer: "Let us review the facts.",
-        options: [
-            "I already explained the case for you more than 3 times.",
-            "Are you sure about the fact?",
-            "I can only see mistakes in this. ",
-            "Let us review the facts."
-        ]
-    }, {
-        numb: 166,
-        question: "When writing an email, you should consider your receiver’s educational level and knowledge of the message topic. If your receivers do not work in the same industry with you, you are recommended to use ….",
-        answer: "nontechnical words",
-        options: [
-            "technical words",
-            "nontechnical words",
-            "words that you know ",
-            "English "
-        ]
-    }, {
-        numb: 167,
-        question: "Which sentence below effectively conveys a positive attitude?",
-        answer: "Our professional staff will repair your laptop.",
-        options: [
-            "Our professional staff will repair your laptop.",
-            "The store will not open until 10am.",
-            "I regret to advise that we must the refund request for your keyboard.",
-            "You cannot be enrolled in your courser course. "
-        ]
-    }, {
-        numb: 168,
-        question: "How can you demonstrate sensitivity to a partner's culture?",
-        answer: "Start formally before becoming informal",
-        options: [
-            "Avoid discussing any cultural differences",
-            "Mimic the partner's mannerisms perfectly",
-            "Start formally before becoming informal",
-            "Begin informally to help establish rapport"
-        ]
-    }, {
-        numb: 169,
-        question: "In order to make good impression to achieve the message goals, positive words convey optimism and confidence are",
-        answer: "Favorable, compliment, answerable",
-        options: [
-            "Disapprove, impossible, obnoxious",
-            "Deny, hateful, not",
-            "Contradict, fault, unable",
-            "Favorable, compliment, answerable"
-        ]
-    }, {
-        numb: 170,
-        question: "The most important part of an application letter is the",
-        answer: "action-promoting close",
-        options: [
-            "action-promoting close",
-            "attention-getting opening",
-            "logical explanation",
-            "summary of qualifications"
-        ]
-    }, {
-        numb: 171,
-        question: "How should you best respond to interview questions?",
-        answer: "Be enthusiastic, honest, sincere, and state your accomplishments in a specific and positive manner.",
-        options: [
-            "Be enthusiastic, honest, sincere, and state your accomplishments in a specific and positive manner.",
-            "Embellish your achievements and accomplishments to make sure the employer remembers them.",
-            "Say that your achievements and accomplishments are detailed on your resume.",
-            "Use caution when describing what you have accomplished so you will not appear to be bragging on yourself."
-        ]
-    }, {
-        numb: 172,
-        question: "Which of the following interview questions is a behavioral question?",
-        answer: "Give me an example of a situation in which you were successful (or unsuccessful) in motivating someone.",
-        options: [
-            "Do you like to work alone or with other people?",
-            "Give me an example of a situation in which you were successful (or unsuccessful) in motivating someone.",
-            "What does teamwork mean to you?",
-            "What is your greatest weakness?"
-        ]
-    }, {
-        numb: 173,
-        question: "When developing an application letter, which of the following should not be added in the opening of the letter?",
-        answer: "Your most significant accomplishments",
-        options: [
-            "The name of your referee who introduced this job to you",
-            "Your knowledge about the position or the company",
-            "Reasons why you find this position interesting",
-            "Your most significant accomplishments"
-        ]
-    }, {
-        numb: 174,
-        question: "Which questions below that a job applicant should prepare to ask during an interview?",
-        answer: "Please describe the normal routine of this position in a typical day?",
-        options: [
-            "Please describe the normal routine of this position in a typical day?",
-            "How can I gain promotion?",
-            "When do you expect to make a hiring decision as it is said in the recruitment advertisement that this position is in urgent need? ",
-            "How much is the salary?"
-        ]
-    }, {
-        numb: 175,
-        question: "“I am the first person in my family to complete a Bachelor degree; and now that I have finished my education, I want to give something back to my family by getting a good job with a company like yours. I worked part time while attending school, so I have work experience at food stores. I am a hard worker; I grew up on the farm and could drive any kind of machinery. This part of an application letter to software developer position is not effective because_______",
-        answer: "It does not relate to the company needs.",
-        options: [
-            "It uses impersonal salutation.",
-            "It does not relate to the company needs.",
-            "It conveys negative tones.",
-            "It provides the family background of the applicant."
-        ]
-    }, {
-        numb: 176,
-        question: "In a job interview, which of the following answers is most appropriate to answer the question “Are you planning a family in the near future?”",
-        answer: "Currently I am focused on my career. Although having a family is always a possibility, it is not a priority at the moment.",
-        options: [
-            "I suppose everyone has a family plan in their own way. What will be will be!",
-            "May I not answer this over personal question?",
-            "As an active person in the young generation, I am quite open to this issue, I am working hard to support my parents first, and then I gaining a high social status for my future children. ",
-            "Currently I am focused on my career. Although having a family is always a possibility, it is not a priority at the moment."
-        ]
-    }, {
-        numb: 177,
-        question: "Examples of communication challenges in a global environment are",
-        answer: "Words that have different meanings and connotations and different language",
-        options: [
-            "Not understanding cultural differences",
-            "Differences in time",
-            "Words that have different meanings and connotations and different language",
-            "Differences in calling each other by first name or family name"
-        ]
-    }, {
-        numb: 178,
-        question: "Which of the following is NOT a requirement of a valid contract?",
-        answer: "Written on a contract form",
-        options: [
-            "Written on a contract form",
-            "Competency of parties",
-            "Offer and acceptance",
-            "Legal subject matter"
-        ]
-    }, {
-        numb: 179,
-        question: "When being asked “please tell us your strengths?” in a job interview, what should you focus on in your answer?",
-        answer: "Tell about your skills and knowledge and explain how they satisfy the job requirements.",
-        options: [
-            "Tell about your academic awards, your successful school projects.",
-            "Tell about your two key personal qualifications.",
-            "Tell your work-related accomplishments, mention how your previous supervisor or manager have pleased with your work performance.",
-            "Tell about your skills and knowledge and explain how they satisfy the job requirements."
-        ]
-    }, {
-        numb: 180,
-        question: "Which of the following is NOT the reason for leaders to enable a broader social-connectedness between employees in the workplace?",
-        answer: "People with friends at work tend to be happier and more productive",
-        options: [
-            "Psychological wellbeing is at risk, as is cognitive performance, if people can't socialize at work",
-            "People with broad organizational knowledge that people like collaborating with seem to add the most value",
-            "The act of socializing with other people on a regular basis is increasingly being seen as necessary for maintaining and increasing the information highways within the brain. It helps people think better.",
-            "People with friends at work tend to be happier and more productive"
-        ]
-    }, {
-        numb: 181,
-        question: "When doing business in a diverse global environment, you will want to adopt an open, respectful attitude toward cultural differences of others by doing all of the following except_____",
-        answer: "rush to an early judgment about the way a business deal is going. ",
-        options: [
-            "accept other people’s needs for indirectness in communicating as in Asia.",
-            "open to understanding and be respectful of the different ways people of other cultures think and feel. ",
-            "sense that your own culture represents one way—and not the only way—to believe and to do things. ",
-            "rush to an early judgment about the way a business deal is going. "
-        ]
-    }, {
-        numb: 182,
-        question: "In order to make good impression, positive words convey optimism and confidence are",
-        answer: "willing, thank, appreciate",
-        options: [
-            "regret, sorry, terror",
-            "trouble, unable, happy",
-            "wrong, obnoxious, yes",
-            "willing, thank, appreciate"
-        ]
-    }, {
-        numb: 183,
-        question: "Nonverbal behavior that reflects positive attitude is _____",
-        answer: "leaning your body toward the person with whom you are conversing",
-        options: [
-            "moving your knees and your feet toward to door ",
-            "looking at your watch",
-            "playing with your jewelry",
-            "leaning your body toward the person with whom you are conversing"
-        ]
-    }, {
-        numb: 184,
-        question: "When you conduct a job campaign to obtain employment. After analyzing your qualifications and job preferences, you will _____",
-        answer: "obtain information about employment opportunities ",
-        options: [
-            "start an interview for a job ",
-            "obtain information about employment opportunities ",
-            "email cover letter to potential companies",
-            "go to gym to prepare good health and appearance for the job interview"
-        ]
-    }, {
-        numb: 185,
-        question: "When analyzing your qualifications and job preferences, you will look into your most positive attributes including",
-        answer: "your accomplishments, education, experience, and personal traits",
-        options: [
-            "your achievements, background, soft skills, professional referees ",
-            "your strengths, weaknesses, interests, skills",
-            "your accomplishments, education, experience, and personal traits",
-            "your awards, education, qualifications, hobbies"
-        ]
-    }, {
-        numb: 186,
-        question: "When analyzing job preferences, which of the following questions is not necessary to consider? ",
-        answer: "Do you want to work in a comfortable and open environment with people who share the same hobbies and personal life with you?",
-        options: [
-            "Do you like working indoors, outside an office environment, or in varied work environments? ",
-            "Do you want to work in a large company with a structured work environment, or do you prefer a small or less-structured company?",
-            "Do you want to work alone, working with other people or being in charge?",
-            "Do you want to work in a comfortable and open environment with people who share the same hobbies and personal life with you?"
-        ]
-    }, {
-        numb: 187,
-        question: "The resume opening should include a",
-        answer: "heading, job or career objective, and a summary of your qualifications.",
-        options: [
-            "heading, job or career objective, and a summary of your qualifications.",
-            "section with information for contacting your references.",
-            "summary of education.",
-            "list of special skills, honors, and activities."
-        ]
-    }, {
-        numb: 188,
-        question: "The primary purpose of networking contacts is to",
-        answer: "seek their guidance and advice.",
-        options: [
-            "ask for their help in finding a job.",
-            "ask them to serve as a reference for your resume.",
-            "leave a resume with them.",
-            "seek their guidance and advice."
-        ]
-    }, {
-        numb: 189,
-        question: "For new college graduates with limited experience, the preferred number of pages for a resume is",
-        answer: "one.",
-        options: [
-            "one.",
-            "two.",
-            "three.",
-            "four."
-        ]
-    }, {
-        numb: 190,
-        question: "An interview question that asks about one of your weaknesses would be answered best by",
-        answer: "admitting the weakness",
-        options: [
-            "admitting the weakness.",
-            "asking if it is necessary to talk about weaknesses.",
-            "naming a weakness and turning it into a strength.",
-            "saying that you do not have any weaknesses."
-        ]
-    }, {
-        numb: 191,
-        question: "Which sentence below is unbiased?",
-        answer: "Mr. Nando, our city senior, is going to deliver a speech.",
-        options: [
-            "Our white boss is going to deliver a speech.",
-            "Mrs. Nancy is going to deliver a speech.",
-            "The Jewish lady is going to deliver a speech.",
-            "Mr. Nando, our city senior, is going to deliver a speech."
-        ]
-    }, {
-        numb: 192,
-        question: "Which of the following is the best content for an answer to the interview question, “What do you consider your strengths?”",
-        answer: "Relate your skills and knowledge to the job requirements",
-        options: [
-            "Cite your academic record and achievements",
-            "List 3 specific abilities that you have and explain how they have served you in the past",
-            "Refer to your work-related accomplishments",
-            "Relate your skills and knowledge to the job requirements"
-        ]
-    }, {
-        numb: 193,
-        question: "What is career development? ",
-        answer: "All are correct",
-        options: [
-            "It’s a lifelong process in which we become aware of, interested in, knowledgeable about, and skilled in a career. ",
-            "It’s a key part of human development as our identity forms and our life unfolds.",
-            "It’s a development process that varies from person to person on the life journey to discover themselves. ",
-            "All are correct"
-        ]
-    }, {
-        numb: 194,
-        question: "What are the four cyclical steps of the career roadmap identifies? ",
-        answer: "Know yourself, Explore and choose options, Gain knowledge and experience, Put it all together: the job search process",
-        options: [
-            "Know yourself, Explore and choose options, Gain knowledge and experience, Put it all together: the job search process",
-            "Know yourself, Increase income, Gain more business relationship, Put it all together: the job search process",
-            "Know the job market, Know leadership, Explore and choose options, Improve living standard of self and family",
-            "Know employees’ requirement, Explore your passion, Gain money, Gain social relationship"
-        ]
-    }, {
-        numb: 195,
-        question: "Which of the following is incorrect about resume? ",
-        answer: "Resume is to show to your family what you do for a living. ",
-        options: [
-            "A résumé is a “selfie” for business purposes.",
-            "It is a written picture of who you are—it’s a marketing tool, and a promotion of you as an ideal candidate for any job you may be interested in",
-            "The word résumé comes from the French word résumé, which means “a summary.”",
-            "Resume is to show to your family what you do for a living. "
-        ]
-    }, {
-        numb: 196,
-        question: "Which of the following is optional in a resume? ",
-        answer: "Hobbies/interests ",
-        options: [
-            "Work experience ",
-            "Education background",
-            "Job-related skills ",
-            "Hobbies/interests "
-        ]
-    }, {
-        numb: 197,
-        question: "What should you put in the Education part in a resume? ",
-        answer: "academic degrees, professional development, certificates, internships",
-        options: [
-            "academic degrees, professional development, certificates, internships",
-            "most recent jobs you have experience; include the title of the position, employer’s name, location, employment dates",
-            "5–10 skills you have gained in your field",
-            "Personal contact "
-        ]
-    }, {
-        numb: 198,
-        question: "What should you put in the Work experience part in a resume? ",
-        answer: "Most recent jobs you have experience; include the title of the position, employer’s name, location, employment dates",
-        options: [
-            "Academic degrees, professional development, certificates, internships",
-            "Most recent jobs you have experience; include the title of the position, employer’s name, location, employment dates",
-            "5–10 skills you have gained in your field",
-            "Personal contact "
-        ]
-    }, {
-        numb: 199,
-        question: "What should be written in the Personal Information part in a resume? ",
-        answer: "Email and phone number ",
-        options: [
-            "Email and phone number ",
-            "Health issue",
-            "Religious belief ",
-            "Gender, height, weight "
-        ]
-    }, {
-        numb: 200,
-        question: "What can a student put in his or her cover letter?",
-        answer: "All are correct ",
-        options: [
-            "GPA",
-            "Soft skills",
-            "Volunteer works",
-            "All are correct "
-        ]
-    }, {
-        numb: 201,
-        question: "Which of the following advice is NOT suitable for a job interview?",
-        answer: "Practice answer questions about personal life",
-        options: [
-            "Research the company",
-            "Research other companies in the same industry",
-            "Practice answer questions about the job ",
-            "Practice answer questions about personal life"
-        ]
-    }, {
-        numb: 202,
-        question: "What should you do right after a job interview?",
-        answer: "Send thank you email to the interviewer",
-        options: [
-            "Do nothing",
-            "Wait patiently for the HR department to call you ",
-            "Send an email to HR department asking about the result of the interview",
-            "Send thank you email to the interviewer"
-        ]
-    }, {
-        numb: 203,
-        question: "Below are questions that a job applicant should prepare to ask during an interview EXCEPT",
-        answer: "How much can the company pay me?",
-        options: [
-            "What are the major responsibilities of the job?",
-            "Please describe the normal routine of this position?",
-            "How is job performance evaluated and how often?",
-            "How much can the company pay me?"
-        ]
-    }, {
-        numb: 204,
-        question: "Who do potential employers consider references from as the best type of references?",
-        answer: "Your lecturers or your previous manager",
-        options: [
-            "Your friends",
-            "Your lecturers or your previous manager",
-            "Your family",
-            "Your best friends"
-        ]
-    }, {
-        numb: 205,
-        question: "Choose the best answer for the interview question “How old are you?”",
-        answer: "Old enough to have the knowledge to do the job well but not too old to be excited about continuing to improve and do it better.",
-        options: [
-            "Old enough to have the knowledge to do the job well but not too old to be excited about continuing to improve and do it better.",
-            "22 years old.",
-            "Old enough to take this job.",
-            "My age is written in my resume. I ama very young, active, energetic person.  "
-        ]
-    }, {
-        numb: 206,
-        question: "An interviewer may intentionally challenge you by asking difficult questions to ………..",
-        answer: "see how you handle different situations.",
-        options: [
-            "see how you handle different situations.",
-            "see you panic.",
-            "show you the working environment can be stressful.",
-            "avoid being friendly."
-        ]
-    }, {
-        numb: 207,
-        question: "What is good advice to communicate effectively in a job interview?",
-        answer: "Keep eye contact",
-        options: [
-            "Using jargon",
-            "Rambling ",
-            "Keep eye contact",
-            "Over friendly"
-        ]
-    }
-]
+let questions = [{
+    numb: 1,
+    question: "Anh Duc la ai?",
+    answer: "D",
+    options: [
+        "La nguoi dep trai", "hoc gioi", "choi game hay", "ca 3 y tren"]
+}, {
+    numb: 2,
+    question: "What is the characteristic of the first generation of operating system?",
+    answer: "C",
+    options: [
+        "Personal computers, single user, multitasking", "Transistors, batch systems", "Vacuum tubes, plug boards", "ICs and multiprogramming"]
+}, {
+    numb: 3,
+    question: "Which is not an example of a resource that is commonly time-multiplexed?",
+    answer: "Network interface",
+    options: [
+        "Graphics accelerator", "Network interface", "Main memory", "CPU"]
+}, {
+    numb: 4,
+    question: "Which of the following is an Operating System component?",
+    answer: "Process Management",
+    options: [
+        "Process Management", "Speed Management", "Space Management", "Time Management"]
+}, {
+    numb: 5,
+    question: "Which of the following conditions that causes the processes to be terminated, when processes have",
+    answer: "Normal exit (voluntary)",
+    options: [
+        "Fatal error (involuntary)", "Normal exit (voluntary)", "Killed by another process (involuntary)", "Error exit (voluntary)"]
+}, {
+    numb: 6,
+    question: "Which of the following statements is a hardware solution to the critical region problem?",
+    answer: "TSL|",
+    options: [
+        "Semaphore", "TSL|", "None of the other choices", "Shared memory"]
+}, {
+    numb: 7,
+    question: "Which of the following process state transitions is correct, when the scheduler picks a process from",
+    answer: "Ready -> running",
+    options: [
+        "Ready -> running", "Running -> Blocked (waiting)", "Blocked (waiting) -> ready", "Running -> ready"]
+}, {
+    numb: 8,
+    question: "Which cannot be able to solve the race condition?",
+    answer: "TSL",
+    options: [
+        "TSL", "Shared memory", "Semaphore", "Monitor"]
+}, {
+    numb: 9,
+    question: "Which of the following statements about semaphores is true?",
+    answer: "All of the other choices",
+    options: [
+        "A semaphore implementation should guarantee that processes do not suffer indefinite postponement,", "P and V (Down and Up) operations should be indivisible operations", "All of the other choices", "If several processes attempt a P(S) operation simultaneously, only one process should be allowed to"]
+}, {
+    numb: 10,
+    question: "Which of the following process state transitions is illegal?",
+    answer: "Ready -> Blocked (waiting)",
+    options: [
+        "Ready -> Blocked (waiting)", "Running -> Blocked (waiting)", "Blocked (waiting) -> ready", "Running -> ready"]
+}, {
+    numb: 11,
+    question: "In order to implement mutual exclusion on a critical resource for competing processes, only one",
+    answer: "In the critical region of the program",
+    options: [
+        "None of the other choices", "In the critical region of the program", "To exhibit cooperation", "To perform message passing"]
+}, {
+    numb: 12,
+    question: "Critical Region (Section) concept used in interprocess communication is:",
+    answer: "A part of shared memory",
+    options: [
+        "A part of shared memory", "A part of the program where the shared memory is accessed", "None of the other choices", "A part of shared data"]
+}, {
+    numb: 13,
+    question: "Which of the following statements is incorrect about timesharing and multiprogramming systems?",
+    answer: "All multiprogramming systems are timesharing systems",
+    options: [
+        "Al l timesharing systems are multiprogramming systems", "In a timesharing system, multiple users can access the system simultaneously", "All multiprogramming systems are timesharing systems", "In a multiprogramming system, one user can run several processes simultaneously"]
+}, {
+    numb: 14,
+    question: "Which of the following instructions should be allowed only in kernel mode?",
+    answer: "Disable all interrupts",
+    options: [
+        "AND of two numbers", "ADD of two numbers", "Read the time-of-day clock", "Disable all interrupts"]
+}, {
+    numb: 15,
+    question: "What is an operating system structure in which the communication between requesting process and responding process is message passing?",
+    answer: "MS-DOS",
+    options: [
+        "Monolithic Systems", "All of the other choices", "MS-DOS", "Client-Server Model"]
+}, {
+    numb: 16,
+    question: "The language ofthe CPU is known as its",
+    answer: "C",
+    options: [
+        "Register set", "Control unit set", "Instruction set |", "None ofthe other choices"]
+}, {
+    numb: 17,
+    question: "Linux and are often used as operating systems on supercomputers, mainframes, and servers.",
+    answer: "UNIX",
+    options: [
+        "UNIX", "Windows", "None ofthe other choices", "Mac OS"]
+}, {
+    numb: 18,
+    question: "A well-known Real-Time operating system is:",
+    answer: "e-COS",
+    options: [
+        "MS-DOS", "e-COS", "TinyOS", "Personal Operating System"]
+}, {
+    numb: 19,
+    question: "Which ofthe following operating systems is an example of monolithic system?",
+    answer: "MS-DOS",
+    options: [
+        "Windows XP", "Mac OS", "UNIX", "MS-DOS"]
+}, {
+    numb: 20,
+    question: "Where is the position of the operating system in computer system:",
+    answer: "Above the hardware and under the user interface program",
+    options: [
+        "Between the user interface program and the application Program", "None of the other choices", "In user space", "Above the hardware and under the user interface program"]
+}, {
+    numb: 21,
+    question: "The is the essential component ofther operating system that remains in RAM when your computer is powered on.",
+    answer: "kernel",
+    options: [
+        "registry", "Source khong ghi", "kernel", "system file"]
+}, {
+    numb: 22,
+    question: "What is correct about trap instructions and interrupts?",
+    answer: "All ofthe other choices",
+    options: [
+        "Trap instruction switches the execution mode of a CPU from the user mode to the kernel mode.", "A trap instruction is caused by a user program to invoke functions in the OS kernel", "An interrupt is caused by an external event", "All ofthe other choices"]
+}, {
+    numb: 23,
+    question: "The _________is the essential component ofthe operating system that remains in RAM when your computer is powered on.",
+    answer: "kernel",
+    options: [
+        "system file", "None", "kernel", "registry"]
+}, {
+    numb: 24,
+    question: "Which of the following instructions should be allowed only in kernel mode?",
+    answer: "C",
+    options: [
+        "ADD of two numbers", "Read the time-of-day clock", "Disable all interrupts 1", "AND of two numbers"]
+}, {
+    numb: 25,
+    question: "Consider a computer system that has cache memory, main memory (RAM) and disk, and OS uses virtual memory. It takes 2 nsec to access a byte from the cache. 20 nsec to access a byte from RAM. and 10 msec to",
+    answer: "4 msec. 40 msec. 20 sec",
+    options: [
+        "1 msec. 10 msec. 10 sec", "4 msec. 40 msec. 20 sec", "2 msec. 20 msec. 10 sec", "1 msec. 10 msec. 5 sec"]
+}, {
+    numb: 26,
+    question: "The basic idea behind the microkernel design is:",
+    answer: "To archive high reliability by splitting operating system up into small, well-defined modules",
+    options: [
+        "All ofthe other choices", "All other modules run as relatively powerless ordinary user processes", "Only one module runs in kernel mode", "To archive high reliability by splitting operating system up into small, well-defined modules"]
+}, {
+    numb: 27,
+    question: "Which of the following statements is incorrect about timesharing and multiprogramming systems?",
+    answer: "Al l multiprogramming systems are timesharing systems",
+    options: [
+        "In a timesharing system, multiple users can access the system simultaneously", "Al l timesharing systems are multiprogramming systems", "Al l multiprogramming systems are timesharing systems", "In a multiprogramming system, one user can run several processes simultaneously"]
+}, {
+    numb: 28,
+    question: "Which of the following conditions that causes the processes to be terminated, when processes have",
+    answer: "Normal exit (voluntary)",
+    options: [
+        "Fatal error (involuntary)", "Normal exit (voluntary)", "Killed by another process (involuntary)", "Error exit (voluntary)"]
+}, {
+    numb: 29,
+    question: "Which of the following statements is a hardware solution to the critical region problem?",
+    answer: "TSL|",
+    options: [
+        "Semaphore", "TSL|", "None of the other choices", "Shared memory"]
+}, {
+    numb: 30,
+    question: "Which of the following process state transitions is correct, when the scheduler picks a process from",
+    answer: "Ready -> running",
+    options: [
+        "Ready -> running", "Running -> Blocked (waiting)", "Blocked (waiting) -> ready", "Running -> ready"]
+}, {
+    numb: 31,
+    question: "Which is not a goal of a sheduling algorithm for all systems?",
+    answer: "Balance",
+    options: [
+        "Balance", "Response time", "Policy enforcement", "Fairness"]
+}, {
+    numb: 32,
+    question: "Which cannot be able to solve the race condition?",
+    answer: "TSL",
+    options: [
+        "TSL", "Shared memory", "Semaphore", "Monitor"]
+}, {
+    numb: 33,
+    question: "Which of the following statements about semaphores is true?",
+    answer: "All of the other choices",
+    options: [
+        "A semaphore implementation should guarantee that processes do not suffer indefinite postponement,", "P and V (Down and Up) operations should be indivisible operations", "All of the other choices", "If several processes attempt a P(S) operation simultaneously, only one process should be allowed to"]
+}, {
+    numb: 34,
+    question: "Which of the following process state transitions is illegal?",
+    answer: "Ready -> Blocked (waiting)",
+    options: [
+        "Ready -> Blocked (waiting)", "Running -> Blocked (waiting)", "Blocked (waiting) -> ready", "Running -> ready"]
+}, {
+    numb: 35,
+    question: "In order to implement mutual exclusion on a critical resource for competing processes, only one",
+    answer: "In the critical region of the program",
+    options: [
+        "None of the other choices", "In the critical region of the program", "To exhibit cooperation", "To perform message passing"]
+}, {
+    numb: 36,
+    question: "Critical Region (Section) concept used in interprocess communication is:",
+    answer: "A part of the program where the shared memory is accessed",
+    options: [
+        "A part of shared memory", "A part of the program where the shared memory is accessed", "None of the other choices", "A part of shared data"]
+}, {
+    numb: 37,
+    question: "Which conditions of mutual exclusion does the Lock Variables (Software proposal) violate?",
+    answer: "No two processes simultaneously in critical region",
+    options: [
+        "No process must wait forever to enter its critical region", "No two processes simultaneously in critical region", "No process running outside its critical region may block another process", "No assumptions made about speeds or numbers of CPUs"]
+}, {
+    numb: 38,
+    question: "A entry of the Process table is called:",
+    answer: "D",
+    options: [
+        "All of the other choices", "Process check block", "Process management block", "process control block."]
+}, {
+    numb: 39,
+    question: "Semaphores that are initialized to 1 and used for two or more processes to ensure only one can enter",
+    answer: "Binary semaphores",
+    options: [
+        "None of the other choices", "Binary semaphores", "Integer semaphores", "Counter semaphores"]
+}, {
+    numb: 40,
+    question: "An arrival message causes the system to create a new thread to handle this message. This new thread is call",
+    answer: "Pop-up",
+    options: [
+        "Upcall", "Distributed", "Activator", "Pop-up"]
+}, {
+    numb: 41,
+    question: "How many ways is Thread implemented?",
+    answer: "2",
+    options: [
+        "1", "3", "2", "None of the other choices"]
+}, {
+    numb: 42,
+    question: "what is Sofware proposal in the solution of Mutual exclusion with Busy waiting?",
+    answer: "Peterson's Solution",
+    options: [
+        "Message passing", "Monitors", "Peterson's Solution", "All of the other choices"]
+}, {
+    numb: 43,
+    question: "Which of the following is not a CPU scheduling criterion?",
+    answer: "Burst time",
+    options: [
+        "Burst time", "CPU utilization", "Throughput", "Response time"]
+}, {
+    numb: 44,
+    question: "How many percent of the CPU time is wasted, when a computer system has enough room to hold two program and these programs are idle waiting for I/O 10% of the time?",
+    answer: "1 %",
+    options: [
+        "90%", "99%", "None of the other choices", "1 %"]
+}, {
+    numb: 45,
+    question: "A computer has 2GB RAM of which the operating system occupies 1GB. The processes are all 450 MB and have the same characteristics. How many percent is CPU utilization when these programs are idle waiting for I/O 20% of the time?",
+    answer: "None of the other choices",
+    options: [
+        "4%", "90%", "None of the other choices", "96%"]
+}, {
+    numb: 46,
+    question: "To specify an address in this segmented memory, the form is used",
+    answer: "<segment-number, offset>",
+    options: [
+        "<physical address, offset>", "<process, offset>", "<segment-number, offset>", "<virtual address, offset>"]
+}, {
+    numb: 47,
+    question: "Where should be put the page replacement algorithm In Mach model of Page fault handling with an",
+    answer: "All of the other choices",
+    options: [
+        "All of the other choices", "In the low-level MMU handler", "In the external pager running in user space", "In the page fault handler that is part of the kernel"]
+}, {
+    numb: 48,
+    question: "One of the most important innovations of demand paging was that it made feasible",
+    answer: "Virtual memory.",
+    options: [
+        "Virtual paging", "Virtual memory.", "Memory demand", "Virtual demand"]
+}, {
+    numb: 49,
+    question: "Which of these statements about the algorithm 'Next fit' is true?",
+    answer: "Memory Manager starting searching the list of segments from the place where it left off last time",
+    options: [
+        "Memory Manager searches the entire list of segments from beginning to end and take smallest hole", "Memory Manager scans along the list of segments until it finds a hole that is big enough.", "Memory Manager starting searching the list of segments from the place where it left off last time", "None of the other choices"]
+}, {
+    numb: 50,
+    question: "If there are 64 pages and the page size is 2048 words, what is the length of logical address?",
+    answer: "17 bits",
+    options: [
+        "17 bits", "15 bits", "16 bits", "14 bits"]
+}, {
+    numb: 51,
+    question: "The __________ policy is based on the theory that the best page to remove is the one that has been in The memory the longest",
+    answer: "LRU",
+    options: [
+        "FIFO", "LIFO", "LRU", "NRU"]
+}, {
+    numb: 52,
+    question: "Which of the following information bits in the entry of page table is used to indicate Page Fault?",
+    answer: "Present/absent bit",
+    options: [
+        "Status bit", "Present/absent bit", "Referenced bit", "Modified bit"]
+}, {
+    numb: 53,
+    question: "In a system employing a paging scheme for memory management , wasted space is due to:",
+    answer: "Internal fragmentation",
+    options: [
+        "None of the other choices", "Internal fragmentation", "Pages and frames of different specified sizes", "External fragmentation"]
+}, {
+    numb: 54,
+    question: "Which of these statements about the algorithm 'Next fit' is true?",
+    answer: "Memory Manager starting searching the list of segments from the place where it left off last time.",
+    options: [
+        "Memory Manager starting searching the list of segments from the place where it left off last time.", "Memory Manager scans along the list of segments until it finds a hole that is big enough.", "Memory Manager searches the entire list of segments from beginning to end and take smallest hole that is adequate.", "None of the other choices"]
+}, {
+    numb: 55,
+    question: "Which of the following is appropriate to determine program size and create page table?",
+    answer: "Process creation",
+    options: [
+        "Process termination time", "Page fault time", "Process creation", "Process execution"]
+}, {
+    numb: 56,
+    question: "Which of the following information bits in the entry of page table is false?",
+    answer: "Present/absent bit",
+    options: [
+        "Present/absent bit", "Modified bit", "Protection bit", "Mode bit"]
+}, {
+    numb: 57,
+    question: "Consider a swapping system in which the memory consists of the following hole sizes: 10 K, 4 K, 20 K, 15",
+    answer: "10 K, 20 K, 15 K",
+    options: [
+        "9 K, 15 K, 10 K", "10 K, 20 K, 15 K", "20 K, 15 K, 4 K", "None of the other choices"]
+}, {
+    numb: 58,
+    question: "When a virtual memory system manages memory in fixed length units, which of the following terms",
+    answer: "Page",
+    options: [
+        "Page", "Frame", "Block", "Segment"]
+}, {
+    numb: 59,
+    question: "Which of the following statements is incorrect about Translation Look-aside Buffer (TLB)?",
+    answer: "A TLB miss implies a disk operation will follow",
+    options: [
+        "None of the other choices", "A TLB is sometimes known as an associative memory", "A TLB miss implies a disk operation will follow", "Each entry of a TLB contains the information about one page, including the virtual page number and"]
+}, {
+    numb: 60,
+    question: "When there is an excessive amount of page swapping between main memory and secondary",
+    answer: "thrashing",
+    options: [
+        "thrashing", "Over swapping", "hot swapping", "excessive demand paging"]
+}, {
+    numb: 61,
+    question: "In terms of disk storage efficiency, the method of 'Backing up pages dynamically' in comparison with",
+    answer: "Better",
+    options: [
+        "Worse", "Better", "Nearly equal", "Equal"]
+}, {
+    numb: 62,
+    question: "When a virtual memory system manages memory in fixed length units, which of the following terms",
+    answer: "Page",
+    options: [
+        "Block", "Page", "Frame", "Segment"]
+}, {
+    numb: 63,
+    question: "File Structure can be:",
+    answer: "All of the other choices",
+    options: [
+        "Byte sequence", "All of the other choices", "Tree", "Record sequence"]
+}, {
+    numb: 64,
+    question: "Which of the following is correct about symbolic links?",
+    answer: "Symbolic links can point to files in the network",
+    options: [
+        "Symbolic links can only point to files on the same machines", "None of the other choices", "Symbolic links need not space to store the path name", "Symbolic links can point to files in the network"]
+}, {
+    numb: 65,
+    question: "File is generally defined to be:",
+    answer: "A collection of similar records",
+    options: [
+        "A collection of related fields", "A basic element of data", "None of the other choices", "A collection of similar records"]
+}, {
+    numb: 66,
+    question: "is a specialized WRITE command for existing data files that allows for appending records or for",
+    answer: "REWRITE",
+    options: [
+        "UPDATE", "REWRITE", "MODIFY", "APPEND"]
+}, {
+    numb: 67,
+    question: "Many computer users and some operating systems call subdirectories",
+    answer: "Files",
+    options: [
+        "Volumes", "Databases", "Folders", "Files"]
+}, {
+    numb: 68,
+    question: "Which method is used to implement files to keep each file as a linked list of disk blocks?",
+    answer: "Linked List Allocation",
+    options: [
+        "Contiguous Allocation", "i-node", "File Allocation Table", "Linked List Allocation"]
+}, {
+    numb: 69,
+    question: "Which of the following allocation methods, Operating system MS-DOS is implemented?",
+    answer: "Linked allocation using FAT",
+    options: [
+        "Linked allocation using FAT", "Indexed allocation", "Contiguous allocation", "Linked allocation"]
+}, {
+    numb: 70,
+    question: "Which of a system call is to allow the system announce that the file is coming and set some of the",
+    answer: "CREATE",
+    options: [
+        "CREATE", "RENAME", "OPEN", "CLOSE"]
+}, {
+    numb: 71,
+    question: "Which of the following is not correct about hard links and symbolic links? d",
+    answer: "Hard links can point to files on other machines",
+    options: [
+        "Symbolic links need space to store the path name and considerable number of extra disk accesses", "Hard links can point to files on other machines", "Hard links do not require extra disk space", "Symbolic links can point to files in the network"]
+}, {
+    numb: 72,
+    question: "Which of a system call is to allow the file to appear in more than one directory?",
+    answer: "LINK",
+    options: [
+        "CREATE", "LINK", "OPEN", "SEEK"]
+}, {
+    numb: 73,
+    question: "Which of a system call is to allow the system free up internal table space?",
+    answer: "Close",
+    options: [
+        "SEEK", "OPEN", "Close", "DELETE"]
+}, {
+    numb: 74,
+    question: "What is incorrect about contiguous allocation of files?",
+    answer: "It does not cause disk fragmentation",
+    options: [
+        "It leads to excellent read performance", "It does not cause disk fragmentation", "It is widely used on CD-ROMs", "It is simple to implement"]
+}, {
+    numb: 75,
+    question: "Which of the following is not special file?",
+    answer: "Stream special file",
+    options: [
+        "None of the other choices", "Block special file", "Character special file", "Stream special file"]
+}, {
+    numb: 76,
+    question: "Disk can be divided up into one or more partitions. The first block of every partition is called:",
+    answer: "Boot block",
+    options: [
+        "Super block", "Free block", "MBR", "Boot block"]
+}, {
+    numb: 77,
+    question: "Which of the following statements about interrupts and trap instructions is incorrect?",
+    answer: "None of the other choices",
+    options: [
+        "An interrupt is a hardware-generated change of control flow within the system", "None of the other choices", "A trap instruction is a software-generated interrupt", "An interrupt handler deals with the cause of the interrupt"]
+}, {
+    numb: 78,
+    question: "What is a 'stripping' in RAID?",
+    answer: "Distributing data over multiple drives",
+    options: [
+        "Take away possessions from someone", "Get undressed", "All of the other choices", "Distributing data over multiple drives"]
+}, {
+    numb: 79,
+    question: "How much cylinder skew is needed for a 5400- RPM (rotate per minute) disk with the track-to-track",
+    answer: "18 sectors",
+    options: [
+        "18 sectors", "12 sectors", "24 sectors", "36 sectors"]
+}, {
+    numb: 80,
+    question: "In a fixed magnetic disk, each circle is called a",
+    answer: "track",
+    options: [
+        "platter", "sector", "block", "track"]
+}, {
+    numb: 81,
+    question: "Which of the following I/O software do Device drivers do?",
+    answer: "Converting binary integers to ASCII for printing",
+    options: [
+        "None of the other choices", "Checking to see if the user is permitted to use the device", "Converting binary integers to ASCII for printing", "Writing commands to the device registers!"]
+}, {
+    numb: 82,
+    question: "Device Driver is usually written by:",
+    answer: "Device's Manufacturer",
+    options: [
+        "Device's Manufacturer", "OS's Manufacturer", "Computer's Manufacturer", "All of the other choices"]
+}, {
+    numb: 83,
+    question: "The aspect of disk performance that represents the time it takes to position the head a the desired",
+    answer: "Rotational delay",
+    options: [
+        "Rotational delay", "Access time", "Seek time", "None of the other choices"]
+}, {
+    numb: 84,
+    question: "A operation concerning Stable Storage is:",
+    answer: "All of the other choices",
+    options: [
+        "Stable Reads", "All of the other choices", "Crash recovery", "Stable writes"]
+}, {
+    numb: 85,
+    question: "When making CDs for sale, such as music or software CDs, data is recorded on a master disc by",
+    answer: "Lands",
+    options: [
+        "Lakes", "Lands", "Valleys", "Hills"]
+}, {
+    numb: 86,
+    question: "Rearrange the layers in I/O software starting at the bottom1. User-level I/O software2. Device drivers3. Interrupt handlers4. Hardware5. Device-independent OS software",
+    answer: "43251",
+    options: [
+        "12345", "54321", "15234", "43251"]
+}, {
+    numb: 87,
+    question: "When an external device becomes ready to be serviced by the processor, the device sends this",
+    answer: "Interrupt signal",
+    options: [
+        "None of the other choices", "Halt signal", "Interrupt signal", "Handler signal"]
+}, {
+    numb: 88,
+    question: "Imagine that a certain modem can read 7,000 characters per second and that the time to read a",
+    answer: "4% of the CPU",
+    options: [
+        "4% of the CPU", "7% of the CPU", "96% of the CPU", "93% of the CPU"]
+}, {
+    numb: 89,
+    question: "Assuming that it takes 10 nsec to copy a byte, how much time does it take to completely rewrite the screen of a 1200 x 800 pixel graphics with 24- bit color?",
+    answer: "28.8 msec",
+    options: [
+        "288 msec", "288 micro-sec", "28.8 micro-sec", "28.8 msec"]
+}, {
+    numb: 90,
+    question: "What is asynchronous transfer in principles of I/O software?",
+    answer: "The CPU starts the transfer and goes off to do something else until the interrupt arrives",
+    options: [
+        "The user process makes system call and goes to sleep until other process it wakes up", "None of the other choices", "The user program starts system call to transfer and automatically suspended until the data are available in the buffer", "The CPU starts the transfer and goes off to do something else until the interrupt arrives"]
+}, {
+    numb: 91,
+    question: "Assuming that it takes 10 nsec to copy a byte, how much time, does it take to completely rewrite the screen of a 200 character",
+    answer: "40 micro-sec",
+    options: [
+        "10 micro-sec", "30 micro-sec", "40 micro-sec", "20 micro-sec"]
+}, {
+    numb: 92,
+    question: "Which of the following statements is incorrect about I/O using DMA?",
+    answer: "DMA is software solution to speed up data transfer between I/O device and memory",
+    options: [
+        "None of the other choices", "DMA helps free up the CPU during the I/O to do other work", "DMA helps reduce the number of interrupts", "DMA is software solution to speed up data transfer between I/O device and memory"]
+}, {
+    numb: 93,
+    question: "Which is not a function of device drivers?",
+    answer: "To accept abstract read and write request from device independent software above it and see that they are curried",
+    options: [
+        "To manage its power requirements and log events", "To accept abstract read and write request from device independent software above it and see that they are curried", "To receive system call", "To initialize the device, if needed"]
+}, {
+    numb: 94,
+    question: "The term__________a specialized instruction set.",
+    answer: "DMA",
+    options: [
+        "None of the other choices", "I/O device", "DMA", "Programmed I/O"]
+}, {
+    numb: 95,
+    question: "In a directed graph used to model deadlock, ______represents deadlock.",
+    answer: "Cycle",
+    options: [
+        "Dashed arrow", "Solid arrow", "Any path", "Cycle"]
+}, {
+    numb: 96,
+    question: "All deadlocks involve conflicting needs for resources by",
+    answer: "Two or more processes",
+    options: [
+        "None of the other choices", "Two or more processes", "One or more processes", "Three or more processes"]
+}, {
+    numb: 97,
+    question: "is when, in modern printing systems, a disk accepts output from several users and acts as a",
+    answer: "Spooling",
+    options: [
+        "Lagging", "Spooling", "Spoofing", "Buffering"]
+}, {
+    numb: 98,
+    question: "The permanent blocking of a set of processes that compete for system resources is called",
+    answer: "Deadlock",
+    options: [
+        "Starvation", "None of the other choices", "Deadlock", "Prioritization"]
+}, {
+    numb: 99,
+    question: "Which of the following is not a condition necessary for deadlock to exist?",
+    answer: "Preemption condition",
+    options: [
+        "Hold and wait condition", "Mutual-exclusion condition", "Circular-wait condition", "Preemption condition"]
+}, {
+    numb: 100,
+    question: "In a directed graph used to model deadlock, resources are represented using",
+    answer: "Squares.",
+    options: [
+        "Rectangle", "Circular", "Squares.", "Ellipse"]
+}, {
+    numb: 101,
+    question: "What is the correct approach with the 'Mutual Exclusion condition' to prevent Deadlock?",
+    answer: "Spool everything",
+    options: [
+        "Take resources away", "Request all resources initially", "Spool everything", "Order resources numerically"]
+}, {
+    numb: 102,
+    question: "Which deadlock condition does 'Ordering resources numerically' attack?",
+    answer: "Circular-wait condition(Circular wait condition)",
+    options: [
+        "No preemption", "Circular-wait condition(Circular wait condition)", "Hold and wait", "Mutual exclusion"]
+}, {
+    numb: 103,
+    question: "Which deadlock condition does 'Take resources away' attack?",
+    answer: "No preemption",
+    options: [
+        "Circular-wait condition(Circular wait condition)", "No preemption", "Hold and wait", "Mutual exclusion"]
+}, {
+    numb: 104,
+    question: "What is the weakness of the Banker's algorithm?",
+    answer: "Requiring that processes state their maximum needs in advance",
+    options: [
+        "Enabling processes to hold their resources indefinitely", "Enabling the number of resources to fluctuate", "Requiring that processes state their maximum needs in advance", "Allowing the population of processes to vary over time"]
+}, {
+    numb: 105,
+    question: "Which method is used to prevent the communication deadlock?",
+    answer: "Timeouts",
+    options: [
+        "All of the other choices", "Timeouts", "Handling alarm", "Acknowledge signal"]
+}, {
+    numb: 106,
+    question: "_________is the act of allowing only one process to have access to a dedicated resource",
+    answer: "Mutual-exclusion condition(Mutual exclusion condition)",
+    options: [
+        "Hold and wait condition", "No preemption condition", "Circular-wait condition(Circular wait condition)", "Mutual-exclusion condition(Mutual exclusion condition)"]
+}, {
+    numb: 107,
+    question: "What is the correct approach of the driver of dedicated devices with requesting device that is busy to solve deadlock using Ostrich algorithm?",
+    answer: "The device driver decides blocking and returning an error code",
+    options: [
+        "The device driver stops the current jobs and releases the devices", "The device driver kills those requesting processes", "All of the other choices", "The device driver decides blocking and returning an error code"]
+}, {
+    numb: 108,
+    question: "An example of preemptable resources is",
+    answer: "Memory",
+    options: [
+        "DVD device", "None of the other choices", "CD-ROM device", "Memory"]
+}, {
+    numb: 109,
+    question: "What is true about non-preemptable resources? (non preemptable)",
+    answer: "Will cause the process to fail if taken away",
+    options: [
+        "Can be taken away from a process with no ill effects", "None of the other choices", "Will cause the process to fail if taken away", "Can share among processes"]
+}, {
+    numb: 110,
+    question: "______allows a resource to be held by a process as long as it is needed",
+    answer: "Hold and wait condition",
+    options: [
+        "Hold and wait condition", "Mutual-exclusion condition", "No preemption condition", "Circular-wait condition"]
+}, {
+    numb: 111,
+    question: "____________allows a resource to be held by a process as long as it is needed.",
+    answer: "Hold and wait condition",
+    options: [
+        "No preemption condition", "Hold and wait condition", "Circular-wait condition", "Mutual-exclusion condition"]
+}, {
+    numb: 112,
+    question: "Which of the following is not a step in the boot process?",
+    answer: "The antivirus program checks all files for viruses.",
+    options: [
+        "The antivirus program checks all files for viruses.", "Configuration and customization settings are checked", "The operating system is loaded into RAM.", "The BIOS is activated by powering on the CPU."]
+}, {
+    numb: 113,
+    question: "Which of the following process state transitions is correct, when the scheduler picks a process from the ready queue to run?",
+    answer: "Ready -> running",
+    options: [
+        "Ready -> running", "Running -> ready", "Blocked (waiting) -> ready", "Running -> Blocked (waiting)"]
+}, {
+    numb: 114,
+    question: "Which of a system call is to allow the system free up disk space?",
+    answer: "DELETE",
+    options: [
+        "OPEN", "CLOSE", "SEEK", "DELETE"]
+}, {
+    numb: 115,
+    question: "The following requirement must be met by any facility or capability that is to provide support for mutual exclusion:",
+    answer: "All of the other choices",
+    options: [
+        "Only one process at a time can be allowed into a critical section", "A process remains in its critical region for a finite time only", "No assumption can be made about relative process speeds", "All of the other choices"]
+}, {
+    numb: 116,
+    question: "Which of the following is specified to indicate the directory where the file is located?",
+    answer: "Path name",
+    options: [
+        "Root directory", "Path name", "Extension", "Sub-directory"]
+}, {
+    numb: 117,
+    question: "Which is the correct description of transitions between",
+    answer: "1: Process blocks for input; 2: Input becomes available;3: Scheduler picks this process; 4: Scheduler picks another process",
+    options: [
+        "1: Process blocks for input; 2: Input becomes available;3: Scheduler picks another process; 4: Scheduler picks this process", "1: Process blocks for input; 2: Input becomes available;3: Scheduler picks this process; 4: Scheduler picks another process", "1: Process blocks for input; 2: Scheduler picks thisprocess; 3: Scheduler picks another process; 4: Input becomes available", "1: Process blocks for input; 2: Scheduler picks anotherprocess; 3: Scheduler picks this process; 4: Input becomes available"]
+}, {
+    numb: 118,
+    question: "A________is a group of related records that contains information to be used by specific application programs to generate reports.",
+    answer: "File",
+    options: [
+        "Field", "File", "Record group", "Directory"]
+}, {
+    numb: 119,
+    question: "If a system is deadlocked, no processes can",
+    answer: "All of the other choices",
+    options: [
+        "release resources", "be awakened", "run", "All of the other choices"]
+}, {
+    numb: 120,
+    question: "Which of the following conditions that causes the processes to be terminated, when the processes executes a system call tell the OS to finish some other process?",
+    answer: "Normal exit (voluntary)",
+    options: [
+        "Fatal error (involuntary)", "Error exit (voluntary)", "Normal exit (voluntary)", "Killed by another process (involuntary)"]
+}, {
+    numb: 121,
+    question: "The four main structural elements of a computer system are:",
+    answer: "Processor, Main Memory, I/O Modules, System Bus",
+    options: [
+        "None of the other choices", "Processor, Registers, I/O Modules, Main Memory", "Processor, Main Memory, I/O Modules, System Bus", "Processor, Registers, Main Memory, System Bus"]
+}, {
+    numb: 122,
+    question: "How many percent of the CPU time is wasted, when a computer system has enough room to hold two program and these programs are idle waiting for I/O 10% of the time?",
+    answer: "1 %",
+    options: [
+        "90%", "99%", "None of the other choices", "1 %"]
+}, {
+    numb: 123,
+    question: "Which of the following information bits in the entry of page table is used to indicate Page Fault?",
+    answer: "Present/absent bit",
+    options: [
+        "Status bit", "Modified bit", "Present/absent bit", "Referenced bit"]
+}, {
+    numb: 124,
+    question: "The permanent blocking of a set of processes that compete for system resources is called",
+    answer: "Deadlock",
+    options: [
+        "Prioritization", "Starvation", "Deadlock", "None of the other choices"]
+}, {
+    numb: 125,
+    question: "In terms of speed the best method of Dynamic Storage-Allocation is:",
+    answer: "First fit",
+    options: [
+        "Next fit", "First fit", "Worst fit", "Best fit"]
+}, {
+    numb: 126,
+    question: "Consider a swapping system in which the memory consists of the following hole sizes: 10K, 4K, 20K, 15K, 9K.",
+    answer: "9K, 15K, 10K",
+    options: [
+        "10K, 15K, 20K", "10K, 20K, 15K", "9K, 15K, 10K", "20K, 15K, 10K"]
+}, {
+    numb: 127,
+    question: "In general, which is the best technique for I/O Data transfer?",
+    answer: "Direct Memory Access",
+    options: [
+        "Direct Memory Access", "None of the other choices", "Programmed I/O", "Interrupt-Driven I/O"]
+}, {
+    numb: 128,
+    question: "The task of subdividing memory between the OS and processes is performed automatically by the OS and is",
+    answer: "Memory Management",
+    options: [
+        "Protection", "Memory Management", "Relocation", "All of the other choices"]
+}, {
+    numb: 129,
+    question: "File Structure can be:",
+    answer: "All of the other choices",
+    options: [
+        "Record sequence", "All of the other choices", "Byte sequence", "Tree"]
+}, {
+    numb: 130,
+    question: "_______is a specialized WRITE command for existing data files that allows for appending records or for rewriting selected records in their original place in the file.",
+    answer: "REWRITE",
+    options: [
+        "MODIFY", "UPDATE", "APPEND", "REWRITE"]
+}, {
+    numb: 131,
+    question: "Assume the Memory Manager receives a request for a block of 200. When the best-fit algorithm is used, is the beginning address of the hole granted by the Memory Manager.",
+    answer: "7600",
+    options: [
+        "6785", "7600", "10250", "None"]
+}, {
+    numb: 132,
+    question: "A ____ is a portion of a process that can run independently.",
+    answer: "thread",
+    options: [
+        "subprocess", "thread", "program", "Mini-process"]
+}, {
+    numb: 133,
+    question: "An arrival message causes the system to create a new thread to handle this message. This new thread is call",
+    answer: "Pop-up",
+    options: [
+        "Activator", "Pop-up", "Upcall", "Distributed"]
+}, {
+    numb: 134,
+    question: "Which of a system call is to allow the system fetch the attributes and list of disk addresses into main memory for rapid access on later call?",
+    answer: "RENAME",
+    options: [
+        "SEEK", "OPEN", "RENAME", "CLOSE"]
+}, {
+    numb: 135,
+    question: "Which of the following statements is incorrect about I/O using DMA?",
+    answer: "DMA is software solution to speed up data transfer between I/O device and memory",
+    options: [
+        "DMA helps free up the CPU during the I/O to do other work", "None of the other choices", "DMA is software solution to speed up data transfer between I/O device and memory", "DMA helps reduce the number of interrupts"]
+}, {
+    numb: 136,
+    question: "Which of the following actions generates an external interrupt?",
+    answer: "An input/output operation is completed.",
+    options: [
+        "A page that does not exist in the main memory is accessed by the virtual storage management.", "An input/output operation is completed.", "Division by zero occurs.", "A system call instruction is executed."]
+}, {
+    numb: 137,
+    question: "Which of the following instructions should be allowed only in kernel mode?",
+    answer: "Disable all interrupts",
+    options: [
+        "AND of two numbers", "ADD of two numbers", "Read the time-of-day clock", "Disable all interrupts"]
+}, {
+    numb: 138,
+    question: "Which of the following statements about Electrically Erasable PROM (EEPROM) is correct?",
+    answer: "...",
+    options: [
+        "Volatile", "Can be erased and rewritten", "Unprogrammable", "None of the other choices"]
+}, {
+    numb: 139,
+    question: "An example of preemptable resources is",
+    answer: "Memory",
+    options: [
+        "DVD device", "Memory", "None of the other choices", "CD-ROM device"]
+}, {
+    numb: 140,
+    question: "What is true about preemptable resources?",
+    answer: "Will cause the process to fail if taken away",
+    options: [
+        "Can share among processes", "Can be taken away from a process with no ill effects", "None of the other choices", "Will cause the process to fail if taken away"]
+}, {
+    numb: 141,
+    question: "If in a resource-allocation graph, each resource type has exactly one instance, which of the following indicate a",
+    answer: "The graph has at least one cycle.",
+    options: [
+        "The graph is connected", "The graph has at least one cycle.", "The graph has no cycle.", "The graph is not connected."]
+}, {
+    numb: 142,
+    question: "The term__________a specialized instruction set.",
+    answer: "DMA",
+    options: [
+        "None of the other choices", "I/O device", "DMA", "Programmed I/O"]
+}, {
+    numb: 143,
+    question: "Which of the following allocation methods the i-nodes use?",
+    answer: "Indexed allocation",
+    options: [
+        "Linked allocation using FAT", "Indexed allocation", "Linked allocation", "Contiguous allocation"]
+}, {
+    numb: 144,
+    question: "In a system employing a paging scheme for memory management , wasted space is due to:",
+    answer: "Internal fragmentation",
+    options: [
+        "Internal fragmentation", "None of the other choices", "External fragmentation", "Pages and frames of different specified sizes"]
+}, {
+    numb: 145,
+    question: "When a virtual memory system manages memory in fixed length units, which of the following terms",
+    answer: "Page",
+    options: [
+        "Block", "Page", "Frame", "Segment"]
+}, {
+    numb: 146,
+    question: "In terms of disk storage efficiency, the method of 'Backing up pages dynamically' in comparison with",
+    answer: "Better",
+    options: [
+        "Worse", "Better", "Nearly equal", "Equal"]
+}, {
+    numb: 147,
+    question: "When there is an excessive amount of page swapping between main memory and secondary",
+    answer: "thrashing",
+    options: [
+        "thrashing", "Over swapping", "hot swapping", "excessive demand paging"]
+}, {
+    numb: 148,
+    question: "Which of the following statements is incorrect about Translation Look-aside Buffer (TLB)?",
+    answer: "A TLB miss implies a disk operation will follow",
+    options: [
+        "None of the other choices", "A TLB is sometimes known as an associative memory", "A TLB miss implies a disk operation will follow", "Each entry of a TLB contains the information about one page, including the virtual page number and"]
+}, {
+    numb: 149,
+    question: "When a virtual memory system manages memory in fixed length units, which of the following terms",
+    answer: "Page",
+    options: [
+        "Page", "Frame", "Block", "Segment"]
+}, {
+    numb: 150,
+    question: "Consider a swapping system in which the memory consists of the following hole sizes: 10 K, 4 K, 20 K, 15",
+    answer: "10 K, 20 K, 15 K",
+    options: [
+        "9 K, 15 K, 10 K", "10 K, 20 K, 15 K", "20 K, 15 K, 4 K", "None of the other choices"]
+}, {
+    numb: 151,
+    question: "Which of the following information bits in the entry of page table is false?",
+    answer: "Present/absent bit",
+    options: [
+        "Present/absent bit", "Modified bit", "Protection bit", "Mode bit"]
+}, {
+    numb: 152,
+    question: "Which of the following is appropriate to determine program size and create page table?",
+    answer: "Process creation",
+    options: [
+        "Process termination time", "Page fault time", "Process creation", "Process execution"]
+}, {
+    numb: 153,
+    question: "Which of these statements about the algorithm 'Next fit' is true?",
+    answer: "Memory Manager starting searching the list of segments from the place where it left off last time.",
+    options: [
+        "Memory Manager starting searching the list of segments from the place where it left off last time.", "Memory Manager scans along the list of segments until it finds a hole that is big enough.", "Memory Manager searches the entire list of segments from beginning to end and take smallest hole that is", "None of the other choices"]
+}, {
+    numb: 154,
+    question: "In a system employing a paging scheme for memory management , wasted space is due to:",
+    answer: "Internal fragmentation",
+    options: [
+        "None of the other choices", "Internal fragmentation", "Pages and frames of different specified sizes", "External fragmentation"]
+}, {
+    numb: 155,
+    question: "Which of the following information bits in the entry of page table is used to indicate Page Fault?",
+    answer: "Present/absent bit",
+    options: [
+        "Status bit", "Present/absent bit", "Referenced bit", "Modified bit"]
+}, {
+    numb: 156,
+    question: "Which of the following is a method to keep track of memory usages?",
+    answer: "Both Memory Management with Bit Maps and Memory Management with Linked Lists",
+    options: [
+        "Memory Management with Linked Lists", "Memory Management with Bit Maps", "Both Memory Management with Bit Maps and Memory Management with Linked Lists", "None of the other choices"]
+}, {
+    numb: 157,
+    question: "Suppose a virtual address space of 2^28 words and the page size is 2^12 words. If the virtual",
+    answer: "1234",
+    options: [
+        "12345", "123456", "1234", "123"]
+}, {
+    numb: 158,
+    question: "A page fault means that we referenced a page",
+    answer: "That was not in main memory",
+    options: [
+        "With an incorrect I/O request", "That was not in main memory", "That was not in secondary storage", "That was outside the memory boundaries"]
+}, {
+    numb: 159,
+    question: "A computer has 2GB RAM of which the operating system occupies 1GB. The processes are all 450 MB and have the same characteristics. How many percent is CPU utilization when these programs are idle waiting for I/O 20% of the time?",
+    answer: "None of the other choices",
+    options: [
+        "4%", "90%", "None of the other choices", "96%"]
+}, {
+    numb: 160,
+    question: "Which of the events that causes the processes to be created, when an operation system is booted?",
+    answer: "System initialization",
+    options: [
+        "Execution of a process creation system cal", "Initiation of a batch job", "User request to create a new process", "System initialization"]
+}, {
+    numb: 161,
+    question: "Which conditions of mutual exclusion does the Lock Variables (Software proposal) violate?",
+    answer: "No two processes simultaneously in critical region",
+    options: [
+        "No process must wait forever to enter its critical region", "No two processes simultaneously in critical region", "No process running outside its critical region may block another process", "No assumptions made about speeds or numbers of CPUs"]
+}, {
+    numb: 162,
+    question: "Deadlock definition:",
+    answer: "The event is release of a currently held resource",
+    options: [
+        "The event is release of a currently held resource", "The event is some mouse click", "The event is press some key on keyboard", "None of the other choices"]
+}, {
+    numb: 163,
+    question: "An interrupt that leaves the machine in well-defined state is called a(n)",
+    answer: "Precise interrupt",
+    options: [
+        "Precise interrupt", "Disappointed interrupt", "Required interrupt", "Imprecise interrupt"]
+}, {
+    numb: 164,
+    question: "Which of following statements about the memory hierarchy is false?",
+    answer: "None of the other choices",
+    options: [
+        "Small amount of fast expensive memory - cache", "Gigabytes of slow cheap disk storage", "None of the other choices", "Some medium-speed medium price main memory"]
+}, {
+    numb: 165,
+    question: "Which is the fastest bus in the IBM PC computer?",
+    answer: "ISA (Industry Standard Architecture)",
+    options: [
+        "ISA (Industry Standard Architecture)", "USB (Universal Serial BUS)", "IDE (Integrated Drive Electronic)", "PCI (Peripheral Component Interconnect)"]
+}, {
+    numb: 166,
+    question: "Assume the following events and actions take place. The following statement is true. Event Action",
+    answer: "There is no deadlock",
+    options: [
+        "There is no deadlock", "Event 5 caused deadlock.", "Event 4 caused deadlock", "Event 6 caused deadlock."]
+}, {
+    numb: 167,
+    question: "If a system is deadlocked, no processes can",
+    answer: "All of the other choices",
+    options: [
+        "release resources", "be awakened", "run", "All of the other choices"]
+}, {
+    numb: 168,
+    question: "The absolute pathname of a file in Linux is with respect to the",
+    answer: "All of the other choices",
+    options: [
+        "Home directory", "Root directory on the system", "All of the other choices", "Login directory"]
+}, {
+    numb: 169,
+    question: "Which of the following statement is correct about a disadvantage of memory-mapped I/O?",
+    answer: "Caching a device control register would be disastrous",
+    options: [
+        "Caching a device control register would be disastrous", "Programs can use 1 instructions to test whether the device is ready", "Since the control registers of devices are mapped into the memory space, device drivers can be written in C", "No special protection mechanism needed to keep user processes from performing I/O"]
+}, {
+    numb: 170,
+    question: "As one proceeds down the memory hierarchy (from inboard memory to offline storage), the following conditions apply:",
+    answer: "All of the other choices",
+    options: [
+        "Increasing capacity", "Decreasing cost per bit", "All of the other choices", "Increasing access time"]
+}, {
+    numb: 171,
+    question: "Which classes of I/O devices that Clock belong to?",
+    answer: "None of the other choices",
+    options: [
+        "Stream devices", "Block devices", "Character devices", "None of the other choices"]
+}, {
+    numb: 172,
+    question: "Operating system abstraction supports the ability to have operation even when there is only one CPU available",
+    answer: "pseudoparallelism",
+    options: [
+        "None of the other choices", "parallel", "multiple", "pseudoparallelism"]
+}, {
+    numb: 173,
+    question: "A computer has 2GB RAM of which the operating system occupies 1GB. The processes are all 450 MB and have the same characteristics. How many percent is CPU utilization when these programs are idle waiting for I/O 20% of the time?",
+    answer: "None of the other choices (97,3%)",
+    options: [
+        "4%", "90%", "None of the other choices (97,3%)", "96%"]
+}, {
+    numb: 174,
+    question: "The page size that is too small wil l generate",
+    answer: "Very long Page tables",
+    options: [
+        "More difficult to calculate actual position", "Excessive internal fragmentation", "Very long Page tables", "Excessive external fragmentation"]
+}, {
+    numb: 175,
+    question: "Which of the following statements is not correct about the device controller of I/O devices?",
+    answer: "Is software component of device",
+    options: [
+        "Is also called adapter", "Can handle two, four, or even eight identical devices", "Is electronic component of device", "Is software component of device"]
+}, {
+    numb: 176,
+    question: "In a directed graph used to model deadlock, processes are represented using",
+    answer: "Circular",
+    options: [
+        "Rectangle", "Circular", "Squares", "Ellipse"]
+}, {
+    numb: 177,
+    question: "How many categories can be the I/O devices roughly divided?",
+    answer: "2",
+    options: [
+        "3", "2", "4", "1"]
+}, {
+    numb: 178,
+    question: "What is not the technique of implementation for Virtual Memory?",
+    answer: "Partition",
+    options: [
+        "All of the other choices", "Paging", "Segmentation", "Partition"]
+}, {
+    numb: 179,
+    question: "Which is special file?",
+    answer: "Both character special file and block special file",
+    options: [
+        "None of the other choices", "block special file", "character special file", "Both character special file and block special file"]
+}, {
+    numb: 180,
+    question: "DMA operations require the following information from the processor",
+    answer: "All of the other choices",
+    options: [
+        "Starting memory location to read from and write to", "All of the other choices", "Address of I/O device", "Number of words to be read or written"]
+}, {
+    numb: 181,
+    question: "In the memory-mapped I/O system, in order that CPU communicates with the control registers in the devices, the control register is assigned :",
+    answer: "None of the other choices",
+    options: [
+        "Index", "Unique memory address", "I/O address", "None of the other choices"]
+}, {
+    numb: 182,
+    question: "Which of special register contains the condition code bits, the CPU priority, the mode bit and other control bits?",
+    answer: "Program Status Word (PSW)",
+    options: [
+        "Program Status Word (PSW)", "None of the other choices", "Instruction Register (IR)", "Program Counter (PC)"]
+}, {
+    numb: 183,
+    question: "_________is when each process involved in the impasse is waiting for another to voluntarily release the resource so that at least one wil l be able to continue on.",
+    answer: "Circular-wait condition",
+    options: [
+        "Hold and wait condition", "No preemption condition", "Mutual-exclusion condition", "Circular-wait condition"]
+}, {
+    numb: 184,
+    question: "There are ___________entries per page in the Page table.",
+    answer: "2",
+    options: [
+        "1", "3", "2", "4"]
+}, {
+    numb: 185,
+    question: "Which of these statements about the algorithm 'Worst fit' is true?",
+    answer: "None of the other choices (largest hole)",
+    options: [
+        "Memory Manager starting searching the list of segments from the place where it left off last time.", "Memory Manager scans along the list of segments until it finds a hole that is big enough.", "Memory Manager searches the entire list of segments from beginning to end and take smallest hole that is adequate.", "None of the other choices (largest hole)"]
+}, {
+    numb: 186,
+    question: "Which of the following file structure is used for file system in Window?",
+    answer: "Tree",
+    options: [
+        "Tree", "Record sequence", "Byte sequence", "Ring"]
+}, {
+    numb: 187,
+    question: "A CPU may have separate fetch, decode and execute units, so that can carry out three steps of the three",
+    answer: "Pipeline",
+    options: [
+        "Multicore", "Pipeline", "None of the other choices", "Superscalar"]
+}, {
+    numb: 188,
+    question: "____________allows a resource to be held by a process as long as it is needed.",
+    answer: "Hold and wait condition",
+    options: [
+        "No preemption condition", "Hold and wait condition", "Circular-wait condition", "Mutual-exclusion condition"]
+}, {
+    numb: 189,
+    question: "Which of the following is not a step in the boot process?",
+    answer: "The antivirus program checks all files for viruses.",
+    options: [
+        "The antivirus program checks all files for viruses.", "Configuration and customization settings are checked", "The operating system is loaded into RAM.", "The BIOS is activated by powering on the CPU."]
+}, {
+    numb: 190,
+    question: "Which of the following process state transitions is correct, when the scheduler picks a process from the ready queue to run?",
+    answer: "Ready -> running",
+    options: [
+        "Ready -> running", "Running -> ready", "Blocked (waiting) -> ready", "Running -> Blocked (waiting)"]
+}, {
+    numb: 191,
+    question: "Which of a system call is to allow the system free up disk space?",
+    answer: "DELETE",
+    options: [
+        "OPEN", "CLOSE", "SEEK", "DELETE"]
+}, {
+    numb: 192,
+    question: "The following requirement must be met by any facility or capability that is to provide support for mutual exclusion:",
+    answer: "All of the other choices",
+    options: [
+        "Only one process at a time can be allowed into a critical section", "A process remains in its critical region for a finite time only", "No assumption can be made about relative process speeds", "All of the other choices"]
+}, {
+    numb: 193,
+    question: "Which of the following is specified to indicate the directory where the file is located?",
+    answer: "Path name",
+    options: [
+        "Root directory", "Path name", "Extension", "Sub-directory"]
+}, {
+    numb: 194,
+    question: "Which is the correct description of transitions between process states below? (see picture)",
+    answer: "1: Process blocks for input; 2: Scheduler picks another process; 3: Scheduler picks this process; 4: Input becomes available",
+    options: [
+        "1: Process blocks for input; 2: Input becomes available;3: Scheduler picks another process; 4: Scheduler picks this process", "1: Process blocks for input; 2: Input becomes available; 3: Scheduler picks this process; 4: Scheduler picks another process", "1: Process blocks for input; 2: Scheduler picks this process; 3: Scheduler picks another process; 4: Input becomes available", "1: Process blocks for input; 2: Scheduler picks another process; 3: Scheduler picks this process; 4: Input becomes available"]
+}, {
+    numb: 195,
+    question: "A________is a group of related records that contains information to be used by specific application programs to generate reports.",
+    answer: "File",
+    options: [
+        "Field", "File", "Record group", "Directory"]
+}, {
+    numb: 196,
+    question: "If a system is deadlocked, no processes can",
+    answer: "All of the other choices",
+    options: [
+        "release resources", "be awakened", "run", "All of the other choices"]
+}, {
+    numb: 197,
+    question: "Which of the following conditions that causes the processes to be terminated, when the processes executes a system call tell the OS to finish some other process?",
+    answer: "Normal exit (voluntary)",
+    options: [
+        "Fatal error (involuntary)", "Error exit (voluntary)", "Normal exit (voluntary)", "Killed by another process (involuntary)"]
+}, {
+    numb: 198,
+    question: "The four main structural elements of a computer system are:",
+    answer: "Processor, Main Memory, I/O Modules, System Bus",
+    options: [
+        "None of the other choices", "Processor, Registers, I/O Modules, Main Memory", "Processor, Main Memory, I/O Modules, System Bus", "Processor, Registers, Main Memory, System Bus"]
+}, {
+    numb: 199,
+    question: "How many percent of the CPU time is wasted, when a computer system has enough room to hold two program and these programs are idle waiting for I/O 10% of the time?",
+    answer: "1 %",
+    options: [
+        "90%", "99%", "None of the other choices", "1 %"]
+}, {
+    numb: 200,
+    question: "Which of the following information bits in the entry of page table is used to indicate Page Fault?",
+    answer: "Present/absent bit",
+    options: [
+        "Status bit", "Modified bit", "Present/absent bit", "Referenced bit"]
+}, {
+    numb: 201,
+    question: "The permanent blocking of a set of processes that compete for system resources is called",
+    answer: "Deadlock",
+    options: [
+        "Prioritization", "Starvation", "Deadlock", "None of the other choices"]
+}, {
+    numb: 202,
+    question: "In terms of speed the best method of Dynamic Storage-Allocation is:",
+    answer: "First fit",
+    options: [
+        "Next fit", "First fit", "Worst fit", "Best fit"]
+}, {
+    numb: 203,
+    question: "Consider a swapping system in which the memory consists of the following hole sizes: 10K, 4K, 20K, 15K, 9K.",
+    answer: "9K, 15K, 10K",
+    options: [
+        "10K, 15K, 20K", "10K, 20K, 15K", "9K, 15K, 10K", "20K, 15K, 10K"]
+}, {
+    numb: 204,
+    question: "In general, which is the best technique for I/O Data transfer?",
+    answer: "Direct Memory Access",
+    options: [
+        "Direct Memory Access", "None of the other choices", "Programmed I/O", "Interrupt-Driven I/O"]
+}, {
+    numb: 205,
+    question: "The task of subdividing memory between the OS and processes is performed automatically by the OS and is",
+    answer: "Memory Management",
+    options: [
+        "Protection", "Memory Management", "Relocation", "All of the other choices"]
+}, {
+    numb: 206,
+    question: "File Structure can be:",
+    answer: "All of the other choices",
+    options: [
+        "Record sequence", "All of the other choices", "Byte sequence", "Tree"]
+}, {
+    numb: 207,
+    question: "_______is a specialized WRITE command for existing data files that allows for appending records or for rewriting selected records in their original place in the file.",
+    answer: "REWRITE",
+    options: [
+        "MODIFY", "UPDATE", "APPEND", "REWRITE"]
+}, {
+    numb: 208,
+    question: "Assume the Memory Manager receives a request for a block of 200. When the best-fit algorithm is used, is the beginning address of the hole granted by the Memory Manager.",
+    answer: "7600",
+    options: [
+        "6785", "7600", "10250", "None"]
+}, {
+    numb: 209,
+    question: "A ____ is a portion of a process that can run independently.",
+    answer: "thread",
+    options: [
+        "subprocess", "thread", "program", "Mini-process"]
+}, {
+    numb: 210,
+    question: "An arrival message causes the system to create a new thread to handle this message. This new thread is call",
+    answer: "Pop-up",
+    options: [
+        "Activator", "Pop-up", "Upcall", "Distributed"]
+}, {
+    numb: 211,
+    question: "Which of a system call is to allow the system fetch the attributes and list of disk addresses into main memory for rapid access on later call?",
+    answer: "RENAME",
+    options: [
+        "SEEK", "OPEN", "RENAME", "CLOSE"]
+}, {
+    numb: 212,
+    question: "Which of the following statements is incorrect about I/O using DMA?",
+    answer: "DMA is software solution to speed up data transfer between I/O device and memory",
+    options: [
+        "DMA helps free up the CPU during the I/O to do other work", "None of the other choices", "DMA is software solution to speed up data transfer between I/O device and memory", "DMA helps reduce the number of interrupts"]
+}, {
+    numb: 213,
+    question: "Which of the following actions generates an external interrupt?",
+    answer: "An input/output operation is completed.",
+    options: [
+        "A page that does not exist in the main memory is accessed by the virtual storage management.", "An input/output operation is completed.", "Division by zero occurs.", "A system call instruction is executed."]
+}, {
+    numb: 214,
+    question: "Which of the following instructions should be allowed only in kernel mode?",
+    answer: "Disable all interrupts",
+    options: [
+        "AND of two numbers", "ADD of two numbers", "Read the time-of-day clock", "Disable all interrupts"]
+}, {
+    numb: 215,
+    question: "Which of the following statements about Electrically Erasable PROM (EEPROM) is correct?",
+    answer: "...",
+    options: [
+        "Volatile", "Can be erased and rewritten", "Unprogrammable", "None of the other choices"]
+}, {
+    numb: 216,
+    question: "An example of preemptable resources is",
+    answer: "Memory",
+    options: [
+        "DVD device", "Memory", "None of the other choices", "CD-ROM device"]
+}, {
+    numb: 217,
+    question: "What is true about preemptable resources?",
+    answer: "Will cause the process to fail if taken away",
+    options: [
+        "Can share among processes", "Can be taken away from a process with no ill effects", "None of the other choices", "Will cause the process to fail if taken away"]
+}, {
+    numb: 218,
+    question: "If in a resource-allocation graph, each resource type has exactly one instance, which of the following indicate a",
+    answer: "The graph has at least one cycle.",
+    options: [
+        "The graph is connected", "The graph has at least one cycle.", "The graph has no cycle.", "The graph is not connected."]
+}, {
+    numb: 219,
+    question: "The term__________a specialized instruction set.",
+    answer: "DMA",
+    options: [
+        "None of the other choices", "I/O device", "DMA", "Programmed I/O"]
+}, {
+    numb: 220,
+    question: "Which of the following allocation methods the i-nodes use?",
+    answer: "Indexed allocation",
+    options: [
+        "Linked allocation using FAT", "Indexed allocation", "Linked allocation", "Contiguous allocation"]
+}, {
+    numb: 221,
+    question: "In a system employing a paging scheme for memory management , wasted space is due to:",
+    answer: "Internal fragmentation",
+    options: [
+        "Internal fragmentation", "None of the other choices", "External fragmentation", "Pages and frames of different specified sizes"]
+}, {
+    numb: 222,
+    question: "When a virtual memory system manages memory in fixed length units, which of the following terms",
+    answer: "Page",
+    options: [
+        "Block", "Page", "Frame", "Segment"]
+}, {
+    numb: 223,
+    question: "In terms of disk storage efficiency, the method of 'Backing up pages dynamically' in comparison with",
+    answer: "Better",
+    options: [
+        "Worse", "Better", "Nearly equal", "Equal"]
+}, {
+    numb: 224,
+    question: "When there is an excessive amount of page swapping between main memory and secondary",
+    answer: "thrashing",
+    options: [
+        "thrashing", "Over swapping", "hot swapping", "excessive demand paging"]
+}, {
+    numb: 225,
+    question: "Which of the following statements is incorrect about Translation Look-aside Buffer (TLB)?",
+    answer: "A TLB miss implies a disk operation will follow",
+    options: [
+        "None of the other choices", "A TLB is sometimes known as an associative memory", "A TLB miss implies a disk operation will follow", "Each entry of a TLB contains the information about one page, including the virtual page number and"]
+}, {
+    numb: 226,
+    question: "When a virtual memory system manages memory in fixed length units, which of the following terms",
+    answer: "Page",
+    options: [
+        "Page", "Frame", "Block", "Segment"]
+}, {
+    numb: 227,
+    question: "Consider a swapping system in which the memory consists of the following hole sizes: 10 K, 4 K, 20 K, 15",
+    answer: "10 K, 20 K, 15 K",
+    options: [
+        "9 K, 15 K, 10 K", "10 K, 20 K, 15 K", "20 K, 15 K, 4 K", "None of the other choices"]
+}, {
+    numb: 228,
+    question: "Which of the following information bits in the entry of page table is false?",
+    answer: "Present/absent bit",
+    options: [
+        "Present/absent bit", "Modified bit", "Protection bit", "Mode bit"]
+}, {
+    numb: 229,
+    question: "Which of the following is appropriate to determine program size and create page table?",
+    answer: "Process creation",
+    options: [
+        "Process termination time", "Page fault time", "Process creation", "Process execution"]
+}, {
+    numb: 230,
+    question: "Which of these statements about the algorithm 'Next fit' is true?",
+    answer: "Memory Manager starting searching the list of segments from the place where it left off last time.",
+    options: [
+        "Memory Manager starting searching the list of segments from the place where it left off last time.", "Memory Manager scans along the list of segments until it finds a hole that is big enough.", "Memory Manager searches the entire list of segments from beginning to end and take smallest hole that is", "None of the other choices"]
+}, {
+    numb: 231,
+    question: "In a system employing a paging scheme for memory management , wasted space is due to:",
+    answer: "Internal fragmentation",
+    options: [
+        "None of the other choices", "Internal fragmentation", "Pages and frames of different specified sizes", "External fragmentation"]
+}, {
+    numb: 232,
+    question: "Which of the following information bits in the entry of page table is used to indicate Page Fault?",
+    answer: "Present/absent bit",
+    options: [
+        "Status bit", "Present/absent bit", "Referenced bit", "Modified bit"]
+}, {
+    numb: 233,
+    question: "Which of the following is a method to keep track of memory usages?",
+    answer: "Both Memory Management with Bit Maps and Memory Management with Linked Lists",
+    options: [
+        "Memory Management with Linked Lists", "Memory Management with Bit Maps", "Both Memory Management with Bit Maps and Memory Management with Linked Lists", "None of the other choices"]
+}, {
+    numb: 234,
+    question: "Suppose a virtual address space of 2^28 words and the page size is 2^12 words. If the virtual",
+    answer: "1234",
+    options: [
+        "12345", "123456", "1234", "123"]
+}, {
+    numb: 235,
+    question: "A page fault means that we referenced a page",
+    answer: "That was not in main memory",
+    options: [
+        "With an incorrect I/O request", "That was not in main memory", "That was not in secondary storage", "That was outside the memory boundaries"]
+}, {
+    numb: 236,
+    question: "Which of the events that causes the processes to be created, when an operation system is booted?",
+    answer: "System initialization",
+    options: [
+        "Execution of a process creation system cal", "Initiation of a batch job", "User request to create a new process", "System initialization"]
+}, {
+    numb: 237,
+    question: "Which conditions of mutual exclusion does the Lock Variables (Software proposal) violate?",
+    answer: "No two processes simultaneously in critical region",
+    options: [
+        "No process must wait forever to enter its critical region", "No two processes simultaneously in critical region", "No process running outside its critical region may block another process", "No assumptions made about speeds or numbers of CPUs"]
+}, {
+    numb: 238,
+    question: "Deadlock definition:",
+    answer: "The event is release of a currently held resource",
+    options: [
+        "The event is release of a currently held resource", "The event is some mouse click", "The event is press some key on keyboard", "None of the other choices"]
+}, {
+    numb: 239,
+    question: "An interrupt that leaves the machine in well-defined state is called a(n)",
+    answer: "Precise interrupt",
+    options: [
+        "Precise interrupt", "Disappointed interrupt", "Required interrupt", "Imprecise interrupt"]
+}, {
+    numb: 240,
+    question: "Which of following statements about the memory hierarchy is false?",
+    answer: "None of the other choices",
+    options: [
+        "Small amount of fast expensive memory - cache", "Gigabytes of slow cheap disk storage", "None of the other choices", "Some medium-speed medium price main memory"]
+}, {
+    numb: 241,
+    question: "Which is the fastest bus in the IBM PC computer?",
+    answer: "ISA (Industry Standard Architecture)",
+    options: [
+        "ISA (Industry Standard Architecture)", "USB (Universal Serial BUS)", "IDE (Integrated Drive Electronic)", "PCI (Peripheral Component Interconnect)"]
+}, {
+    numb: 242,
+    question: "Assume the following events and actions take place. The following statement is true. Event Action",
+    answer: "There is no deadlock",
+    options: [
+        "There is no deadlock", "Event 5 caused deadlock.", "Event 4 caused deadlock", "Event 6 caused deadlock."]
+}, {
+    numb: 243,
+    question: "If a system is deadlocked, no processes can",
+    answer: "All of the other choices",
+    options: [
+        "release resources", "be awakened", "run", "All of the other choices"]
+}, {
+    numb: 244,
+    question: "The absolute pathname of a file in Linux is with respect to the",
+    answer: "All of the other choices",
+    options: [
+        "Home directory", "Root directory on the system", "All of the other choices", "Login directory"]
+}, {
+    numb: 245,
+    question: "Which of the following statement is correct about a disadvantage of memory-mapped I/O?",
+    answer: "Caching a device control register would be disastrous",
+    options: [
+        "Caching a device control register would be disastrous", "Programs can use 1 instructions to test whether the device is ready", "Since the control registers of devices are mapped into the memory space, device drivers can be written in C", "No special protection mechanism needed to keep user processes from performing I/O"]
+}, {
+    numb: 246,
+    question: "As one proceeds down the memory hierarchy (from inboard memory to offline storage), the following conditions apply:",
+    answer: "All of the other choices",
+    options: [
+        "Increasing capacity", "Decreasing cost per bit", "All of the other choices", "Increasing access time"]
+}, {
+    numb: 247,
+    question: "Which classes of I/O devices that Clock belong to?",
+    answer: "None of the other choices",
+    options: [
+        "Stream devices", "Block devices", "Character devices", "None of the other choices"]
+}, {
+    numb: 248,
+    question: "Operating system abstraction supports the ability to have operation even when there is only one CPU available",
+    answer: "pseudoparallelism",
+    options: [
+        "None of the other choices", "parallel", "multiple", "pseudoparallelism"]
+}, {
+    numb: 249,
+    question: "A computer has 2GB RAM of which the operating system occupies 1GB. The processes are all 450 MB and have the same characteristics. How many percent is CPU utilization when these programs are idle waiting for I/O 20% of the time?",
+    answer: "None of the other choices",
+    options: [
+        "4%", "90%", "None of the other choices", "96%"]
+}, {
+    numb: 250,
+    question: "The page size that is too small wil l generate",
+    answer: "Very long Page tables",
+    options: [
+        "More difficult to calculate actual position", "Excessive internal fragmentation", "Very long Page tables", "Excessive external fragmentation"]
+}, {
+    numb: 251,
+    question: "Which of the following statements is not correct about the device controller of I/O devices?",
+    answer: "Is software component of device",
+    options: [
+        "Is also called adapter", "Can handle two, four, or even eight identical devices", "Is electronic component of device", "Is software component of device"]
+}, {
+    numb: 252,
+    question: "In a directed graph used to model deadlock, processes are represented using",
+    answer: "Circular",
+    options: [
+        "Rectangle", "Circular", "Squares", "Ellipse"]
+}, {
+    numb: 253,
+    question: "How many categories can be the I/O devices roughly divided?",
+    answer: "2",
+    options: [
+        "3", "2", "4", "1"]
+}, {
+    numb: 254,
+    question: "What is not the technique of implementation for Virtual Memory?",
+    answer: "Partition",
+    options: [
+        "All of the other choices", "Paging", "Segmentation", "Partition"]
+}, {
+    numb: 255,
+    question: "Which is special file?",
+    answer: "Both character special file and block special file",
+    options: [
+        "None of the other choices", "block special file", "character special file", "Both character special file and block special file"]
+}, {
+    numb: 256,
+    question: "DMA operations require the following information from the processor",
+    answer: "All of the other choices",
+    options: [
+        "Starting memory location to read from and write to", "All of the other choices", "Address of I/O device", "Number of words to be read or written"]
+}, {
+    numb: 257,
+    question: "In the memory-mapped I/O system, in order that CPU communicates with the control registers in the devices, the control register is assigned :",
+    answer: "None of the other choices",
+    options: [
+        "Index", "Unique memory address", "I/O address", "None of the other choices"]
+}, {
+    numb: 258,
+    question: "Which of special register contains the condition code bits, the CPU priority, the mode bit and other control bits?",
+    answer: "Program Status Word (PSW)",
+    options: [
+        "Program Status Word (PSW)", "None of the other choices", "Instruction Register (IR)", "Program Counter (PC)"]
+}, {
+    numb: 259,
+    question: "_________is when each process involved in the impasse is waiting for another to voluntarily release the resource so that at least one wil l be able to continue on.",
+    answer: "Circular-wait condition",
+    options: [
+        "Hold and wait condition", "No preemption condition", "Mutual-exclusion condition", "Circular-wait condition"]
+}, {
+    numb: 260,
+    question: "There are ___________entries per page in the Page table.",
+    answer: "2",
+    options: [
+        "1", "3", "2", "4"]
+}, {
+    numb: 261,
+    question: "Which of these statements about the algorithm 'Worst fit' is true?",
+    answer: "None of the other choices (largest hole)",
+    options: [
+        "Memory Manager starting searching the list of segments from the place where it left off last time.", "Memory Manager scans along the list of segments until it finds a hole that is big enough.", "Memory Manager searches the entire list of segments from beginning to end and take smallest hole that is adequate.", "None of the other choices (largest hole)"]
+}, {
+    numb: 262,
+    question: "Which of the following file structure is used for file system in Window?",
+    answer: "Tree",
+    options: [
+        "Tree", "Record sequence", "Byte sequence", "Ring"]
+}, {
+    numb: 263,
+    question: "A CPU may have separate fetch, decode and execute units, so that can carry out three steps of the three",
+    answer: "Pipeline",
+    options: [
+        "Multicore", "Pipeline", "None of the other choices", "Superscalar"]
+}, {
+    numb: 264,
+    question: "The term__________a specialized instruction set.",
+    answer: "DMA",
+    options: [
+        "None of the other choices", "I/O device", "DMA", "Programmed I/O"]
+}, {
+    numb: 265,
+    question: "Which of the following allocation methods the i-nodes use?",
+    answer: "Indexed allocation",
+    options: [
+        "Linked allocation using FAT", "Indexed allocation", "Linked allocation", "Contiguous allocation"]
+}, {
+    numb: 266,
+    question: "In a system employing a paging scheme for memory management , wasted space is due to:",
+    answer: "Internal fragmentation",
+    options: [
+        "Internal fragmentation", "None of the other choices", "External fragmentation", "Pages and frames of different specified sizes"]
+}, {
+    numb: 267,
+    question: "When a virtual memory system manages memory in fixed length units, which of the following terms",
+    answer: "Page",
+    options: [
+        "Block", "Page", "Frame", "Segment"]
+}, {
+    numb: 268,
+    question: "In terms of disk storage efficiency, the method of 'Backing up pages dynamically' in comparison with",
+    answer: "Better",
+    options: [
+        "Worse", "Better", "Nearly equal", "Equal"]
+}, {
+    numb: 269,
+    question: "When there is an excessive amount of page swapping between main memory and secondary",
+    answer: "thrashing",
+    options: [
+        "thrashing", "Over swapping", "hot swapping", "excessive demand paging"]
+}, {
+    numb: 270,
+    question: "Which of the following statements is incorrect about Translation Look-aside Buffer (TLB)?",
+    answer: "A TLB miss implies a disk operation will follow",
+    options: [
+        "None of the other choices", "A TLB is sometimes known as an associative memory", "A TLB miss implies a disk operation will follow", "Each entry of a TLB contains the information about one page, including the virtual page number and"]
+}, {
+    numb: 271,
+    question: "When a virtual memory system manages memory in fixed length units, which of the following terms",
+    answer: "Page",
+    options: [
+        "Page", "Frame", "Block", "Segment"]
+}, {
+    numb: 272,
+    question: "Consider a swapping system in which the memory consists of the following hole sizes: 10 K, 4 K, 20 K, 15",
+    answer: "10 K, 20 K, 15 K",
+    options: [
+        "9 K, 15 K, 10 K", "10 K, 20 K, 15 K", "20 K, 15 K, 4 K", "None of the other choices"]
+}, {
+    numb: 273,
+    question: "Which of the following information bits in the entry of page table is false?",
+    answer: "Present/absent bit",
+    options: [
+        "Present/absent bit", "Modified bit", "Protection bit", "Mode bit"]
+}, {
+    numb: 274,
+    question: "Which of the following is appropriate to determine program size and create page table?",
+    answer: "Process creation",
+    options: [
+        "Process termination time", "Page fault time", "Process creation", "Process execution"]
+}, {
+    numb: 275,
+    question: "Which of these statements about the algorithm 'Next fit' is true?",
+    answer: "Memory Manager starting searching the list of segments from the place where it left off last time.",
+    options: [
+        "Memory Manager starting searching the list of segments from the place where it left off last time.", "Memory Manager scans along the list of segments until it finds a hole that is big enough.", "Memory Manager searches the entire list of segments from beginning to end and take smallest hole that is", "None of the other choices"]
+}, {
+    numb: 276,
+    question: "In a system employing a paging scheme for memory management , wasted space is due to:",
+    answer: "Internal fragmentation",
+    options: [
+        "None of the other choices", "Internal fragmentation", "Pages and frames of different specified sizes", "External fragmentation"]
+}, {
+    numb: 277,
+    question: "Which of the following information bits in the entry of page table is used to indicate Page Fault?",
+    answer: "Present/absent bit",
+    options: [
+        "Status bit", "Present/absent bit", "Referenced bit", "Modified bit"]
+}, {
+    numb: 278,
+    question: "Which of the following is a method to keep track of memory usages?",
+    answer: "Both Memory Management with Bit Maps and Memory Management with Linked Lists",
+    options: [
+        "Memory Management with Linked Lists", "Memory Management with Bit Maps", "Both Memory Management with Bit Maps and Memory Management with Linked Lists", "None of the other choices"]
+}, {
+    numb: 279,
+    question: "Suppose a virtual address space of 2^28 words and the page size is 2^12 words. If the virtual",
+    answer: "1234",
+    options: [
+        "12345", "123456", "1234", "123"]
+}, {
+    numb: 280,
+    question: "A page fault means that we referenced a page",
+    answer: "That was not in main memory",
+    options: [
+        "With an incorrect I/O request", "That was not in main memory", "That was not in secondary storage", "That was outside the memory boundaries"]
+}, {
+    numb: 281,
+    question: "A computer has 2GB RAM of which the operating system occupies 1GB. The processes are all 450 MB and have the same characteristics. How many percent is CPU utilization when these programs are idle waiting for I/O 20% of the time?",
+    answer: "None of the other choices",
+    options: [
+        "4%", "90%", "None of the other choices", "96%"]
+}, {
+    numb: 282,
+    question: "Which of the events that causes the processes to be created, when an operation system is booted?",
+    answer: "System initialization",
+    options: [
+        "Execution of a process creation system cal", "Initiation of a batch job", "User request to create a new process", "System initialization"]
+}, {
+    numb: 283,
+    question: "Which conditions of mutual exclusion does the Lock Variables (Software proposal) violate?",
+    answer: "No two processes simultaneously in critical region",
+    options: [
+        "No process must wait forever to enter its critical region", "No two processes simultaneously in critical region", "No process running outside its critical region may block another process", "No assumptions made about speeds or numbers of CPUs"]
+}, {
+    numb: 284,
+    question: "Deadlock definition:",
+    answer: "The event is release of a currently held resource",
+    options: [
+        "The event is release of a currently held resource", "The event is some mouse click", "The event is press some key on keyboard", "None of the other choices"]
+}, {
+    numb: 285,
+    question: "An interrupt that leaves the machine in well-defined state is called a(n)",
+    answer: "Precise interrupt",
+    options: [
+        "Precise interrupt", "Disappointed interrupt", "Required interrupt", "Imprecise interrupt"]
+}, {
+    numb: 286,
+    question: "Which of following statements about the memory hierarchy is false?",
+    answer: "None of the other choices",
+    options: [
+        "Small amount of fast expensive memory - cache", "Gigabytes of slow cheap disk storage", "None of the other choices", "Some medium-speed medium price main memory"]
+}, {
+    numb: 287,
+    question: "Which is the fastest bus in the IBM PC computer?",
+    answer: "ISA (Industry Standard Architecture)",
+    options: [
+        "ISA (Industry Standard Architecture)", "USB (Universal Serial BUS)", "IDE (Integrated Drive Electronic)", "PCI (Peripheral Component Interconnect)"]
+}, {
+    numb: 288,
+    question: "Assume the following events and actions take place. The following statement is true. Event Action",
+    answer: "There is no deadlock",
+    options: [
+        "There is no deadlock", "Event 5 caused deadlock.", "Event 4 caused deadlock", "Event 6 caused deadlock."]
+}, {
+    numb: 289,
+    question: "If a system is deadlocked, no processes can",
+    answer: "All of the other choices",
+    options: [
+        "release resources", "be awakened", "run", "All of the other choices"]
+}, {
+    numb: 290,
+    question: "The absolute pathname of a file in Linux is with respect to the",
+    answer: "All of the other choices",
+    options: [
+        "Home directory", "Root directory on the system", "All of the other choices", "Login directory"]
+}, {
+    numb: 291,
+    question: "Which of the following statement is correct about a disadvantage of memory-mapped I/O?",
+    answer: "Caching a device control register would be disastrous",
+    options: [
+        "Caching a device control register would be disastrous", "Programs can use 1 instructions to test whether the device is ready", "Since the control registers of devices are mapped into the memory space, device drivers can be written in C", "No special protection mechanism needed to keep user processes from performing I/O"]
+}, {
+    numb: 292,
+    question: "As one proceeds down the memory hierarchy (from inboard memory to offline storage), the following conditions apply:",
+    answer: "All of the other choices",
+    options: [
+        "Increasing capacity", "Decreasing cost per bit", "All of the other choices", "Increasing access time"]
+}, {
+    numb: 293,
+    question: "Which classes of I/O devices that Clock belong to?",
+    answer: "None of the other choices",
+    options: [
+        "Stream devices", "Block devices", "Character devices", "None of the other choices"]
+}, {
+    numb: 294,
+    question: "Operating system abstraction supports the ability to have operation even when there is only one CPU available",
+    answer: "pseudoparallelism",
+    options: [
+        "None of the other choic	es", "parallel", "multiple", "pseudoparallelism"]
+}, {
+    numb: 295,
+    question: "A computer has 2GB RAM of which the operating system occupies 1GB. The processes are all 450 MB and have the same characteristics. How many percent is CPU utilization when these programs are idle waiting for I/O 20% of the time?",
+    answer: "None of the other choices",
+    options: [
+        "4%", "90%", "None of the other choices", "96%"]
+}, {
+    numb: 296,
+    question: "The page size that is too small wil l generate",
+    answer: "Very long Page tables",
+    options: [
+        "More difficult to calculate actual position", "Excessive internal fragmentation", "Very long Page tables", "Excessive external fragmentation"]
+}, {
+    numb: 297,
+    question: "Which of the following statements is not correct about the device controller of I/O devices?",
+    answer: "Is software component of device",
+    options: [
+        "Is also called adapter", "Can handle two, four, or even eight identical devices", "Is electronic component of device", "Is software component of device"]
+}, {
+    numb: 298,
+    question: "In a directed graph used to model deadlock, processes are represented using",
+    answer: "Circular",
+    options: [
+        "Rectangle", "Circular", "Squares", "Ellipse"]
+}, {
+    numb: 299,
+    question: "How many categories can be the I/O devices roughly divided?",
+    answer: "2",
+    options: [
+        "3", "2", "4", "1"]
+}, {
+    numb: 300,
+    question: "What is not the technique of implementation for Virtual Memory?",
+    answer: "Partition",
+    options: [
+        "All of the other choices", "Paging", "Segmentation", "Partition"]
+}, {
+    numb: 301,
+    question: "Which is special file?",
+    answer: "Both character special file and block special file",
+    options: [
+        "None of the other choices", "block special file", "character special file", "Both character special file and block special file"]
+}, {
+    numb: 302,
+    question: "DMA operations require the following information from the processor",
+    answer: "All of the other choices",
+    options: [
+        "Starting memory location to read from and write to", "All of the other choices", "Address of I/O device", "Number of words to be read or written"]
+}, {
+    numb: 303,
+    question: "In the memory-mapped I/O system, in order that CPU communicates with the control registers in the devices, the control register is assigned :",
+    answer: "None of the other choices",
+    options: [
+        "Index", "Unique memory address", "I/O address", "None of the other choices"]
+}, {
+    numb: 304,
+    question: "Which of special register contains the condition code bits, the CPU priority, the mode bit and other control bits?",
+    answer: "Program Status Word (PSW)",
+    options: [
+        "Program Status Word (PSW)", "None of the other choices", "Instruction Register (IR)", "Program Counter (PC)"]
+}, {
+    numb: 305,
+    question: "_________is when each process involved in the impasse is waiting for another to voluntarily release the resource so that at least one wil l be able to continue on.",
+    answer: "Circular-wait condition",
+    options: [
+        "Hold and wait condition", "No preemption condition", "Mutual-exclusion condition", "Circular-wait condition"]
+}, {
+    numb: 306,
+    question: "There are ___________entries per page in the Page table.",
+    answer: "2",
+    options: [
+        "1", "3", "2", "4"]
+}, {
+    numb: 307,
+    question: "Which of these statements about the algorithm 'Worst fit' is true?",
+    answer: "None of the other choices (largest hole)",
+    options: [
+        "Memory Manager starting searching the list of segments from the place where it left off last time.", "Memory Manager scans along the list of segments until it finds a hole that is big enough.", "Memory Manager searches the entire list of segments from beginning to end and take smallest hole that is adequate.", "None of the other choices (largest hole)"]
+}, {
+    numb: 308,
+    question: "Which of the following file structure is used for file system in Window?",
+    answer: "Tree",
+    options: [
+        "Tree", "Record sequence", "Byte sequence", "Ring"]
+}, {
+    numb: 309,
+    question: "A CPU may have separate fetch, decode and execute units, so that can carry out three steps of the three",
+    answer: "Pipeline",
+    options: [
+        "Multicore", "Pipeline", "None of the other choices", "Superscalar"]
+}, {
+    numb: 310,
+    question: "A computer has 2GB RAM of which the operating system occupies 1GB. The processes are all 450 MB and have the same characteristics. How many percent is CPU utilization when these programs are idle waiting for I/O 20% of the time?",
+    answer: "None of the other choices",
+    options: [
+        "4%", "90%", "None of the other choices", "96%"]
+},];
