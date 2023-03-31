@@ -1,13 +1,13 @@
 let questions = [{
     numb: 1,
     question: "Anh Duc la ai?",
-    answer: "D",
+    answer: "ca 3 y tren",
     options: [
         "La nguoi dep trai", "hoc gioi", "choi game hay", "ca 3 y tren"]
 }, {
     numb: 2,
     question: "What is the characteristic of the first generation of operating system?",
-    answer: "C",
+    answer: "Vacuum tubes, plug boards",
     options: [
         "Personal computers, single user, multitasking", "Transistors, batch systems", "Vacuum tubes, plug boards", "ICs and multiprogramming"]
 }, {
