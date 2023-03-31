@@ -1858,4 +1858,455 @@ let questions = [{
     answer: "None of the other choices",
     options: [
         "4%", "90%", "None of the other choices", "96%"]
-},];
+}, {
+    numb: 311,
+    question: "1 (2299) Which of the following statements is incorrect about user mode and kernel mode?",
+    answer: "None of the above",
+    options: [
+        "In kernel mode, the OS can execute every instruction in the instruction set", "In user mode, user program can execute only a subset of instructions", "Having two modes of operation helps prevent user programs from accessing critical instructions", "None of the above"]
+}, {
+    numb: 312,
+    question: "2 (2302) Random Access memory:",
+    answer: "Is volatile",
+    options: [
+        "Is typically faster than cache memory", "Is volatile", "Can only be read sequentially", "Stores all the files on the computer"]
+}, {
+    numb: 313,
+    question: "3 (2294) The four main structural elements of a computer system are:",
+    answer: "Processor, Main Memory, I/O Modules, System Bus",
+    options: [
+        "Processor, Registers, I/O Modules, Main Memory", "Processor, Registers, Main Memory, System Bus", "Processor, Main Memory, I/O Modules, System Bus", "None of the above"]
+}, {
+    numb: 314,
+    question: "4 (2292) What is the main characteristic of embedded operating system?",
+    answer: "Restriction of memory size, speed of CPU, screen size, powers",
+    options: [
+        "Multiple CPU", "Time-sharing", "Many I/O devices", "Restriction of memory size, speed of CPU, screen size, powers"]
+}, {
+    numb: 315,
+    question: "5 (2300) Which is the difference between personal computers and mainframe computers?",
+    answer: "All of the above",
+    options: [
+        "Personal computers are always interactive", "Mainframe computers are mostly batch systems with many users", "Protection is much more important on mainframe computers", "All of the above"]
+}, {
+    numb: 316,
+    question: "6 (2303) What is not correct about system calls?",
+    answer: "In terms of performance, using system calls is better than using procedure calls",
+    options: [
+        "A system call allows a user process to assess and execute operating system functions inside the kernel.", "User programs use system calls to invoke operating system services", "In terms of performance, using system calls is better than using procedure calls", "Every system call involves overhead due to context switch"]
+}, {
+    numb: 317,
+    question: "7 What is correct about trap instructions and interrupts?",
+    answer: "All of the above",
+    options: [
+        "A trap instruction switch the execution mode of a CPU from the user mode to the kernel mode.", "A trap instruction is caused by a user program to invoke functions in the OS kernel", "An interrupt is caused by an external event", "All of the above"]
+}, {
+    numb: 318,
+    question: "8 (2293) A Control/Status register that contains the address of the next instruction to be fetched is called the:",
+    answer: "Program Counter (PC)",
+    options: [
+        "Instruction Register (IR)", "Program Counter (PC)", "Program Status Word (PSW)", "All of the above"]
+}, {
+    numb: 319,
+    question: "9 (2291) The general role of an operating system is to:",
+    answer: "Provide a set of services to system users",
+    options: [
+        "Act as an interface between various computers", "Provide a set of services to system users", "Manage files for application programs", "None of the above"]
+}, {
+    numb: 320,
+    question: "10 (2290) The two basic types of processor registers are:",
+    answer: "General and special registers",
+    options: [
+        "General and special registers", "Control and Status registers", "User-visible and user-invisible registers", "None of the above"]
+}, {
+    numb: 321,
+    question: "11 (2304) What is interrupt vector?",
+    answer: "Part of memory which contains the addresses of interrupt handlers",
+    options: [
+        "A signal an I/O device sends to CPU", "A signal an I/O device sends to CPU", "Part of memory which contains the addresses of interrupt handlers", "None of the above"]
+}, {
+    numb: 322,
+    question: "12 (2297) What is not a main function of an operating system?",
+    answer: "Provide user interfaces",
+    options: [
+        "Provide the users with an extended (virtual) machine", "Manage the I/O devices", "Provide user interfaces", "Support virtual memory"]
+}, {
+    numb: 323,
+    question: "13 (2296) Which of the following instructions should be allowed in user mode?",
+    answer: "Read the time-of-day clock",
+    options: [
+        "Disable all interrupts", "Read the time-of-day clock", "Set the time-of-day clock", "Change the memory map"]
+}, {
+    numb: 324,
+    question: "14 (2298) Which of the following statements is incorrect about timesharing and multiprogramming systems?",
+    answer: "All multiprogramming systems are timesharing systems",
+    options: [
+        "In a timesharing system, multiple users can access the system simultaneously", "In a multiprogramming system, one user can run several processes simultaneously", "All timesharing systems are multiprogramming systems", "All multiprogramming systems are timesharing systems"]
+}, {
+    numb: 325,
+    question: "15 (2295) MS-DOS is a example of ....",
+    answer: "Monolithic system",
+    options: [
+        "Monolithic system", "Layered System", "Virtual Machine", "Client-server model"]
+}, {
+    numb: 326,
+    question: "1 (2309) Which of the following statements is correct about Shortest Job First",
+    answer: "Minimize average waiting time",
+    options: [
+        "Avoid Starvation", "Minimize average waiting time", "Both a and b", "None of the above"]
+}, {
+    numb: 327,
+    question: "2 (2310) In order to implement mutual exclusion on a critical resource for competing processes, only one program at a time should be allowed:",
+    answer: "In the critical region of the program",
+    options: [
+        "In the critical region of the program", "To perform message passing", "To exhibit cooperation", "None of the above"]
+}, {
+    numb: 328,
+    question: "3 (2305) Which of the following process state transitions are legal?",
+    answer: "running -> ready",
+    options: [
+        "waiting -> running", "running -> ready", "waiting -> terminated", "ready -> terminated"]
+}, {
+    numb: 329,
+    question: "4 (2316) Which of the following is not correct about user-level threads ?",
+    answer: "With user-level threads, customized scheduling algorithms cannot be implemented",
+    options: [
+        "User-level threads are more efficient than kernel threads, in the sense that they do not need", "User-level threads cannot be preempted by clock interrupts unless the whole process' quantum has been used up", "With user-level threads, customized scheduling algorithms cannot be implemented", "If one user-level thread makes a blocking system call, the system will block the entire process (which contains that user-level thread)"]
+}, {
+    numb: 330,
+    question: "5 (2313) What is Software proposal in the solution of Mutual exclusion with Busy waiting",
+    answer: "All of the above",
+    options: [
+        "Lock Variables", "Strict Alternation", "Peterson's Solution", "All of the above"]
+}, {
+    numb: 331,
+    question: "6 (2318) Which of the following is a preemptive scheduling algorithm",
+    answer: "Round Robin",
+    options: [
+        "FCFS", "Shortest Job First", "Round Robin", "None of the above"]
+}, {
+    numb: 332,
+    question: "7 (2308) The scheduling strategy where each process in the queue is given a certain amount of time, in turn, to execute and then returned to the queue, unless blocked is referred to as:",
+    answer: "Round-Robin",
+    options: [
+        "Prioritization", "Round-Robin", "LIFO", "All of the above"]
+}, {
+    numb: 333,
+    question: "8 (2307) Which of the following process state transitions are illegal?",
+    answer: "waiting -> running",
+    options: [
+        "Ready-> running", "waiting -> running", "running -> ready", "running -> terminated"]
+}, {
+    numb: 334,
+    question: "9 (2312) The following requirement must be met by any facility or capability that is to provide support for mutual exclusion:",
+    answer: "All of the above",
+    options: [
+        "Only one process at a time can be allowed into a critical code section", "A process remains in its critical region for a finite time only", "No assumption can be made about relative process speeds", "All of the above"]
+}, {
+    numb: 335,
+    question: "10 (2311) Which is the correct description of transitions between process states below? (see picture)",
+    answer: "1: Process blocks for input; 2: Scheduler picks another process; 3: Scheduler picks this process; 4: Input becomes available",
+    options: [
+        "1: Process blocks for input; 2: Scheduler picks another process; 3: Scheduler picks this process; 4: Input becomes available", "1: Process blocks for input; 2: Scheduler picks this process; 3: Scheduler picks another process; 4: Input becomes available", "1: Process blocks for input; 2: Input becomes available; 3: Scheduler picks another process; 4: Scheduler picks this process", "1: Process blocks for input; 2: Input becomes available; 3: Scheduler picks this process; 4: Scheduler picks another process"]
+}, {
+    numb: 336,
+    question: "11 (2306) Which of the following cannot be shared among different threads of a process?",
+    answer: "Stack",
+    options: [
+        "Process code", "File handles", "Process data", "Stack"]
+}, {
+    numb: 337,
+    question: "12 (2314) In a single processor system, mutual exclusion can be guaranteed by:",
+    answer: "Disabling interrupts",
+    options: [
+        "Overlapping processes", "Interleaving processes", "Disabling interrupts", "All of the above"]
+}, {
+    numb: 338,
+    question: "13 (2315) Which is not a goal of a scheduling algorithm for batch systems ?",
+    answer: "Response time",
+    options: [
+        "Fairness", "Throughput", "Turnaround time", "Response time"]
+}, {
+    numb: 339,
+    question: "14 (2319) Which is a wrong statement about the quantum used in Round Robin algorithm ?",
+    answer: "None of the above",
+    options: [
+        "If the quantum is very large, RR is essentially FCFS", "If the quantum is very small, the CPU efficiency is reduced", "A reasonable value of quantum is around 20-50 ms", "None of the above"]
+}, {
+    numb: 340,
+    question: "15 (2317) Which of the following synchronization mechanisms does not rely on busy-waiting ?",
+    answer: "Semaphores",
+    options: [
+        "Lock variables", "Strict alternation", "Peterson's algorithm", "Semaphores"]
+}, {
+    numb: 341,
+    question: "1 (2531) A page fault means that we referenced a page",
+    answer: "that was not in main memory",
+    options: [
+        "that was outside the memory boundaries", "with an incorrect I/O request", "that was not in secondary storage", "that was not in main memory"]
+}, {
+    numb: 342,
+    question: "2 (2534) Which of the following is appropriate to release page table and pages?",
+    answer: "Process termination time",
+    options: [
+        "Process creation", "Process execution", "Page fault time", "Process termination time"]
+}, {
+    numb: 343,
+    question: "3 (2537) Page replacement algorithms determine",
+    answer: "which page to remove to provide space for an incoming page",
+    options: [
+        "when the system should update page table entries", "how many pages should be added to main memory", "which pages should be brought into memory because a process is likely to reference them soon", "which page to remove to provide space for an incoming page"]
+}, {
+    numb: 344,
+    question: "4 (2530) The page table for each process maintains:",
+    answer: "The frame location for each page of the process",
+    options: [
+        "The frame location for each page of the process", "The page location for each frame of the process", "The physical memory location of the process", "None of the above"]
+}, {
+    numb: 345,
+    question: "5 Which of the following information bits in the entry of page table is used to indicate Page",
+    answer: "Present/absent bit",
+    options: [
+        "Present/absent bit", "Status bit", "Referenced bit", "Modified bit"]
+}, {
+    numb: 346,
+    question: "6 (2528) The second-chance page-replacement algorithm",
+    answer: "Moves pages found at the head of a FIFO queue with the referenced bit turned on back to the tail of the queue to avoid replacing them",
+    options: [
+        "Moves pages found at the head of a FIFO queue with the referenced bit turned on back to the tail of the queue to avoid replacing them", "Searches through a circular list of pages and replaces the first page it encounters that has the referenced bit turned off", "Relies on a modified bit to determine which page to replace", "None of the above"]
+}, {
+    numb: 347,
+    question: "7 (2533) Which of the following information bits used by the various page replacement policies indicates if the page has been called lately?",
+    answer: "Referenced bit",
+    options: [
+        "Locality bit", "Status bit", "Referenced bit", "Modified bit"]
+}, {
+    numb: 348,
+    question: "8 (2526) When a virtual memory system manages memory in fixed length units, which of the following terms correctly represents its unit?",
+    answer: "Page",
+    options: [
+        "Frame", "Page", "Sector", "Segment"]
+}, {
+    numb: 349,
+    question: "9 (2535) In terms of speed the best method of Dynamic Storage-Allocation is:",
+    answer: "First fit",
+    options: [
+        "Next fit", "First fit", "Best fit", "Worst fit"]
+}, {
+    numb: 350,
+    question: "10 (2538) The actual location in main memory is called a(n):",
+    answer: "Absolute address",
+    options: [
+        "Relative address", "Logical address", "Absolute address", "None of the above"]
+}, {
+    numb: 351,
+    question: "11 (2539) LRU replaces the page that has spent the",
+    answer: "longest time in memory without being referenced",
+    options: [
+        "longest time in memory", "longest time in memory without being referenced", "shortest time in memory", "shortest time in memory without being referenced"]
+}, {
+    numb: 352,
+    question: "12 (2536) In a system employing a paging scheme for memory management, wasted space is due to:",
+    answer: "Internal fragmentation",
+    options: [
+        "External fragmentation", "Internal fragmentation", "Pages and frames of different specified sizes", "None of the above"]
+}, {
+    numb: 353,
+    question: "13 (2527) The task of subdividing memory between the OS and processes is performed automatically by the OS and is called",
+    answer: "Memory Management",
+    options: [
+        "Protection", "Relocation", "Memory Management", "All of the above"]
+}, {
+    numb: 354,
+    question: "14 (2532) Which of the following is appropriate to determine program size and create page table?",
+    answer: "Process creation",
+    options: [
+        "Process creation", "Process execution", "Page fault time", "Process termination time"]
+}, {
+    numb: 355,
+    question: "15 (2525) What is the method to keep track of memory usages?",
+    answer: "a and b",
+    options: [
+        "Memory Management with Bit Maps", "Memory Management with Linked Lists", "a and b", "None of the above"]
+}, {
+    numb: 356,
+    question: "1 (2548) The special files are:",
+    answer: "Both a and b",
+    options: [
+        "character special file", "block special file", "Neither a nor b", "Both a and b"]
+}, {
+    numb: 357,
+    question: "2 (2542) Which of the following is true about the block size in disk space management",
+    answer: "the larger the block size is the worse the disk space utilization is",
+    options: [
+        "the larger the block size is the lower the data rate is", "the larger the block size is the worse the disk space utilization is", "the larger the block size is lesser the disk space is", "none of the above"]
+}, {
+    numb: 358,
+    question: "3 (2540) A file is generally defined to be:",
+    answer: "A collection of similar records",
+    options: [
+        "A basic element of data", "A collection of related fields", "A collection of similar records", "All of the above"]
+}, {
+    numb: 359,
+    question: "4 (2546) Which of the following is not a path name for the file /etc/passwd",
+    answer: "None of the above",
+    options: [
+        "/etc/passwd", "/etc/../etc/passwd", "/etc/../etc/../etc/passwd", "None of the above"]
+}, {
+    numb: 360,
+    question: "5 What are the allocation methods of disk blocks for files:",
+    answer: "All of the above",
+    options: [
+        "Contiguous allocation", "Linked allocation", "Indexed allocation", "All of the above"]
+}, {
+    numb: 361,
+    question: "6 File Structure can be:",
+    answer: "All of the above",
+    options: [
+        "byte sequence", "record sequence", "tree", "All of the above"]
+}, {
+    numb: 362,
+    question: "7 What is incorrect about contiguous allocation of files ?",
+    answer: "It does not cause disk fragmentation",
+    options: [
+        "It is simple to implement", "It leads to excellent read performance", "It does not cause disk fragmentation", "It is widely used on CD-ROMs"]
+}, {
+    numb: 363,
+    question: "8 The i-nodes are used in which of the following allocation methods",
+    answer: "Indexed allocation",
+    options: [
+        "Contiguous allocation", "Linked allocation", "Indexed allocation", "Linked allocation using FAT"]
+}, {
+    numb: 364,
+    question: "9 (2541) Which of the following is specified to indicate the directory where the file is located?",
+    answer: "Path name",
+    options: [
+        "Extension", "Path name", "Root directory", "Sub-directory"]
+}, {
+    numb: 365,
+    question: "10 (2545) Which of the following is not correct about hard links and symbolic links?",
+    answer: "Hard links can point to files on other machines",
+    options: [
+        "Symbolic links need space to store the name and the file pointed to", "Hard links do not require extra disk space", "Symbolic links can point to files in the network", "Hard links can point to files on other machines"]
+}, {
+    numb: 366,
+    question: "1 (2574) Device Driver is normally written by:",
+    answer: "Device's Manufacturer",
+    options: [
+        "Device's Manufacturer", "OS's Manufacturer", "Computer's Manufacturer", "All of the above"]
+}, {
+    numb: 367,
+    question: "2 (2578) Which of the following I/O software device layers is done by user-level software?",
+    answer: "Converting binary integers to ASCII for printing",
+    options: [
+        "Computing the track, sector, and head for a disk read", "Writing commands to the device registers", "Checking to see if the user is permitted to use the device", "Converting binary integers to ASCII for printing"]
+}, {
+    numb: 368,
+    question: "3 (2581) An example of the key differences that can exist across (and even in) classes of I/O devices is:",
+    answer: "All of the above",
+    options: [
+        "Data rate", "Data representation", "Error conditions", "All of the above"]
+}, {
+    numb: 369,
+    question: "4 (2573) In general, which is the best technique for I/O Data transfer?",
+    answer: "Direct Memory Access",
+    options: [
+        "Programmed I/O", "Interrupt-Driven I/O", "Direct Memory Access", "None of the above"]
+}, {
+    numb: 370,
+    question: "5 (2576) Which of the following statements is not correct about DMA ?",
+    answer: "DMA controller is usually faster than CPU",
+    options: [
+        "DMA controller has access to the system bus independent of the CPU", "DMA helps reduce the number of interrupts (in comparison with interrupt-driven I/O)", "DMA controller is usually faster than CPU", "The operating system can only use DMA if the hardware has a DMA controller"]
+}, {
+    numb: 371,
+    question: "6 (2580) Which of the following is not correct about the reliability of different RAID levels?",
+    answer: "All RAID levels can survive one disk crash",
+    options: [
+        "There is no reliability support in RAID level 0", "All RAID levels can survive one disk crash", "In RAID level 2, a single bit error in a word can be detected AND corrected", "In RAID levels 3, 4, 5 a single bit error in a word can be detected"]
+}, {
+    numb: 372,
+    question: "7 (2577) Which of the following statements is not correct about 'device independence'?",
+    answer: "Device independence requires all programmers to deal with different devices directly",
+    options: [
+        "Files and devices are accessed in the same way, independent of their physical nature", "A system has to maintain only one set of system calls for both writing on a file and writing on the console", "Device independence requires all programmers to deal with different devices directly", "Device independent interfaces should be given to programmers"]
+}, {
+    numb: 373,
+    question: "8 (2579) What kind of I/O devices that disks and tapes belong to?",
+    answer: "Block-oriented devices",
+    options: [
+        "Stream-oriented devices", "Block-oriented devices", "Character-oriented devices", "None of the above"]
+}, {
+    numb: 374,
+    question: "9 (2575) Which of the following statements is incorrect?",
+    answer: "A hard drive is an example of a character-oriented I/O device",
+    options: [
+        "The term data rate refers to the speed with which data moves to and from the individual I/O device", "In the interrupt-driven I/O technique, the processor issues an I/O request, continues with other work and eventually receives notification that the request was fulfilled", "A hard drive is an example of a character-oriented I/O device", "None of the above"]
+}, {
+    numb: 375,
+    question: "10 (2582) The I/O technique where the processor busy waits for an I/O operation to complete is called:",
+    answer: "Programmed I/O",
+    options: [
+        "Programmed I/O", "Interrupt-driven I/O", "Direct Memory Access (DMA)", "None of the above"]
+}, {
+    numb: 376,
+    question: "1 The system is said to be in an unsafe state if",
+    answer: "The operating system cannot guarantee that all current processes can complete their work",
+    options: [
+        "The operating system cannot guarantee that all current processes can complete their work", "The system is deadlocked", "A process is indefinitely postponed", "None of the above"]
+}, {
+    numb: 377,
+    question: "2 (2584) If in a resource-allocation graph, each resource type has exactly one instance, which of the following indicate a deadlock situation?",
+    answer: "The graph has at least one cycle.",
+    options: [
+        "The graph has at least one cycle.", "The graph has no cycle.", "The graph is connected.", "The graph is not connected."]
+}, {
+    numb: 378,
+    question: "3 All deadlocks involve conflicting needs for resources by",
+    answer: "Two or more processes",
+    options: [
+        "One or more processes", "Two or more processes", "Three or more processes", "None of the above"]
+}, {
+    numb: 379,
+    question: "4 What is the characteristic of deadlocked systems",
+    answer: "Circular wait",
+    options: [
+        "Starvation", "Circular wait", "Saturation", "Aging"]
+}, {
+    numb: 380,
+    question: "5 (2586) A possibility of deadlock can occur:",
+    answer: "If a system is in unsafe state",
+    options: [
+        "If a system is in safe state", "If a system is in unsafe state", "If a system is in instable state", "None of the above"]
+}, {
+    numb: 381,
+    question: "6 (2592) What is the weakness of the Banker's algorithm?",
+    answer: "Requiring that processes state their maximum needs in advance",
+    options: [
+        "Allowing the population of processes to vary over time", "Enabling processes to hold their resources indefinitely", "Requiring that processes state their maximum needs in advance", "Enabling the number of resources to fluctuate"]
+}, {
+    numb: 382,
+    question: "7 The permanent blocking of a set of processes that compete for system resources is called",
+    answer: "Deadlock",
+    options: [
+        "Starvation", "Deadlock", "Prioritization", "All of the above"]
+}, {
+    numb: 383,
+    question: "8 (2589) Which of the following is not a condition necessary for deadlock to exist?",
+    answer: "preemption condition",
+    options: [
+        "mutual-exclusion condition", "circular-wait condition", "hold and wait condition", "preemption condition"]
+}, {
+    numb: 384,
+    question: "9 (2591) Dijkstra's Banker's Algorithm require the system to maintain the resource information for each process, including:",
+    answer: "B and C",
+    options: [
+        "A count of the system's total resources", "The maximum resources that can be requested by the process", "The number of resources currently acquired by the process", "B and C"]
+}, {
+    numb: 385,
+    question: "10 (2585) If a deadlocked system, the processes can",
+    answer: "do nothing",
+    options: [
+        "run", "release resources", "be awakened", "do nothing"]
+},
+];
